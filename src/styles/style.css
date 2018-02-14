@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*==============================================================
+
+	Name:style.css
+	Version:1.0.0
+
+==============================================================*/
+
+/*==============================================================
+	Common Styles Initials
+==============================================================*/
+html {
+	-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input[type="submit"] {
+	-webkit-appearance: none;
+}
+*, *:after, *:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	min-height: 100%;
+	color: #666;
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	color: #555;
+}
+a:hover, a:focus {
+	outline: none;
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+input, textarea, select {
+	outline: none;
+	resize: none;
+	font-family: 'Open Sans', sans-serif;
+}
+a, input, button {
+	outline: none !important;
+}
+ button::-moz-focus-inner {
+ border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+img {
+	border: 0;
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.container{
+	max-width: 1120px;
+	width: 100%;
+}
+
+/* header start */
+.header{
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.header-right{
+	float: right;
+	width: calc(100% - 250px);
+	background: #ffffff;
+	height: 70px;
+}
+.brand-logo{
+	width: 250px;
+	padding: 15px 20px 10px;
+}
+.brand-logo a{
+	display: block;
+	position: relative;
+	font-size: 22px;
+	color: #ffffff;
+	letter-spacing: 0.100em;
+	font-weight: 500;
+	line-height: 45px;
+	padding-left: 45px;
+	font-family: 'Montserrat', sans-serif;
+}
+.brand-logo a span{
+	display: block;
+	vertical-align: middle;
+	margin-left: 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.brand-logo a img{
+	max-width: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-menu{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 250px;
+	height: 100vh;
+	background: #212121;
+}
+/* header end */
