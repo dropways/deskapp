@@ -2,67 +2,14 @@
 	Media css
 ==============================================================*/
 @media (max-width: 1400px){
-	.aside-content{font-size: 1.120em; line-height: 1.9em;}
-	.main-headline{font-size: 5.5em;}
-	.description-text{font-size: 24px;}
-	.form .form-control{height: 55px;}
-	/*.stay-in-touch .btn{left: 15px; top: 15px;}*/
-	.contact-form{padding-top: 0;}
 }
 @media (max-width: 1200px){
-	.main-headline{font-size: 80px;}
 }
-
 @media (max-width: 1024px){
-	.main-headline{font-size: 60px;}
-	.contact-info-box{font-size: 14px; line-height: 24px;}
-	.main-aside{padding: 1.250em 1.75em;}
-	.play-pause-button{display: block;}
-	.play-pause-button #yt-pause{font-size: 16px; margin-left: 7px;}
-	.main-aside{height: auto; padding-top: 3.75em; padding-bottom: 3.75em; padding-left: 50px; padding-right: 50px;}
-	.header-wrap .navbar{display: none;}
-	.info-wrap{display: block !important; position: relative; height: auto; padding: 50px 15px;}
-	.about-us{display: block !important; position: relative; height: auto;}
-	.gallery-section{position: relative; display: block !important; padding-top: 0;}
-	.contact-us{display: block !important; position: relative; height: auto;}
-	.aside-content{display: block !important;}
-	.social-icons{position: relative; left: 0; bottom: 0; text-align: center; padding: 20px 15px 15px; background-color: #0d0d0d;}
-	.contact-us .title{display: block;}
-	.headline-wrap{visibility: visible !important; opacity: 1 !important;}
-	.sticky-btn{top: 12px; right: 30px; position: absolute;}
-	.sticky-btn a{-webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb;}
 }
-
 @media (max-width: 991px){
-	/*.stay-in-touch{position: fixed; background-image: url(../images/aside-bg-patterns.png); background-color: #f9f9f9; z-index: 13;}*/
 }
 @media (max-width: 767px){
-	.main-wrap{height: auto;}
-	.logo{float: none; text-align: center;}
-	.header-wrap{padding: 15px 15px;}
-	.headline-wrap{padding: 100px 15px;}
-	.main-headline {font-size: 35px; margin-bottom: 20px;}
-	.subscribe-form .form-control{width: 100%; margin-bottom: 20px;}
-	.subscribe-form .loading-btn{top: inherit; right: inherit; left: 0;	bottom: 0;}
-	.main-aside{padding-left: 15px; padding-right: 15px;}
-	.description-text{font-size: 19px;}
-	/*.stay-in-touch{padding: 80px 20px 50px;}*/
-	.contact-us{padding-left: 0; padding-right: 0;}
-	.contact-info-box{font-size: 16px; line-height: 26px;}
-	.contact-info-box h5{margin-bottom: 10px;}
-	.countdown_dashboard{margin: 0px 0 20px;}
-	.counter-group{text-align: center;}
-	.counter-block{padding: 15px 10px; width: auto; height: auto; box-shadow: none; margin-right: 0;}
-	.counter-block .counter .number{font-size: 25px;}
-	.play-pause-button{bottom: inherit; top: 22px; width: 45px; right: 15px; padding: 0; left: inherit; z-index: 13;}
-	.play-pause-button a{margin-bottom: 10px;}
-	.sticky-btn{top: inherit; width: 100%; bottom: 0; right: 0; background: #0d0d0d; position: fixed;}
-	.sticky-btn a{-webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; display: block; float: none;}
-	.social-icons{padding-bottom: 60px;}
-	.info-wrap{padding: 50px 0;}
-	.contact-info{position: relative; left: 0; top: 0; margin-bottom: 30px; -webkit-box-shadow: 0px 1px 12px rgba(0, 0, 0, .5); -moz-box-shadow: 0px 1px 12px rgba(0, 0, 0, .5); box-shadow: 0px 1px 12px rgba(0, 0, 0, .5); max-width: 100%;}
-	.map-wrap iframe{height: 420px;}
 }
 @media (max-width: 660px){
-	.background-video iframe, .background-video .youtube-iframe{width: 100%; height: 100%; position: absolute; left: 0; top: 0; -webkit-transform: scale(3.2); -moz-transform: scale(3.2); -o-transform: scale(3.2); -ms-transform: scale(3.2); transform: scale(3.2);}
 }

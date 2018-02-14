@@ -9698,6 +9698,32 @@ p {
   max-width: 1120px;
   width: 100%; }
 
+.dropdown-toggle::after {
+  content: "\f107";
+  border: 0;
+  font-family: "FontAwesome";
+  vertical-align: unset;
+  width: auto;
+  height: auto; }
+
+.dropdown.show .dropdown-toggle::after {
+  content: "\f106"; }
+
+.dropdown-menu {
+  border-color: #cccccc; }
+
+.dropdown-item {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.45rem 1rem;
+  color: #222222;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background: #0288D1;
+  color: #ffffff; }
+
 /* header start */
 .header {
   position: fixed;
@@ -9710,8 +9736,46 @@ p {
   float: right;
   width: calc(100% - 250px);
   background: #ffffff;
-  height: 70px; }
+  height: 70px;
+  padding: 10px 20px; }
 
+.user-info-dropdown {
+  float: right; }
+
+.user-info-dropdown .dropdown-toggle {
+  display: block;
+  padding: 10px 0;
+  font-size: 16px; }
+
+.user-info-dropdown .dropdown-toggle .user-icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #0288D1;
+  color: #0288D1;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%; }
+
+.user-info-dropdown .dropdown-toggle .user-name {
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #222222; }
+
+.user-info-dropdown .dropdown-item {
+  position: relative;
+  padding-left: 45px; }
+
+.user-info-dropdown .dropdown-item .fa {
+  position: absolute;
+  left: 16px;
+  top: 11px;
+  font-size: 18px; }
+
+/*-------- left menu --------*/
 .brand-logo {
   width: 250px;
   padding: 15px 20px 10px; }

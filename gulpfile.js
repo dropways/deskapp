@@ -27,6 +27,7 @@ var path = {
 	],
 	scripts: [
 		config.srcDir + 'scripts/jquery.min.js',
+		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/popper.min.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/bootstrap.js',
 		config.srcDir + 'scripts/setting.js'
 	],
