@@ -31,5 +31,9 @@ jQuery(document).ready(function(){
 			}
 		});
 	});
-
+	// sidebar menu Active Class
+	$('#accordion-menu .submenu li').each(function(){
+		var vars = window.location.href.split("/").pop();
+		$(this).find('a[href="'+vars+'"]').addClass('active');
+	});
 });
