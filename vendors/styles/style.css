@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -11013,7 +11013,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   width: 100%;
   min-height: 100%;
@@ -11037,7 +11037,7 @@ img {
 input, textarea, select {
   outline: none;
   resize: none;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Work Sans', sans-serif; }
 
 a, input, button {
   outline: none !important; }
@@ -11049,6 +11049,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  color: #131e22;
   font-family: 'Work Sans', sans-serif; }
 
 img {
@@ -11070,6 +11071,9 @@ p {
   max-width: 1120px;
   width: 100%; }
 
+/*==============================================================
+	Global Styles Start
+==============================================================*/
 .mx-h-300 {
   max-height: 300px; }
 
@@ -11084,6 +11088,9 @@ p {
 
 .mx-h-450 {
   max-height: 450px; }
+
+.padding-top-10 {
+  padding-top: 10px; }
 
 .pd-20 {
   padding: 20px; }
@@ -11172,7 +11179,73 @@ p {
   background: #eff5f7;
   color: #667f87; }
 
-/* header start */
+.form-control {
+  font-family: 'Work Sans', sans-serif;
+  color: #131e22;
+  font-weight: 500;
+  letter-spacing: 0.035em; }
+
+.form-control:focus {
+  color: #131e22;
+  -webkit-box-shadow: 0px 0px 1px #87b1f3;
+  box-shadow: 0px 0px 1px #87b1f3; }
+
+.input-group {
+  margin-bottom: 25px; }
+
+.input-group > .form-control, .input-group > .custom-select {
+  width: 100%; }
+
+.input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child) {
+  border-radius: 0.25rem;
+  padding-left: 50px; }
+
+.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child) {
+  border-radius: 0.25rem;
+  padding-right: 50px; }
+
+.input-group-prepend {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  height: 100%; }
+
+.input-group-append {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 12;
+  height: 100%; }
+
+.input-group-text {
+  border: 0;
+  background: transparent; }
+
+.form-control:focus ~ .input-group-append .fa {
+  color: #007bff; }
+
+.form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-append > .btn {
+  height: 48px;
+  font-size: 16px; }
+
+.btn {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.035em; }
+
+.btn-lg, .btn-group-lg > .btn {
+  font-size: 18px; }
+
+.btn:focus, .btn.focus {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/*==============================================================
+	Global Styles Start
+==============================================================*/
+/*==============================================================
+	Header Start
+==============================================================*/
 .header {
   position: fixed;
   height: 70px;
@@ -11184,7 +11257,7 @@ p {
 .header-right {
   float: right;
   width: calc(100% - 250px);
-  background: #cfe2e8;
+  background: #ffffff;
   height: 70px;
   padding: 10px 20px;
   -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
@@ -11289,17 +11362,22 @@ p {
 .notification-list ul li a p {
   margin-bottom: 0; }
 
-/*-------- header end -------*/
-/*-------- left menu --------*/
+/*==============================================================
+	Header End
+==============================================================*/
+/*==============================================================
+	Side Bar Start
+==============================================================*/
 .brand-logo {
   width: 250px;
-  padding: 15px 20px 10px; }
+  padding: 15px 20px 10px;
+  background: #0069d9; }
 
 .brand-logo a {
   display: block;
   position: relative;
   font-size: 22px;
-  color: #131e22;
+  color: #ffffff;
   letter-spacing: 0.050em;
   font-weight: 500;
   line-height: 45px;
@@ -11420,6 +11498,35 @@ p {
 .sidebar-menu .submenu li a:hover, .sidebar-menu .submenu li a.active {
   color: #0099ff; }
 
+/*==============================================================
+	Side Bar End
+==============================================================*/
+/*==============================================================
+	Login Start
+==============================================================*/
+.login-wrap {
+  height: 100%; }
+
+.login-wrap .mCustomScrollBox {
+  height: auto;
+  width: 100%; }
+
+.login-box {
+  max-width: 380px;
+  width: 100%;
+  margin: 5px auto; }
+
+.login-box .login-img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100px; }
+
+.forgot-password {
+  text-align: right; }
+
+/*==============================================================
+	Login Start
+==============================================================*/
 .main-container {
   padding: 70px 0 0 250px;
   height: 100vh; }
