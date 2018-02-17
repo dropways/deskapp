@@ -24,7 +24,11 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="input-group">
-							<input class="btn btn-outline-primary btn-lg btn-block" type="submit" value="Sign In">
+							<!--
+								use code for form submit
+								<input class="btn btn-outline-primary btn-lg btn-block" type="submit" value="Sign In">
+							-->
+							<a class="btn btn-outline-primary btn-lg btn-block" href="index.php">Sign In</a>
 						</div>
 					</div>
 					<div class="col-sm-6">

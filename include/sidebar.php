@@ -1,8 +1,7 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="index.php">
-				<img src="vendors/images/logo.png" alt="">
-				<span>esk App</span>
+				<img src="vendors/images/deskapp-logo.png" alt="">
 			</a>
 		</div>
 		<div class="menu-block customscroll">
@@ -14,7 +13,7 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="index.php" class="active">Dashboard style 1</a></li>
-				      		<li><a href="#">Dashboard style 2</a></li>
+							<li><a href="#">Dashboard style 2</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -23,11 +22,11 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="#">General Form</a></li>
-						  	<li><a href="#">Advanced Components</a></li>
-						  	<li><a href="#">Form Validation</a></li>
-						  	<li><a href="#">Form Wizard</a></li>
-						  	<li><a href="#">Form Upload</a></li>
-						  	<li><a href="#">Form Buttons</a></li>
+							<li><a href="#">Advanced Components</a></li>
+							<li><a href="#">Form Validation</a></li>
+							<li><a href="#">Form Wizard</a></li>
+							<li><a href="#">Form Upload</a></li>
+							<li><a href="#">Form Buttons</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -44,6 +43,19 @@
 							<li><a href="#">Invoice</a></li>
 							<li><a href="#">Inbox</a></li>
 							<li><a href="#">Calendar</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-plug"></span><span class="mtext">Additional Pages</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="login.php">Login</a></li>
+							<li><a href="forgot-password.php">Forgot Password</a></li>
+							<li><a href="reset-password.php">Reset Password</a></li>
+							<li><a href="#">403</a></li>
+							<li><a href="#">404</a></li>
+							<li><a href="#">500</a></li>
 						</ul>
 					</li>
 				</ul>

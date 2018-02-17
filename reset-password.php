@@ -25,7 +25,11 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="input-group">
-							<input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+							<!--
+								use code for form submit
+								<input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+							-->
+							<a class="btn btn-primary btn-lg btn-block" href="index.php">Submit</a>
 						</div>
 					</div>
 				</div>

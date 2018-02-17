@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -11322,8 +11322,7 @@ p {
   padding: 0; }
 
 .user-notification .dropdown-menu {
-  width: 340px;
-  max-height: 400px; }
+  width: 340px; }
 
 .notification-list ul li:nth-child(2n) {
   background: #eff5f7; }
@@ -11370,7 +11369,7 @@ p {
 ==============================================================*/
 .brand-logo {
   width: 250px;
-  padding: 15px 20px 10px;
+  height: 70px;
   background: #0069d9; }
 
 .brand-logo a {
@@ -11381,8 +11380,9 @@ p {
   letter-spacing: 0.050em;
   font-weight: 500;
   line-height: 45px;
-  padding-left: 45px;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px 20px 5px;
+  text-align: center; }
 
 .brand-logo a span {
   display: block;
@@ -11393,12 +11393,9 @@ p {
   white-space: nowrap; }
 
 .brand-logo a img {
-  max-width: 40px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: inline-block;
-  vertical-align: middle; }
+  max-width: 160px;
+  display: block;
+  margin: 0 auto; }
 
 .left-side-bar {
   position: fixed;
@@ -11415,7 +11412,7 @@ p {
   height: calc(100vh - 70px); }
 
 .sidebar-menu {
-  padding: 20px 5px 0; }
+  padding: 20px 0px 20px; }
 
 .sidebar-menu .dropdown-toggle {
   display: block;
