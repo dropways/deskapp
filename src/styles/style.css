@@ -245,7 +245,7 @@ p {
 	font-size: 18px;
 }
 .btn:focus, .btn.focus{
-	box-shadow: none;
+	box-shadow: none !important;
 }
 /*==============================================================
 	Global Styles Start

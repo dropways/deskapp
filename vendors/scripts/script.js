@@ -6373,6 +6373,12 @@ jQuery(window).on("load resize", function () {
 });
 jQuery(document).ready(function(){
 	"use strict";
+	$(".form-control").on('focus',function(){
+		$(this).parent().addClass("focus");
+	})
+	$(".form-control").on('focusout',function(){
+		$(this).parent().removeClass("focus");
+	})
 
 	// Dropdown Slide Animation
 	$('.dropdown').on('show.bs.dropdown', function(e){

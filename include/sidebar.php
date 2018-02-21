@@ -47,6 +47,18 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-paint-brush"></span><span class="mtext">Icons</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="font-awesome.php">FontAwesome Icons</a></li>
+							<li><a href="#">Foundation Icons</a></li>
+							<li><a href="#">Ionicons Icons</a></li>
+							<li><a href="#">Payment Icons</a></li>
+							<li><a href="#">Themify Icons</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-plug"></span><span class="mtext">Additional Pages</span>
 						</a>
 						<ul class="submenu">
