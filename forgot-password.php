@@ -11,7 +11,7 @@
 			<form>
 				<p>Enter your email address to reset your password</p>
 				<div class="input-group input-group-lg">
-					<input type="text" class="form-control" placeholder="Enter your email">
+					<input type="text" class="form-control" placeholder="Email">
 					<div class="input-group-append">
 						<span class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
 					</div>

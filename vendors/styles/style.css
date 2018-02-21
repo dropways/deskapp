@@ -11110,8 +11110,23 @@ p {
 .mb-15 {
   margin-bottom: 15px; }
 
+.weight-400 {
+  font-weight: 400; }
+
+.weight-500 {
+  font-weight: 500; }
+
+.weight-600 {
+  font-weight: 600; }
+
+.weight-700 {
+  font-weight: 700; }
+
 .height-100-p {
   height: 100%; }
+
+.min-height-200px {
+  min-height: 200px; }
 
 .bg-light-blue {
   background: #def2ff; }
@@ -11239,6 +11254,24 @@ p {
 .btn:focus, .btn.focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
+
+.breadcrumb {
+  background: none;
+  padding: 0.75rem 0; }
+
+.breadcrumb-item.active {
+  color: #131e22; }
+
+.breadcrumb-item a {
+  color: #0099ff;
+  font-weight: 500; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  font-family: "FontAwesome";
+  content: "\f105"; }
+
+.customscroll-10-p > .mCustomScrollBox > .mCSB_container {
+  padding: 10px; }
 
 /*==============================================================
 	Global Styles Start
@@ -11527,6 +11560,43 @@ p {
 .main-container {
   padding: 70px 0 0 250px;
   height: 100vh; }
+
+.page-header .dropdown-menu {
+  border-radius: 5px; }
+
+.fontawesome-icon-list {
+  padding-top: 20px; }
+
+.fontawesome-icon-list .fa-hover {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.fontawesome-icon-list .fa-hover:hover {
+  background: #def2ff; }
+
+.fontawesome-icon-list .fa-hover:hover a {
+  color: #0099ff; }
+
+.fontawesome-icon-list a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 45px;
+  color: #131e22;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.fontawesome-icon-list a .fa {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  font-size: 18px; }
 
 /*==============================================================
 	Media css
