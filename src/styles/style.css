@@ -97,6 +97,7 @@ p {
 .mx-h-400{max-height: 400px;}
 .mx-h-450{max-height: 450px;}
 .padding-top-10{padding-top: 10px;}
+.pd-10{padding: 10px;}
 .pd-20{padding: 20px;}
 .pd-30{padding: 30px;}
 .margin-5{margin: 5px;}
@@ -118,6 +119,11 @@ p {
 .color-light-blue{color: #def2ff;}
 .bg-light-gray{background: #eff5f7;}
 .bg-white{background: #ffffff;}
+.border-radius-0{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
 .border-radius-4{
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -167,9 +173,9 @@ p {
 	border-color: #cccccc;
 	border: 0;
 	padding: 0;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
@@ -425,7 +431,21 @@ p {
 /*==============================================================
 	Header End
 ==============================================================*/
-
+/*==============================================================
+	Footer Start
+==============================================================*/
+.footer-wrap{
+	width: calc(100% - 250px);
+	position: fixed;
+	height: 44px;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	font-weight: 500;
+}
+/*==============================================================
+	Footer End
+==============================================================*/
 /*==============================================================
 	Side Bar Start
 ==============================================================*/
@@ -688,10 +708,10 @@ p {
 	text-align: right;
 }
 /*==============================================================
-	Login Start
+	Login End
 ==============================================================*/
 .main-container{
-	padding: 70px 0 0 250px;
+	padding: 70px 0 44px 250px;
 	height: 100vh;
 }
 .page-header .dropdown-menu{
@@ -739,4 +759,21 @@ p {
 	left: 10px;
 	top: 7px;
 	font-size: 18px;
+}
+
+.wysihtml5-toolbar .dropdown-menu a{
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0.55rem 1rem;
+	color: #667f87;
+	font-family: 'Work Sans', sans-serif;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.html-editor .form-control{
+	height: 300px;
 }

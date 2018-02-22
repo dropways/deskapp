@@ -1124,6 +1124,7 @@
 			</div>
 		</div>
 	</div>
+	<?php include('include/footer.php'); ?>
 	<?php include('include/script.php'); ?>
 </body>
 </html>

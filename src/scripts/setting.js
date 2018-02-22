@@ -1,6 +1,10 @@
 jQuery(window).on("load",function() {
 	"use strict";
 	//jQuery(".pre-loader").fadeToggle("medium");
+	// bootstrap wysihtml5
+	$('.textarea_editor').wysihtml5({
+		html: true
+	});
 });
 jQuery(window).on("load resize", function () {
 	$(".customscroll").mCustomScrollbar({

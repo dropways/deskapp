@@ -22,6 +22,7 @@ var path = {
 		config.srcDir + 'styles/theme.css',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/css/bootstrap.css',
 		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css',
+		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.css',
 		config.srcDir + 'fonts/font-awesome/css/font-awesome.css',
 		config.srcDir + 'styles/style.css',
 		config.srcDir + 'styles/media.css',
@@ -31,6 +32,8 @@ var path = {
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/popper.min.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/bootstrap.js',
 		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
+		config.srcDir + 'plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
+		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
 		config.srcDir + 'scripts/setting.js'
 	],
 	fonts: [

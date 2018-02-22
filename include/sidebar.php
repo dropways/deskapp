@@ -21,12 +21,13 @@
 							<span class="fa fa-pencil"></span><span class="mtext">Forms</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">General Form</a></li>
+							<li><a href="form-basic.php">Form Basic</a></li>
 							<li><a href="#">Advanced Components</a></li>
 							<li><a href="#">Form Validation</a></li>
 							<li><a href="#">Form Wizard</a></li>
 							<li><a href="#">Form Upload</a></li>
 							<li><a href="#">Form Buttons</a></li>
+							<li><a href="html5-editor.php">HTML5 Editor</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

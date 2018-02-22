@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -8652,6 +8652,73 @@ yx-axis
   background-color: rgba(255, 255, 255, 0.9); }
 
 /* ---------------------------------------- */
+
+ul.wysihtml5-toolbar {
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: 1px solid #e3e3e3;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 0px; }
+
+ul.wysihtml5-toolbar::after {
+  clear: both;
+  display: table;
+  content: ""; }
+
+ul.wysihtml5-toolbar > li {
+  float: left;
+  display: list-item;
+  list-style: none;
+  padding: 0;
+  margin: 0px 5px 0px 0px; }
+
+ul.wysihtml5-toolbar a {
+  margin: 0px; }
+
+ul.wysihtml5-toolbar a.btn {
+  padding: 12px 15px;
+  background: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  color: inherit; }
+
+ul.wysihtml5-toolbar a:hover.btn {
+  color: #333; }
+
+ul.wysihtml5-toolbar a[data-wysihtml5-command=bold] {
+  font-weight: bold; }
+
+ul.wysihtml5-toolbar a[data-wysihtml5-command=italic] {
+  font-style: italic; }
+
+ul.wysihtml5-toolbar a[data-wysihtml5-command=underline] {
+  text-decoration: underline; }
+
+ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
+  background-image: none;
+  background: #f6f6f6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #333;
+  outline: 0; }
+
+ul.wysihtml5-commands-disabled .dropdown-menu {
+  display: none !important; }
+
+ul.wysihtml5-toolbar .fa {
+  margin: 0;
+  font-size: 14px; }
+
+.wysihtml5-textarea {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none; }
+
+.wysihtml5-textarea:focus {
+  border-top: none;
+  background: #fff; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -11092,6 +11159,9 @@ p {
 .padding-top-10 {
   padding-top: 10px; }
 
+.pd-10 {
+  padding: 10px; }
+
 .pd-20 {
   padding: 20px; }
 
@@ -11143,6 +11213,9 @@ p {
 .bg-white {
   background: #ffffff; }
 
+.border-radius-0 {
+  border-radius: 0px; }
+
 .border-radius-4 {
   border-radius: 4px; }
 
@@ -11180,7 +11253,7 @@ p {
   border-color: #cccccc;
   border: 0;
   padding: 0;
-  border-radius: 8px;
+  border-radius: 4px;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
 
@@ -11416,6 +11489,21 @@ p {
 
 /*==============================================================
 	Header End
+==============================================================*/
+/*==============================================================
+	Footer Start
+==============================================================*/
+.footer-wrap {
+  width: calc(100% - 250px);
+  position: fixed;
+  height: 44px;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: 500; }
+
+/*==============================================================
+	Footer End
 ==============================================================*/
 /*==============================================================
 	Side Bar Start
@@ -11654,10 +11742,10 @@ p {
   text-align: right; }
 
 /*==============================================================
-	Login Start
+	Login End
 ==============================================================*/
 .main-container {
-  padding: 70px 0 0 250px;
+  padding: 70px 0 44px 250px;
   height: 100vh; }
 
 .page-header .dropdown-menu {
@@ -11697,6 +11785,19 @@ p {
   top: 7px;
   font-size: 18px; }
 
+.wysihtml5-toolbar .dropdown-menu a {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0.55rem 1rem;
+  color: #667f87;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.html-editor .form-control {
+  height: 300px; }
+
 /*==============================================================
 	Media css
 ==============================================================*/
@@ -11723,6 +11824,10 @@ p {
 @media (max-width: 767px) {
   .xs-pd-20-10 {
     padding: 20px 10px; }
+  h2, .h2 {
+    font-size: 1.6rem; }
+  h4, .h4 {
+    font-size: 1.4rem; }
   .user-notification {
     margin-right: 15px; }
   .user-notification .dropdown-menu {
@@ -11731,4 +11836,6 @@ p {
   .user-info-dropdown .dropdown-toggle .user-name {
     display: none; }
   .page-header {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .forgot-password {
+    text-align: center; } }
