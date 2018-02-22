@@ -4,12 +4,24 @@
 @media (max-width: 1400px){
 }
 @media (max-width: 1200px){
+	.main-container{padding-left: 0;}
+	.header-right{width: 100%;}
+	.left-side-bar{left: -251px;}
+	.left-side-bar:before{display: block; opacity: 0; visibility: hidden;}
+	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
+	.header-right .brand-logo{display: block;}
+	.header-right .menu-icon{display: block;}
 }
 @media (max-width: 1024px){
 }
 @media (max-width: 991px){
 }
 @media (max-width: 767px){
+	.xs-pd-20-10{padding: 20px 10px;}
+	.user-notification{margin-right: 15px;}
+	.user-notification .dropdown-menu{width: 100%; min-width: 300px;}
+	.user-info-dropdown .dropdown-toggle .user-name{display: none;}
+	.page-header{margin-bottom: 30px;}
 }
 @media (max-width: 660px){
 }
