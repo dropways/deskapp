@@ -53,11 +53,11 @@ ul.wysihtml5-toolbar a[data-wysihtml5-command=underline] {
 	text-decoration: underline;
 }
 
-ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
+ul.wysihtml5-toolbar a.btn.wysihtml5-command-active, ul.wysihtml5-toolbar a.btn.wysihtml5-action-active{
 	background-image: none;
 	background: #f6f6f6;
 	box-shadow: none;
-	color: #333;
+	color: #0099ff;
 	outline: 0;
 }
 

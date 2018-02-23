@@ -16319,7 +16319,7 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
                 "div": 1
             }
         },
-        stylesheets: ["./lib/css/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
+        //stylesheets: ["./lib/css/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
         locale: "en"
     };
 
@@ -16389,6 +16389,7 @@ jQuery(window).on("load resize", function () {
 });
 jQuery(document).ready(function(){
 	"use strict";
+	$('[data-toggle="tooltip"]').tooltip()
 
 	// form-control on focus add class
 	$(".form-control").on('focus',function(){
@@ -16407,7 +16408,7 @@ jQuery(document).ready(function(){
 	});
 
 	// sidebar menu icon
-	$('.menu-icon').click(function(){
+	$('.menu-icon').on('click', function(){
 		$(this).toggleClass('open');
 		$('.left-side-bar').toggleClass('open');
 	});
@@ -16429,7 +16430,7 @@ jQuery(document).ready(function(){
 	});
 
 	// sidebar menu accordion
-	$("#accordion-menu li a.dropdown-toggle").click(function () {
+	$("#accordion-menu li a.dropdown-toggle").on('click', function () {
 		var current_li = $(this).parent();
 		$("#accordion-menu li ul").each(function (i, el) {
 			if ($(el).parent().is(current_li)) {
@@ -16447,4 +16448,41 @@ jQuery(document).ready(function(){
 		var vars = window.location.href.split("/").pop();
 		$(this).find('a[href="'+vars+'"]').addClass('active');
 	});
+
+	// click to copy icon
+	$(".fa-hover").click(function (event) {
+		event.preventDefault();
+		var $html = $(this).find('.fa').first();
+		var str = $html.prop('outerHTML');
+		CopyToClipboard(str, true, "Copied");
+	});
 });
+
+function CopyToClipboard(value, showNotification, notificationText) {
+	var $temp = $("<input>");
+	$("body").append($temp);
+	$temp.val(value).select();
+	document.execCommand("copy");
+	$temp.remove();
+
+	if (typeof showNotification === 'undefined') {
+		showNotification = true;
+	}
+	if (typeof notificationText === 'undefined') {
+		notificationText = "Copied to clipboard";
+	}
+
+	var notificationTag = $("div.copy-notification");
+	if (showNotification && notificationTag.length == 0) {
+		notificationTag = $("<div/>", { "class": "copy-notification", text: notificationText });
+		$("body").append(notificationTag);
+
+		notificationTag.fadeIn("slow", function () {
+			setTimeout(function () {
+				notificationTag.fadeOut("slow", function () {
+					notificationTag.remove();
+				});
+			}, 1000);
+		});
+	}
+}

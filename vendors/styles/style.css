@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -8696,12 +8696,12 @@ ul.wysihtml5-toolbar a[data-wysihtml5-command=italic] {
 ul.wysihtml5-toolbar a[data-wysihtml5-command=underline] {
   text-decoration: underline; }
 
-ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
+ul.wysihtml5-toolbar a.btn.wysihtml5-command-active, ul.wysihtml5-toolbar a.btn.wysihtml5-action-active {
   background-image: none;
   background: #f6f6f6;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #333;
+  color: #0099ff;
   outline: 0; }
 
 ul.wysihtml5-commands-disabled .dropdown-menu {
@@ -11349,6 +11349,24 @@ p {
 .customscroll-10-p > .mCustomScrollBox > .mCSB_container {
   padding: 10px; }
 
+/*--------- modal vertical-align center ------------*/
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; }
+
+.modal-dialog {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+
 /*==============================================================
 	Global Styles Start
 ==============================================================*/
@@ -11782,7 +11800,7 @@ p {
 .fontawesome-icon-list a .fa {
   position: absolute;
   left: 10px;
-  top: 7px;
+  top: 4px;
   font-size: 18px; }
 
 .wysihtml5-toolbar .dropdown-menu a {
@@ -11795,8 +11813,23 @@ p {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
-.html-editor .form-control {
-  height: 300px; }
+.html-editor textarea.form-control {
+  height: 300px;
+  font-weight: 400; }
+
+.copy-notification {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 12px 20px;
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: -85px;
+  display: none;
+  text-align: center; }
 
 /*==============================================================
 	Media css

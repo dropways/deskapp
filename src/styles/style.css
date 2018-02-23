@@ -281,6 +281,24 @@ p {
 .customscroll-10-p > .mCustomScrollBox > .mCSB_container{
 	padding: 10px;
 }
+/*--------- modal vertical-align center ------------*/
+.modal {
+	text-align: center;
+	padding: 0!important;
+}
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.modal-dialog {
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
 /*==============================================================
 	Global Styles Start
 ==============================================================*/
@@ -757,7 +775,7 @@ p {
 .fontawesome-icon-list a .fa{
 	position: absolute;
 	left: 10px;
-	top: 7px;
+	top: 4px;
 	font-size: 18px;
 }
 
@@ -774,6 +792,21 @@ p {
 	transition: all 0.3s ease-in-out;
 }
 
-.html-editor .form-control{
+.html-editor textarea.form-control{
 	height: 300px;
+	font-weight: 400;
+}
+.copy-notification {
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.8);
+	padding: 12px 20px;
+	border-radius: 30px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	margin-top: -30px;
+	margin-left: -85px;
+	display: none;
+	text-align:center;
 }
