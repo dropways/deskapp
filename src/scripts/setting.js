@@ -13,6 +13,16 @@ jQuery(window).on("load resize", function () {
 });
 jQuery(document).ready(function(){
 	"use strict";
+	// Background Image
+	jQuery(".bg_img").each( function ( i, elem ) {
+		var img = jQuery( elem );
+		jQuery(this).hide();
+		jQuery(this).parent().css( {
+			background: "url(" + img.attr( "src" ) + ") no-repeat center center",
+		});
+	});
+
+	// tooltip init
 	$('[data-toggle="tooltip"]').tooltip()
 
 	// form-control on focus add class
@@ -76,7 +86,7 @@ jQuery(document).ready(function(){
 	// click to copy icon
 	$(".fa-hover").click(function (event) {
 		event.preventDefault();
-		var $html = $(this).find('.fa').first();
+		var $html = $(this).find('.icon-copy').first();
 		var str = $html.prop('outerHTML');
 		CopyToClipboard(str, true, "Copied");
 	});
@@ -88,14 +98,12 @@ function CopyToClipboard(value, showNotification, notificationText) {
 	$temp.val(value).select();
 	document.execCommand("copy");
 	$temp.remove();
-
 	if (typeof showNotification === 'undefined') {
 		showNotification = true;
 	}
 	if (typeof notificationText === 'undefined') {
 		notificationText = "Copied to clipboard";
 	}
-
 	var notificationTag = $("div.copy-notification");
 	if (showNotification && notificationTag.length == 0) {
 		notificationTag = $("<div/>", { "class": "copy-notification", text: notificationText });

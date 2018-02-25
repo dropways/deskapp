@@ -11,6 +11,7 @@
 	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
 	.header-right .brand-logo{display: block;}
 	.header-right .menu-icon{display: block;}
+	.footer-wrap{width: 100%;}
 }
 @media (max-width: 1024px){
 }
@@ -18,13 +19,17 @@
 }
 @media (max-width: 767px){
 	.xs-pd-20-10{padding: 20px 10px;}
+	h1, .h1 {font-size: 2rem;}
 	h2, .h2{font-size: 1.6rem;}
 	h4, .h4 {font-size: 1.4rem;}
+	.main-container{height: auto; padding-bottom: 0;}
+	.footer-wrap{position: relative; height: auto;}
 	.user-notification{margin-right: 15px;}
 	.user-notification .dropdown-menu{width: 100%; min-width: 300px;}
 	.user-info-dropdown .dropdown-toggle .user-name{display: none;}
 	.page-header{margin-bottom: 30px;}
 	.forgot-password{text-align: center;}
+	.ionicons-list li{width: 16.60%;}
 }
 @media (max-width: 660px){
 }

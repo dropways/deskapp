@@ -52,10 +52,9 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="font-awesome.php">FontAwesome Icons</a></li>
-							<li><a href="#">Foundation Icons</a></li>
-							<li><a href="#">Ionicons Icons</a></li>
-							<li><a href="#">Payment Icons</a></li>
-							<li><a href="#">Themify Icons</a></li>
+							<li><a href="foundation.php">Foundation Icons</a></li>
+							<li><a href="ionicons.php">Ionicons Icons</a></li>
+							<li><a href="themify.php">Themify Icons</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -66,9 +65,9 @@
 							<li><a href="login.php">Login</a></li>
 							<li><a href="forgot-password.php">Forgot Password</a></li>
 							<li><a href="reset-password.php">Reset Password</a></li>
-							<li><a href="#">403</a></li>
-							<li><a href="#">404</a></li>
-							<li><a href="#">500</a></li>
+							<li><a href="403.php">403</a></li>
+							<li><a href="404.php">404</a></li>
+							<li><a href="500.php">500</a></li>
 						</ul>
 					</li>
 				</ul>

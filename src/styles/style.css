@@ -115,10 +115,12 @@ p {
 
 .min-height-200px{min-height: 200px;}
 
+.bg-cover{background-size: cover !important;}
 .bg-light-blue{background: #def2ff;}
 .color-light-blue{color: #def2ff;}
 .bg-light-gray{background: #eff5f7;}
 .bg-white{background: #ffffff;}
+.color-white{color: #ffffff;}
 .border-radius-0{
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -772,11 +774,28 @@ p {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.fontawesome-icon-list a .fa{
+.fontawesome-icon-list a .icon-copy{
 	position: absolute;
 	left: 10px;
 	top: 4px;
 	font-size: 18px;
+}
+.foundation-icon.fontawesome-icon-list a .icon-copy{
+	top: 0;
+	font-size: 24px;
+	line-height: 24px;
+}
+.ionicons-list li{
+	width: 8.30%;
+	text-align: center;
+}
+.ionicons-list.fontawesome-icon-list a{
+	padding-left: 0;
+}
+.ionicons-list.fontawesome-icon-list a .icon-copy{
+	font-size: 24px;
+	left: 0;
+	position: relative;
 }
 
 .wysihtml5-toolbar .dropdown-menu a{
@@ -809,4 +828,21 @@ p {
 	margin-left: -85px;
 	display: none;
 	text-align:center;
+}
+
+.error-page:before {
+	content: "";
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.error-page-wrap{
+	font-size: 22px;
+}
+.error-page-wrap a{
+	color: #94c5f9;
+	font-weight: 500;
 }
