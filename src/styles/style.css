@@ -105,6 +105,14 @@ p {
 .mb-30{margin-bottom: 30px;}
 .mb-20{margin-bottom: 20px;}
 .mb-15{margin-bottom: 15px;}
+.mb-5{margin-bottom: 5px !important;}
+
+.font-24{font-size: 24px;}
+.font-20{font-size: 20px;}
+.font-18{font-size: 18px;}
+.font-16{font-size: 16px;}
+.font-14{font-size: 14px;}
+.font-12{font-size: 12px;}
 
 .weight-400{font-weight: 400;}
 .weight-500{font-weight: 500;}
@@ -116,11 +124,21 @@ p {
 .min-height-200px{min-height: 200px;}
 
 .bg-cover{background-size: cover !important;}
-.bg-light-blue{background: #def2ff;}
+.bg-light-blue{background-color: #def2ff;}
 .color-light-blue{color: #def2ff;}
-.bg-light-gray{background: #eff5f7;}
+.bg-light-gray{background-color: #eff5f7;}
 .bg-white{background: #ffffff;}
 .color-white{color: #ffffff;}
+.bg-light-green{background-color: #41ccba;}
+.text-light-green{color: #41ccba;}
+.bg-blue{background-color: #0099ff;}
+.text-blue{color: #0099ff;}
+.bg-light-orange{background-color: #f56767;}
+.text-light-orange{color: #f56767;}
+.bg-light-purple{background-color: #a683eb;}
+.text-light-purple{color: #a683eb;}
+.bg-orange{background-color: #f5956c;}
+.text-orange{color: #f5956c;}
 .border-radius-0{
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -846,3 +864,64 @@ p {
 	color: #94c5f9;
 	font-weight: 500;
 }
+
+.project-info{
+	padding-bottom: 15px;
+}
+.project-info-left{
+	float: left;
+	width: 60px;
+	padding-top: 10px;
+}
+.project-info-left .icon{
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+.project-info-right{
+	float: right;
+	width: calc(100% - 60px);
+	text-align: right;
+}
+.project-info-right p{
+	margin-bottom: 0;
+}
+
+.device-manage-progress-chart {}
+.device-manage-progress-chart ul li {
+	margin-bottom: 10px;
+}
+.device-manage-progress-chart .device-name {
+	width: 75px;
+	float: left;
+	text-align: right;
+}
+.device-manage-progress-chart .device-total {
+	float: left;
+	width: 45px;
+	font-size: 14px;
+}
+.device-manage-progress-chart .device-progress {
+	float: left;
+	width: calc(100% - 120px);
+	padding: 7px 10px 0;
+}
+.device-manage-progress-chart .device-progress .grand_total {
+	float: right;
+}
+.device-manage-progress-chart .device-progress .progress {
+	margin-bottom: 0;
+	height: 10px;
+}
+.device-manage-progress-chart .device-progress .progress .progress-bar {
+	height: 100%;
+}
+.device-manage-progress-chart .device-progress .progress .progress-bar.window{background: #00bcf2;}
+.device-manage-progress-chart .device-progress .progress .progress-bar.mac{background: #027496;}
+.device-manage-progress-chart .device-progress .progress .progress-bar.android{background: #0059b2;}
+.device-manage-progress-chart .device-progress .progress .progress-bar.linux{background: #bad6da;}

@@ -19,6 +19,7 @@
 }
 @media (max-width: 767px){
 	.xs-pd-20-10{padding: 20px 10px;}
+	.xs-mb-20{margin-bottom: 20px;}
 	h1, .h1 {font-size: 2rem;}
 	h2, .h2{font-size: 1.6rem;}
 	h4, .h4 {font-size: 1.4rem;}
