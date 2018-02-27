@@ -444,7 +444,7 @@ p {
 	display: block;
 	position: relative;
 	padding: 10px 15px 10px 75px;
-	min-height: 70px;
+	min-height: 75px;
 	color: #33484f;
 	font-size: 15px;
 	font-family: 'Work Sans', sans-serif;
@@ -454,7 +454,7 @@ p {
 	height: 50px;
 	position: absolute;
 	left: 10px;
-	top: 20px;
+	top: 13px;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;

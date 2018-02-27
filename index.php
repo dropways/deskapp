@@ -7,10 +7,10 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="pd-30 customscroll height-100-p xs-pd-20-10">
+		<div class="pd-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="row clearfix progress-box">
 				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<div class="project-info clearfix">
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-blue text-white">
@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<div class="project-info clearfix">
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-light-green text-white">
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<div class="project-info clearfix">
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-light-orange text-white">
@@ -106,7 +106,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 mb-30">
+			<div class="bg-white pd-20 box-shadow border-radius-5 mb-30">
 				<h4 class="mb-30">Area Spline Chart</h4>
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lg-9 xs-mb-20">
@@ -143,7 +143,7 @@
 			</div>
 			<div class="row clearfix">
 				<div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-30">Devices Managed</h4>
 						<div class="device-manage-progress-chart">
 							<ul>
@@ -192,7 +192,7 @@
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-30">Device Usage</h4>
 						<div class="clearfix device-usage-chart">
 							<div class="width-50-p pull-left">
@@ -234,7 +234,7 @@
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-30">Profile Completion</h4>
 						<div class="clearfix device-usage-chart">
 							<div class="width-50-p pull-left">
@@ -244,6 +244,106 @@
 								<div id="cpu" style="min-width: 160px; max-width: 180px; height: 200px; margin: 0 auto"></div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
+						<h4 class="mb-20">Recent Messages</h4>
+						<div class="notification-list mx-h-450 customscroll">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
+					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
+						<h4 class="mb-30">To Do list</h4>
 					</div>
 				</div>
 			</div>
