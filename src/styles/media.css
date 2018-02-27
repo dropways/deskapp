@@ -3,6 +3,9 @@
 ==============================================================*/
 @media (max-width: 1400px){
 }
+@media (min-width: 1200px) and (max-width: 1400px){
+	.device-usage-chart .width-50-p{width: 100%;}
+}
 @media (max-width: 1200px){
 	.main-container{padding-left: 0;}
 	.header-right{width: 100%;}
@@ -16,6 +19,7 @@
 @media (max-width: 1024px){
 }
 @media (max-width: 991px){
+	.device-usage-chart .width-50-p{width: 100%;}
 }
 @media (max-width: 767px){
 	.xs-pd-20-10{padding: 20px 10px;}

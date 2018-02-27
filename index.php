@@ -142,7 +142,7 @@
 				</div>
 			</div>
 			<div class="row clearfix">
-				<div class="col-lg-4 col-md-4 col-sm-12 mb-30">
+				<div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 mb-30">
 					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
 						<h4 class="mb-30">Devices Managed</h4>
 						<div class="device-manage-progress-chart">
@@ -168,7 +168,7 @@
 									<div class="device-total">20</div>
 								</li>
 								<li class="clearfix">
-									<div class="device-name">android</div>
+									<div class="device-name">Android</div>
 									<div class="device-progress">
 										<div class="progress">
 											<div class="progress-bar android border-radius-8" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
@@ -191,12 +191,68 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-30">
+					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+						<h4 class="mb-30">Device Usage</h4>
+						<div class="clearfix device-usage-chart">
+							<div class="width-50-p pull-left">
+								<div id="device-usage" style="min-width: 180px; height: 200px; margin: 0 auto"></div>
+							</div>
+							<div class="width-50-p pull-left">
+								<table style="width: 100%;">
+									<thead>
+										<tr>
+											<th class="weight-500"><p>Device</p></th>
+											<th class="text-right weight-500"><p>Usage</p></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td width="70%"><p class="weight-500 mb-5"><i class="fa fa-square text-yellow"></i> IE</p></td>
+											<td class="text-right weight-400">10%</td>
+										</tr>
+										<tr>
+											<td width="70%"><p class="weight-500 mb-5"><i class="fa fa-square text-green"></i> Chrome</p></td>
+											<td class="text-right weight-400">40%</td>
+										</tr>
+										<tr>
+											<td width="70%"><p class="weight-500 mb-5"><i class="fa fa-square text-orange-50"></i> Firefox</p></td>
+											<td class="text-right weight-400">30%</td>
+										</tr>
+										<tr>
+											<td width="70%"><p class="weight-500 mb-5"><i class="fa fa-square text-blue-50"></i> Safari</p></td>
+											<td class="text-right weight-400">10%</td>
+										</tr>
+										<tr>
+											<td width="70%"><p class="weight-500 mb-5"><i class="fa fa-square text-red-50"></i> Opera</p></td>
+											<td class="text-right weight-400">10%</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-30">
+					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
+						<h4 class="mb-30">Profile Completion</h4>
+						<div class="clearfix device-usage-chart">
+							<div class="width-50-p pull-left">
+								<div id="ram" style="min-width: 160px; max-width: 180px; height: 200px; margin: 0 auto"></div>
+							</div>
+							<div class="width-50-p pull-left">
+								<div id="cpu" style="min-width: 160px; max-width: 180px; height: 200px; margin: 0 auto"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<?php include('include/footer.php'); ?>
 	<?php include('include/script.php'); ?>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
 	<script type="text/javascript">
 		Highcharts.chart('areaspline-chart', {
 			chart: {
@@ -229,6 +285,9 @@
 					from: 4.5,
 					to: 6.5,
 				}],
+				gridLineDashStyle: 'longdash',
+                gridLineWidth: 1,
+                crosshair: true
 			},
 			yAxis: {
 				title: {
@@ -264,6 +323,223 @@
 				name: 'Daniel',
 				data: [0, 4, 7, 3, 0, 7, 4],
 				color: '#41ccba'
+			}]
+		});
+
+
+		// Device Usage chart
+		Highcharts.chart('device-usage', {
+			chart: {
+				type: 'pie'
+			},
+			title: {
+				text: ''
+			},
+			subtitle: {
+				text: ''
+			},
+			credits: {
+				enabled: false
+			},
+			plotOptions: {
+				series: {
+					dataLabels: {
+						enabled: false,
+						format: '{point.name}: {point.y:.1f}%'
+					}
+				},
+				pie: {
+					innerSize: 127,
+					depth: 45
+				}
+			},
+
+			tooltip: {
+				headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+				pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+			},
+			series: [{
+				name: 'Brands',
+				colorByPoint: true,
+				data: [{
+					name: 'IE',
+					y: 10,
+					color: '#ecc72f'
+				}, {
+					name: 'Chrome',
+					y: 40,
+					color: '#46be8a'
+				}, {
+					name: 'Firefox',
+					y: 30,
+					color: '#f2a654'
+				}, {
+					name: 'Safari',
+					y: 10,
+					color: '#62a8ea'
+				}, {
+					name: 'Opera',
+					y: 10,
+					color: '#e14e50'
+				}]
+			}]
+		});
+
+		// gauge chart
+		Highcharts.chart('ram', {
+
+			chart: {
+				type: 'gauge',
+				plotBackgroundColor: null,
+				plotBackgroundImage: null,
+				plotBorderWidth: 0,
+				plotShadow: false
+			},
+			title: {
+				text: ''
+			},
+			credits: {
+				enabled: false
+			},
+			pane: {
+				startAngle: -150,
+				endAngle: 150,
+				background: [{
+					borderWidth: 0,
+					outerRadius: '109%'
+				}, {
+					borderWidth: 0,
+					outerRadius: '107%'
+				}, {
+				}, {
+					backgroundColor: '#fff',
+					borderWidth: 0,
+					outerRadius: '105%',
+					innerRadius: '103%'
+				}]
+			},
+
+			yAxis: {
+				min: 0,
+				max: 200,
+
+				minorTickInterval: 'auto',
+				minorTickWidth: 1,
+				minorTickLength: 10,
+				minorTickPosition: 'inside',
+				minorTickColor: '#666',
+
+				tickPixelInterval: 30,
+				tickWidth: 2,
+				tickPosition: 'inside',
+				tickLength: 10,
+				tickColor: '#666',
+				labels: {
+					step: 2,
+					rotation: 'auto'
+				},
+				title: {
+					text: 'RAM'
+				},
+				plotBands: [{
+					from: 0,
+					to: 120,
+					color: '#55BF3B'
+				}, {
+					from: 120,
+					to: 160,
+					color: '#DDDF0D'
+				}, {
+					from: 160,
+					to: 200,
+					color: '#DF5353'
+				}]
+			},
+
+			series: [{
+				name: 'Speed',
+				data: [80],
+				tooltip: {
+					valueSuffix: '%'
+				}
+			}]
+		});
+		Highcharts.chart('cpu', {
+
+			chart: {
+				type: 'gauge',
+				plotBackgroundColor: null,
+				plotBackgroundImage: null,
+				plotBorderWidth: 0,
+				plotShadow: false
+			},
+			title: {
+				text: ''
+			},
+			credits: {
+				enabled: false
+			},
+			pane: {
+				startAngle: -150,
+				endAngle: 150,
+				background: [{
+					borderWidth: 0,
+					outerRadius: '109%'
+				}, {
+					borderWidth: 0,
+					outerRadius: '107%'
+				}, {
+				}, {
+					backgroundColor: '#fff',
+					borderWidth: 0,
+					outerRadius: '105%',
+					innerRadius: '103%'
+				}]
+			},
+
+			yAxis: {
+				min: 0,
+				max: 200,
+
+				minorTickInterval: 'auto',
+				minorTickWidth: 1,
+				minorTickLength: 10,
+				minorTickPosition: 'inside',
+				minorTickColor: '#666',
+
+				tickPixelInterval: 30,
+				tickWidth: 2,
+				tickPosition: 'inside',
+				tickLength: 10,
+				tickColor: '#666',
+				labels: {
+					step: 2,
+					rotation: 'auto'
+				},
+				title: {
+					text: 'CPU'
+				},
+				plotBands: [{
+					from: 0,
+					to: 120,
+					color: '#55BF3B'
+				}, {
+					from: 120,
+					to: 160,
+					color: '#DDDF0D'
+				}, {
+					from: 160,
+					to: 200,
+					color: '#DF5353'
+				}]
+			},
+
+			series: [{
+				name: 'Speed',
+				data: [120],
+				tooltip: {
+					valueSuffix: ' %'
+				}
 			}]
 		});
 	</script>

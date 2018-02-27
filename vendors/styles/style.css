@@ -15643,6 +15643,9 @@ p {
 .mb-15 {
   margin-bottom: 15px; }
 
+.mb-10 {
+  margin-bottom: 10px; }
+
 .mb-5 {
   margin-bottom: 5px !important; }
 
@@ -15664,6 +15667,9 @@ p {
 .font-12 {
   font-size: 12px; }
 
+.weight-300 {
+  font-weight: 300; }
+
 .weight-400 {
   font-weight: 400; }
 
@@ -15678,6 +15684,9 @@ p {
 
 .height-100-p {
   height: 100%; }
+
+.width-50-p {
+  width: 50%; }
 
 .min-height-200px {
   min-height: 200px; }
@@ -15729,6 +15738,21 @@ p {
 
 .text-orange {
   color: #f5956c; }
+
+.text-yellow {
+  color: #ecc72f; }
+
+.text-green {
+  color: #46be8a; }
+
+.text-orange-50 {
+  color: #f2a654; }
+
+.text-blue-50 {
+  color: #62a8ea; }
+
+.text-red-50 {
+  color: #e14e50; }
 
 .border-radius-0 {
   border-radius: 0px; }
@@ -16406,7 +16430,10 @@ p {
   margin-bottom: 0; }
 
 .device-manage-progress-chart ul li {
-  margin-bottom: 10px; }
+  margin-bottom: 30px; }
+
+.device-manage-progress-chart ul li:last-child {
+  margin-bottom: 0; }
 
 .device-manage-progress-chart .device-name {
   width: 75px;
@@ -16443,11 +16470,18 @@ p {
   background: #0059b2; }
 
 .device-manage-progress-chart .device-progress .progress .progress-bar.linux {
-  background: #bad6da; }
+  background: #8ab1b7; }
+
+.device-usage-chart {
+  /*color: #667f87;*/ }
 
 /*==============================================================
 	Media css
 ==============================================================*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .device-usage-chart .width-50-p {
+    width: 100%; } }
+
 @media (max-width: 1200px) {
   .main-container {
     padding-left: 0; }
@@ -16468,6 +16502,10 @@ p {
   .header-right .menu-icon {
     display: block; }
   .footer-wrap {
+    width: 100%; } }
+
+@media (max-width: 991px) {
+  .device-usage-chart .width-50-p {
     width: 100%; } }
 
 @media (max-width: 767px) {

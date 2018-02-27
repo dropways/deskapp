@@ -105,6 +105,7 @@ p {
 .mb-30{margin-bottom: 30px;}
 .mb-20{margin-bottom: 20px;}
 .mb-15{margin-bottom: 15px;}
+.mb-10{margin-bottom: 10px;}
 .mb-5{margin-bottom: 5px !important;}
 
 .font-24{font-size: 24px;}
@@ -114,12 +115,14 @@ p {
 .font-14{font-size: 14px;}
 .font-12{font-size: 12px;}
 
+.weight-300{font-weight: 300;}
 .weight-400{font-weight: 400;}
 .weight-500{font-weight: 500;}
 .weight-600{font-weight: 600;}
 .weight-700{font-weight: 700;}
 
 .height-100-p{height: 100%;}
+.width-50-p{width: 50%;}
 
 .min-height-200px{min-height: 200px;}
 
@@ -139,6 +142,12 @@ p {
 .text-light-purple{color: #a683eb;}
 .bg-orange{background-color: #f5956c;}
 .text-orange{color: #f5956c;}
+.text-yellow{color: #ecc72f;}
+.text-green{color: #46be8a;}
+.text-orange-50{color: #f2a654;}
+.text-blue-50{color: #62a8ea;}
+.text-red-50{color: #e14e50;}
+
 .border-radius-0{
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -894,7 +903,10 @@ p {
 
 .device-manage-progress-chart {}
 .device-manage-progress-chart ul li {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+}
+.device-manage-progress-chart ul li:last-child{
+	margin-bottom: 0;
 }
 .device-manage-progress-chart .device-name {
 	width: 75px;
@@ -924,4 +936,8 @@ p {
 .device-manage-progress-chart .device-progress .progress .progress-bar.window{background: #00bcf2;}
 .device-manage-progress-chart .device-progress .progress .progress-bar.mac{background: #027496;}
 .device-manage-progress-chart .device-progress .progress .progress-bar.android{background: #0059b2;}
-.device-manage-progress-chart .device-progress .progress .progress-bar.linux{background: #bad6da;}
+.device-manage-progress-chart .device-progress .progress .progress-bar.linux{background: #8ab1b7;}
+
+.device-usage-chart{
+	/*color: #667f87;*/
+}
