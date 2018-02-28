@@ -16376,7 +16376,7 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
 }(window.jQuery, window.wysihtml5);
 jQuery(window).on("load",function() {
 	"use strict";
-	//jQuery(".pre-loader").fadeToggle("medium");
+	jQuery(".pre-loader").fadeToggle("medium");
 	// bootstrap wysihtml5
 	$('.textarea_editor').wysihtml5({
 		html: true

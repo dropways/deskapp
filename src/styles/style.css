@@ -91,6 +91,19 @@ p {
 /*==============================================================
 	Global Styles Start
 ==============================================================*/
+.pre-loader{
+	background: url(../images/new-loader.gif) no-repeat #fffef2;
+	background-position: center center;
+	background-size: 231px 213px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 12345;
+}
+
+
 .mx-h-300{max-height: 300px;}
 .mx-h-350{max-height: 350px;}
 .mx-h-380{max-height: 380px;}
@@ -328,8 +341,41 @@ p {
 	text-align: left;
 	vertical-align: middle;
 }
+
+.custom-control{
+	padding-left: 30px;
+	cursor: pointer;
+}
+.custom-control-label{
+	cursor: pointer;
+}
+.custom-control-label::before{
+	width: 20px;
+	height: 20px;
+	top: 2px;
+	background-color: transparent;
+	border: 2px solid #00bcf2;
+}
+.custom-control-label::after{
+	width: 20px;
+	height: 20px;
+	background-size: 60%;
+	top: 2px;
+}
+.custom-control-input:focus ~ .custom-control-label::before{
+	box-shadow: none;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+	background-color: #00bcf2;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{
+	background-image: url(../images/check-mark.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 /*==============================================================
-	Global Styles Start
+	Global Styles End
 ==============================================================*/
 
 /*==============================================================
@@ -940,4 +986,14 @@ p {
 
 .device-usage-chart{
 	/*color: #667f87;*/
+}
+.to-do-list ul li{
+	padding: 15px 15px;
+	background: #eff5f7;
+}
+.to-do-list ul li:hover{
+	background: #eff5f7;
+}
+.to-do-list ul li:nth-child(2n){
+	background: #ffffff;
 }

@@ -1,3 +1,4 @@
+	<div class="pre-loader"></div>
 	<div class="header clearfix">
 		<div class="header-right">
 			<div class="brand-logo">
