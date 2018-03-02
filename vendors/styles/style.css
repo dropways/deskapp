@@ -15604,7 +15604,7 @@ p {
 .pre-loader {
   background: url(../images/new-loader.gif) no-repeat #fffef2;
   background-position: center center;
-  background-size: 231px 213px;
+  background-size: 13%;
   position: fixed;
   left: 0;
   top: 0;
