@@ -7,7 +7,7 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="pd-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
+		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="row clearfix progress-box">
 				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
 					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
@@ -447,9 +447,9 @@
 					</div>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
-	<?php include('include/footer.php'); ?>
 	<?php include('include/script.php'); ?>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>

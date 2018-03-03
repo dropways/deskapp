@@ -112,6 +112,7 @@ p {
 .padding-top-10{padding-top: 10px;}
 .pd-10{padding: 10px;}
 .pd-20{padding: 20px;}
+.pd-ltr-20{padding: 20px 20px 0;}
 .pd-30{padding: 30px;}
 .margin-5{margin: 5px;}
 .mt-15{margin-top: 15px;}
@@ -374,6 +375,10 @@ p {
 	background-position: center center;
 }
 
+.highcharts-legend-item .highcharts-graph {
+	display: none;
+}
+
 /*==============================================================
 	Global Styles End
 ==============================================================*/
@@ -528,11 +533,9 @@ p {
 	Footer Start
 ==============================================================*/
 .footer-wrap{
-	width: calc(100% - 250px);
-	position: fixed;
-	height: 44px;
-	right: 0;
-	bottom: 0;
+	width: 100%;
+	position: relative;
+	/*height: 44px;*/
 	text-align: center;
 	font-weight: 500;
 }
@@ -804,7 +807,7 @@ p {
 	Login End
 ==============================================================*/
 .main-container{
-	padding: 70px 0 44px 250px;
+	padding: 70px 0 0px 250px;
 	height: 100vh;
 }
 .page-header .dropdown-menu{
@@ -996,4 +999,28 @@ p {
 }
 .to-do-list ul li:nth-child(2n){
 	background: #ffffff;
+}
+#browservisit path.jvectormap-region.jvectormap-element {
+	stroke-width: 0.5px;
+	stroke: #667f87;
+}
+.jvectormap-zoomin,
+.jvectormap-zoomout,
+.jvectormap-goback {
+	background: #667f87;
+}
+
+.browser-visits{}
+.browser-visits ul li{
+	margin-bottom: 40px;
+}
+.browser-visits ul li .icon{
+	width: 50px;
+}
+.browser-visits ul li .visit{
+	width: 50px;
+}
+.browser-visits ul li .browser-name{
+	width: calc(100% - 100px);
+	font-size: 18px;
 }

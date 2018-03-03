@@ -7,7 +7,7 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="pd-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
+		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
@@ -42,9 +42,9 @@
 					<textarea class="textarea_editor form-control border-radius-0" placeholder="Enter text ..."></textarea>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
-	<?php include('include/footer.php'); ?>
 	<?php include('include/script.php'); ?>
 </body>
 </html>

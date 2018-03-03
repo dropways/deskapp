@@ -16453,10 +16453,17 @@ jQuery(document).ready(function(){
 		});
 	});
 
+
 	// sidebar menu Active Class
 	$('#accordion-menu .submenu li').each(function(){
 		var vars = window.location.href.split("/").pop();
 		$(this).find('a[href="'+vars+'"]').addClass('active');
+	});
+	$("#accordion-menu li ul").each(function (i, el) {
+		if($(this).find('a').hasClass('active')){
+			$(el).prev().parent().addClass("show");
+			$(el).slideDown();
+		}
 	});
 
 	// click to copy icon

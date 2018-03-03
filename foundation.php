@@ -7,7 +7,7 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="pd-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
+		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
@@ -209,7 +209,7 @@
 						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-bold"></i>bold</a></div>
 						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-italic"></i>italic</a></div>
 						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-underline"></i>underline</a></div>
-						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-strike"></i>strike</a></div>
+						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-strikethrough"></i>strike</a></div>
 
 						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-text-color"></i>text-color</a></div>
 						<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-background-color"></i>background-color</a></div>
@@ -448,9 +448,9 @@
 					</div>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
-	<?php include('include/footer.php'); ?>
 	<?php include('include/script.php'); ?>
 </body>
 </html>

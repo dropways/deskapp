@@ -12,7 +12,7 @@
 							<span class="fa fa-home"></span><span class="mtext">Home</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="index.php" class="active">Dashboard style 1</a></li>
+							<li><a href="index.php">Dashboard style 1</a></li>
 							<li><a href="index2.php">Dashboard style 2</a></li>
 						</ul>
 					</li>
