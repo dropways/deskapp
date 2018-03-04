@@ -197,7 +197,6 @@ p {
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, .1);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, .1);
 }
-
 .dropdown-toggle::after{
 	content: "\f107";
 	border: 0;
@@ -323,6 +322,10 @@ p {
 
 .customscroll-10-p > .mCustomScrollBox > .mCSB_container{
 	padding: 10px;
+}
+
+.clockpicker-popover .popover-content{
+	background-color: #eff5f7;
 }
 /*--------- modal vertical-align center ------------*/
 .modal {

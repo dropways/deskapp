@@ -97,6 +97,8 @@ jQuery(document).ready(function(){
 		var str = $html.prop('outerHTML');
 		CopyToClipboard(str, true, "Copied");
 	});
+
+	$('.datepicker').datepicker();
 });
 
 function CopyToClipboard(value, showNotification, notificationText) {

@@ -115,13 +115,13 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-md-12 col-sm-12 mb-30">
-					<div class="bg-white pd-30 box-shadow border-radius-5 mb-30 xs-pd-20-10 height-100-p">
+					<div class="bg-white pd-30 box-shadow border-radius-5 xs-pd-20-10 height-100-p">
 						<h4 class="mb-30">Compliance Trend</h4>
 						<div id="compliance-trend" class="compliance-trend"></div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12 col-sm-12 mb-30">
-					<div class="bg-white pd-30 box-shadow border-radius-5 mb-30 xs-pd-20-10 height-100-p">
+					<div class="bg-white pd-30 box-shadow border-radius-5 xs-pd-20-10 height-100-p">
 						<h4 class="mb-30">Records</h4>
 						<div id="chart" class="chart"></div>
 					</div>

@@ -27,16 +27,19 @@ var path = {
 		config.srcDir + 'fonts/foundation-icons/foundation-icons.css',
 		config.srcDir + 'fonts/ionicons-master/css/ionicons.css',
 		config.srcDir + 'fonts/themify-icons/themify-icons.css',
+		config.srcDir + 'plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css',
 		config.srcDir + 'styles/style.css',
 		config.srcDir + 'styles/media.css',
 	],
 	scripts: [
 		config.srcDir + 'scripts/jquery.min.js',
+		config.srcDir + 'scripts/moment.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/popper.min.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/bootstrap.js',
 		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
 		config.srcDir + 'plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
 		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
+		config.srcDir + 'plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.js',
 		config.srcDir + 'scripts/setting.js'
 	],
 	fonts: [
