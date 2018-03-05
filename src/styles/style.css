@@ -135,6 +135,7 @@ p {
 .weight-600{font-weight: 600;}
 .weight-700{font-weight: 700;}
 
+.height-auto{height: auto;}
 .height-100-p{height: 100%;}
 .width-50-p{width: 50%;}
 
@@ -244,12 +245,16 @@ p {
 	height: 38px;
 	letter-spacing: 0.035em;
 }
+textarea.form-control{
+	height: 180px;
+}
 .form-control:focus {
 	color: #131e22;
 	-webkit-box-shadow: 0px 0px 1px #87b1f3;
 	-moz-box-shadow: 0px 0px 1px #87b1f3;
 	box-shadow: 0px 0px 1px #87b1f3;
 }
+.form-control.height-auto{height: auto;}
 .input-group{
 	margin-bottom: 25px;
 }
@@ -384,6 +389,9 @@ p {
 	background-image: url(../images/check-mark.png);
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+	background-color: #00bcf2;
 }
 
 .highcharts-legend-item .highcharts-graph {
