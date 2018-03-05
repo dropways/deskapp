@@ -22,6 +22,44 @@ jQuery(document).ready(function(){
 		});
 	});
 
+	// click to scroll
+	$('.collapse-box').on('shown.bs.collapse', function () {
+		$(".customscroll").mCustomScrollbar("scrollTo",$(this));
+	});
+
+	// code split
+	var entityMap = {
+		"&": "&amp;",
+		"<": "&lt;",
+		">": "&gt;",
+		'"': '&quot;',
+		"'": '&#39;',
+		"/": '&#x2F;'
+	};
+	function escapeHtml(string) {
+		return String(string).replace(/[&<>"'\/]/g, function (s) {
+			return entityMap[s];
+		});
+	}
+	//document.addEventListener("DOMContentLoaded", init, false);
+	window.onload = function init()
+	{
+		var codeblock = document.querySelectorAll("pre code");
+		if(codeblock.length)
+		{
+			for(var i=0, len=codeblock.length; i<len; i++)
+			{
+				var dom = codeblock[i];
+				var html = dom.innerHTML;
+				html = escapeHtml(html);
+				dom.innerHTML = html;
+			}
+			$('pre code').each(function(i, block) {
+				hljs.highlightBlock(block);
+			});
+		}
+	}
+
 	// tooltip init
 	$('[data-toggle="tooltip"]').tooltip()
 
@@ -77,7 +115,6 @@ jQuery(document).ready(function(){
 		});
 	});
 
-
 	// sidebar menu Active Class
 	$('#accordion-menu .submenu li').each(function(){
 		var vars = window.location.href.split("/").pop();
@@ -97,16 +134,45 @@ jQuery(document).ready(function(){
 		var str = $html.prop('outerHTML');
 		CopyToClipboard(str, true, "Copied");
 	});
+	var clipboard = new ClipboardJS('.code-copy');
+	clipboard.on('success', function(e) {
+		CopyToClipboard('',true, "Copied");
+		e.clearSelection();
+	});
 
-	$('.datepicker').datepicker();
+	// date picker
+	$('.date-picker').datepicker({
+		language: 'en',
+	});
+	$('.datetimepicker').datepicker({
+		timepicker: true,
+		language: 'en',
+	});
+	$('.month-picker').datepicker({
+		language: 'en',
+		minView: 'months',
+		view: 'months',
+		dateFormat: 'MM yyyy',
+	});
+
+	// only time picker
+	$( ".time-picker" ).timeDropper({
+		mousewheel: true,
+		meridians: true,
+		init_animation: 'dropdown',
+		setCurrentTime: false
+	});
 });
 
-function CopyToClipboard(value, showNotification, notificationText) {
+function CopyToClipboard(value = '', showNotification, notificationText) {
 	var $temp = $("<input>");
-	$("body").append($temp);
-	$temp.val(value).select();
-	document.execCommand("copy");
-	$temp.remove();
+	if(value != ''){
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val(value).select();
+		document.execCommand("copy");
+		$temp.remove();
+	}
 	if (typeof showNotification === 'undefined') {
 		showNotification = true;
 	}

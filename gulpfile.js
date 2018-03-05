@@ -27,7 +27,9 @@ var path = {
 		config.srcDir + 'fonts/foundation-icons/foundation-icons.css',
 		config.srcDir + 'fonts/ionicons-master/css/ionicons.css',
 		config.srcDir + 'fonts/themify-icons/themify-icons.css',
-		config.srcDir + 'plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css',
+		config.srcDir + 'plugins/air-datepicker/dist/css/datepicker.css',
+		config.srcDir + 'plugins/timedropper/timedropper.css',
+		config.srcDir + 'plugins/highlight.js/src/styles/solarized-dark.css',
 		config.srcDir + 'styles/style.css',
 		config.srcDir + 'styles/media.css',
 	],
@@ -39,7 +41,11 @@ var path = {
 		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
 		config.srcDir + 'plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
 		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
-		config.srcDir + 'plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.js',
+		config.srcDir + 'plugins/air-datepicker/dist/js/datepicker.js',
+		config.srcDir + 'plugins/air-datepicker/dist/js/i18n/datepicker.en.js',
+		config.srcDir + 'plugins/timedropper/timedropper.js',
+		config.srcDir + 'plugins/highlight.js/src/highlight.pack.js',
+		config.srcDir + 'scripts/clipboard.min.js',
 		config.srcDir + 'scripts/setting.js'
 	],
 	fonts: [

@@ -241,6 +241,7 @@ p {
 	font-family: 'Work Sans', sans-serif;
 	color: #131e22;
 	font-weight: 500;
+	height: 38px;
 	letter-spacing: 0.035em;
 }
 .form-control:focus {
@@ -324,9 +325,16 @@ p {
 	padding: 10px;
 }
 
-.clockpicker-popover .popover-content{
-	background-color: #eff5f7;
-}
+/*-------------------------------- datepicker style ----------------*/
+.datepicker--day-name{color: #0099ff;}
+.datepicker--nav-action path{stroke: #0099ff;}
+.datepicker--cell.-focus-, .datepicker--nav-title:hover, .datepicker--nav-action:hover{background: #def2ff; color: #0099ff;}
+.datepicker--cell.-selected-{color: #ffffff;}
+.datepicker--time-current-hours:after, .datepicker--time-current-minutes:after{display: none;}
+.datepicker--time-current-hours, .datepicker--time-current-minutes{color: #0099ff;}
+
+/*---------------- clock picker style -------------------*/
+.form-control.time-picker:disabled, .form-control.time-picker[readonly]{background: #ffffff;}
 /*--------- modal vertical-align center ------------*/
 .modal {
 	text-align: center;
