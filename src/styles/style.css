@@ -250,9 +250,9 @@ textarea.form-control{
 }
 .form-control:focus {
 	color: #131e22;
-	-webkit-box-shadow: 0px 0px 1px #87b1f3;
-	-moz-box-shadow: 0px 0px 1px #87b1f3;
-	box-shadow: 0px 0px 1px #87b1f3;
+	-webkit-box-shadow: 0px 0px 0px 1px #87b1f3;
+	-moz-box-shadow: 0px 0px 0px 1px #87b1f3;
+	box-shadow: 0px 0px 0px 1px #87b1f3;
 }
 .form-control.height-auto{height: auto;}
 .input-group{
@@ -298,6 +298,59 @@ textarea.form-control{
 	height: 48px;
 	font-size: 16px;
 }
+/* ---------------- form validation class -------------*/
+.has-success{
+	color: #28a745;
+}
+.form-control-success{
+	border-color: #28a745;
+	background-image: url(../images/check-mark-green.png);
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+	background-size: 20px 20px;
+}
+.form-control-success:focus{
+	border-color: #28a745;
+	-webkit-box-shadow: 0px 0px 0px 1px #28a745;
+	-moz-box-shadow: 0px 0px 0px 1px #28a745;
+	box-shadow: 0px 0px 0px 1px #28a745;
+}
+
+.has-warning{
+	color: #ffc107;
+}
+.form-control-warning{
+	border-color: #ffc107;
+	background-image: url(../images/caution-sign.png);
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+	background-size: 20px 20px;
+}
+.form-control-warning:focus{
+	border-color: #ffc107;
+	-webkit-box-shadow: 0px 0px 0px 1px #ffc107;
+	-moz-box-shadow: 0px 0px 0px 1px #ffc107;
+	box-shadow: 0px 0px 0px 1px #ffc107;
+}
+
+.has-danger{
+	color: #dc3545;
+}
+.form-control-danger{
+	border-color: #dc3545;
+	background-image: url(../images/cross.png);
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+	background-size: 14px 14px;
+}
+.form-control-danger:focus{
+	border-color: #dc3545;
+	-webkit-box-shadow: 0px 0px 0px 1px #dc3545;
+	-moz-box-shadow: 0px 0px 0px 1px #dc3545;
+	box-shadow: 0px 0px 0px 1px #dc3545;
+}
+
+/* ---------------- form validation class -------------*/
 
 .btn{
 	font-family: 'Work Sans', sans-serif;
@@ -340,24 +393,6 @@ textarea.form-control{
 
 /*---------------- clock picker style -------------------*/
 .form-control.time-picker:disabled, .form-control.time-picker[readonly]{background: #ffffff;}
-/*--------- modal vertical-align center ------------*/
-.modal {
-	text-align: center;
-	padding: 0!important;
-}
-.modal:before {
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	margin-right: -4px;
-}
-.modal-dialog {
-	width: 100%;
-	display: inline-block;
-	text-align: left;
-	vertical-align: middle;
-}
 
 .custom-control{
 	padding-left: 30px;
@@ -672,7 +707,7 @@ textarea.form-control{
 	top: 0;
 	width: 250px;
 	height: 100vh;
-	z-index: 1234;
+	z-index: 1000;
 	background: #ffffff;
 	-webkit-box-shadow: -2px 0px 10px rgba(0, 0, 0, .4);
 	-moz-box-shadow: -2px 0px 10px rgba(0, 0, 0, .4);

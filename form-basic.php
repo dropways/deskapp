@@ -36,6 +36,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- Default Basic Forms Start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
@@ -43,7 +44,7 @@
 							<p class="mb-30 font-14">All bootstrap element classies</p>
 						</div>
 						<div class="pull-right">
-							<a href="#basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button">Source Code</a>
+							<a href="#basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
 						</div>
 					</div>
 					<form>
@@ -141,7 +142,7 @@
 						<div class="code-box">
 							<div class="clearfix">
 								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#copy-pre"><i class="fa fa-clipboard"></i> Copy Code</a>
-								<a href="#basic-form1" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button">Hide Code</a>
+								<a href="#basic-form1" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
 							</div>
 							<pre><code class="xml copy-pre" id="copy-pre">
 <form>
@@ -239,6 +240,9 @@
 						</div>
 					</div>
 				</div>
+				<!-- Default Basic Forms End -->
+
+				<!-- horizontal Basic Forms Start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
@@ -246,7 +250,7 @@
 							<p class="mb-30 font-14">All bootstrap element classies</p>
 						</div>
 						<div class="pull-right">
-							<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button">Source Code</a>
+							<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
 						</div>
 					</div>
 					<form>
@@ -353,7 +357,7 @@
 						<div class="code-box">
 							<div class="clearfix">
 								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#horizontal-basic"><i class="fa fa-clipboard"></i> Copy Code</a>
-								<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button">Hide Code</a>
+								<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
 							</div>
 							<pre><code class="xml copy-pre" id="horizontal-basic">
 <form>
@@ -390,35 +394,35 @@
 			<div class="col-md-6 col-sm-12">
 				<label class="weight-600">Custom Checkbox</label>
 				<div class="custom-control custom-checkbox mb-5">
-					<input type="checkbox" class="custom-control-input" id="customCheck1">
-					<label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+					<input type="checkbox" class="custom-control-input" id="customCheck1-1">
+					<label class="custom-control-label" for="customCheck1-1">Check this custom checkbox</label>
 				</div>
 				<div class="custom-control custom-checkbox mb-5">
-					<input type="checkbox" class="custom-control-input" id="customCheck2">
-					<label class="custom-control-label" for="customCheck2">Check this custom checkbox</label>
+					<input type="checkbox" class="custom-control-input" id="customCheck2-1">
+					<label class="custom-control-label" for="customCheck2-1">Check this custom checkbox</label>
 				</div>
 				<div class="custom-control custom-checkbox mb-5">
-					<input type="checkbox" class="custom-control-input" id="customCheck3">
-					<label class="custom-control-label" for="customCheck3">Check this custom checkbox</label>
+					<input type="checkbox" class="custom-control-input" id="customCheck3-1">
+					<label class="custom-control-label" for="customCheck3-1">Check this custom checkbox</label>
 				</div>
 				<div class="custom-control custom-checkbox mb-5">
-					<input type="checkbox" class="custom-control-input" id="customCheck4">
-					<label class="custom-control-label" for="customCheck4">Check this custom checkbox</label>
+					<input type="checkbox" class="custom-control-input" id="customCheck4-1">
+					<label class="custom-control-label" for="customCheck4-1">Check this custom checkbox</label>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<label class="weight-600">Custom Radio</label>
 				<div class="custom-control custom-radio mb-5">
-					<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-					<label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+					<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label" for="customRadio4">Toggle this custom radio</label>
 				</div>
 				<div class="custom-control custom-radio mb-5">
-					<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-					<label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+					<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label" for="customRadio5">Or toggle this other custom radio</label>
 				</div>
 				<div class="custom-control custom-radio mb-5">
-					<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-					<label class="custom-control-label" for="customRadio3">Or toggle this other custom radio</label>
+					<input type="radio" id="customRadio6" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label" for="customRadio6">Or toggle this other custom radio</label>
 				</div>
 			</div>
 		</div>
@@ -455,10 +459,418 @@
 			<label class="custom-file-label">Choose file</label>
 		</div>
 	</div>
-</form></code></pre>
+</form>
+
+</code></pre>
 						</div>
 					</div>
 				</div>
+				<!-- horizontal Basic Forms End -->
+
+				<!-- Form grid Start -->
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix">
+						<div class="pull-left">
+							<h4 class="text-blue">Form grid</h4>
+							<p class="mb-30 font-14">All bootstrap element classies</p>
+						</div>
+						<div class="pull-right">
+							<a href="#form-grid-form" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
+						</div>
+					</div>
+					<form>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<div class="form-group">
+									<label>col-md-4</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<div class="form-group">
+									<label>col-md-4</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<div class="form-group">
+									<label>col-md-4</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>col-md-6</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>col-md-6</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>col-md-6</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<div class="form-group">
+									<label>col-md-3</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<div class="form-group">
+									<label>col-md-12</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<div class="form-group">
+									<label>col-md-2</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="collapse collapse-box" id="form-grid-form" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#form-grid"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#form-grid-form" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="form-grid">
+<form>
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
+			<div class="form-group">
+				<label>col-md-4</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<div class="form-group">
+				<label>col-md-4</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<div class="form-group">
+				<label>col-md-4</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="form-group">
+				<label>col-md-6</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div class="form-group">
+				<label>col-md-6</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="form-group">
+				<label>col-md-6</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="form-group">
+				<label>col-md-3</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 col-sm-12">
+			<div class="form-group">
+				<label>col-md-12</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-12">
+			<div class="form-group">
+				<label>col-md-2</label>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+</form>
+							</code></pre>
+						</div>
+					</div>
+				</div>
+				<!-- Form grid End -->
+
+				<!-- Input Validation Start -->
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix">
+						<div class="pull-left">
+							<h4 class="text-blue">Input Validation</h4>
+							<p class="mb-30 font-14">Validation styles for error, warning, and success</p>
+						</div>
+						<div class="pull-right">
+							<a href="#input-validation-form" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
+						</div>
+					</div>
+					<form>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group has-success">
+									<label class="form-control-label">Input with success</label>
+									<input type="text" class="form-control form-control-success">
+									<div class="form-control-feedback">Success! You've done it.</div>
+									<small class="form-text text-muted">Example help text that remains unchanged.</small>
+								</div>
+								<div class="form-group has-warning">
+									<label class="form-control-label">Input with warning</label>
+									<input type="text" class="form-control form-control-warning">
+									<div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+									<small class="form-text text-muted">Example help text that remains unchanged.</small>
+								</div>
+								<div class="form-group has-danger">
+									<label class="form-control-label">Input with danger</label>
+									<input type="text" class="form-control form-control-danger">
+									<div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+									<small class="form-text text-muted">Example help text that remains unchanged.</small>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group has-success row">
+									<label class="form-control-label col-sm-12 col-md-3 col-form-label">Input with success</label>
+									<div class="col-sm-12 col-md-9">
+										<input type="text" class="form-control form-control-success">
+										<div class="form-control-feedback">Success! You've done it.</div>
+										<small class="form-text text-muted">Example help text that remains unchanged.</small>
+									</div>
+								</div>
+								<div class="form-group has-warning row">
+									<label class="form-control-label col-sm-12 col-md-3 col-form-label">Input with warning</label>
+									<div class="col-sm-12 col-md-9">
+										<input type="text" class="form-control form-control-warning">
+										<div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+										<small class="form-text text-muted">Example help text that remains unchanged.</small>
+									</div>
+								</div>
+								<div class="form-group has-danger row">
+									<label class="form-control-label col-sm-12 col-md-3 col-form-label">Input with danger</label>
+									<div class="col-sm-12 col-md-9">
+										<input type="text" class="form-control form-control-danger">
+										<div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+										<small class="form-text text-muted">Example help text that remains unchanged.</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="collapse collapse-box" id="input-validation-form" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#input-validation"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#input-validation-form" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="input-validation">
+<form>
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="form-group has-success">
+				<label class="form-control-label">Input with success</label>
+				<input type="text" class="form-control form-control-success">
+				<div class="form-control-feedback">Success! You've done it.</div>
+				<small class="form-text text-muted">Example help text that remains unchanged.</small>
+			</div>
+			<div class="form-group has-warning">
+				<label class="form-control-label">Input with warning</label>
+				<input type="text" class="form-control form-control-warning">
+				<div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+				<small class="form-text text-muted">Example help text that remains unchanged.</small>
+			</div>
+			<div class="form-group has-danger">
+				<label class="form-control-label">Input with danger</label>
+				<input type="text" class="form-control form-control-danger">
+				<div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+				<small class="form-text text-muted">Example help text that remains unchanged.</small>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div class="form-group has-success row">
+				<label class="form-control-label col-sm-12 col-md-2 col-form-label">Input with success</label>
+				<div class="col-sm-12 col-md-10">
+					<input type="text" class="form-control form-control-success">
+					<div class="form-control-feedback">Success! You've done it.</div>
+					<small class="form-text text-muted">Example help text that remains unchanged.</small>
+				</div>
+			</div>
+			<div class="form-group has-warning row">
+				<label class="form-control-label col-sm-12 col-md-2 col-form-label">Input with warning</label>
+				<div class="col-sm-12 col-md-10">
+					<input type="text" class="form-control form-control-warning">
+					<div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+					<small class="form-text text-muted">Example help text that remains unchanged.</small>
+				</div>
+			</div>
+			<div class="form-group has-danger row">
+				<label class="form-control-label col-sm-12 col-md-2 col-form-label">Input with danger</label>
+				<div class="col-sm-12 col-md-10">
+					<input type="text" class="form-control form-control-danger">
+					<div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+					<small class="form-text text-muted">Example help text that remains unchanged.</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+							</code></pre>
+						</div>
+					</div>
+				</div>
+				<!-- Input Validation End -->
+
 			</div>
 			<?php include('include/footer.php'); ?>
 		</div>
