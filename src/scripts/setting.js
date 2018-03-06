@@ -10,6 +10,9 @@ jQuery(window).on("load resize", function () {
 	$(".customscroll").mCustomScrollbar({
 		theme: "minimal-dark"
 	});
+	// $(".bootstrap-select.btn-group .dropdown-menu.inner").mCustomScrollbar({
+	// 	theme: "minimal-dark"
+	// });
 });
 jQuery(document).ready(function(){
 	"use strict";
@@ -59,6 +62,11 @@ jQuery(document).ready(function(){
 			});
 		}
 	}
+	// custom select 2 init
+	$('.custom-select2').select2();
+
+	// Bootstrap Select
+	$('.selectpicker').selectpicker();
 
 	// tooltip init
 	$('[data-toggle="tooltip"]').tooltip()

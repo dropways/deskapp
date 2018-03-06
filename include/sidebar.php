@@ -22,7 +22,7 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="form-basic.php">Form Basic</a></li>
-							<li><a href="#">Advanced Components</a></li>
+							<li><a href="advanced-components.php">Advanced Components</a></li>
 							<li><a href="#">Form Validation</a></li>
 							<li><a href="form-wizard.php">Form Wizard</a></li>
 							<li><a href="#">Form Upload</a></li>

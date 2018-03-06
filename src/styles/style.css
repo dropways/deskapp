@@ -205,6 +205,7 @@ p {
 	vertical-align: unset;
 	width: auto;
 	height: auto;
+	border: 0 !important;
 }
 .dropdown.show .dropdown-toggle::after{
 	content: "\f106";
@@ -433,6 +434,57 @@ textarea.form-control{
 	display: none;
 }
 
+.select2-container .select2-selection--single{
+	height: 38px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height: 36px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	height: 36px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+	background-color: #0099ff;
+	color: #ffffff;
+	border-color: #0099ff;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+	color: #000;
+}
+.bootstrap-select.btn-group .dropdown-menu.inner{
+	display: block;
+}
+.bootstrap-select .dropdown-toggle:focus{
+	outline: none !important;
+}
+.bootstrap-select .dropdown-header{
+	color: #131e22;
+	font-weight: 500;
+	font-size: 15px;
+}
+.dropup .dropdown-toggle::after{
+	content: "\f107";
+	border: 0;
+	font-family: "FontAwesome";
+	vertical-align: unset;
+	width: auto;
+	height: auto;
+	border: 0 !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a{
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0.55rem 1rem;
+	color: #667f87;
+	font-family: 'Work Sans', sans-serif;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.bootstrap-select.btn-group .dropdown-menu li a:hover{
+	background: #def2ff;
+	color: #131e22;
+}
 /*==============================================================
 	Global Styles End
 ==============================================================*/
