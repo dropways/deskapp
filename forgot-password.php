@@ -10,9 +10,9 @@
 			<h2 class="text-center mb-30">Forgot Password</h2>
 			<form>
 				<p>Enter your email address to reset your password</p>
-				<div class="input-group input-group-lg">
+				<div class="input-group custom input-group-lg">
 					<input type="text" class="form-control" placeholder="Email">
-					<div class="input-group-append">
+					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
 					</div>
 				</div>

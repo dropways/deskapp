@@ -10,15 +10,15 @@
 			<h2 class="text-center mb-30">Reset Password</h2>
 			<form>
 				<p>Enter your new password, confirm and submit</p>
-				<div class="input-group input-group-lg">
+				<div class="input-group custom input-group-lg">
 					<input type="password" class="form-control" placeholder="New Password">
-					<div class="input-group-append">
+					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
 				</div>
-				<div class="input-group input-group-lg">
+				<div class="input-group custom input-group-lg">
 					<input type="password" class="form-control" placeholder="Confirm New Password">
-					<div class="input-group-append">
+					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
 				</div>

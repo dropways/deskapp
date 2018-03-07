@@ -9,15 +9,15 @@
 			<img src="vendors/images/login-img.png" alt="login" class="login-img">
 			<h2 class="text-center mb-30">Login</h2>
 			<form>
-				<div class="input-group input-group-lg">
+				<div class="input-group custom input-group-lg">
 					<input type="text" class="form-control" placeholder="Username">
-					<div class="input-group-append">
+					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
 					</div>
 				</div>
-				<div class="input-group input-group-lg">
+				<div class="input-group custom input-group-lg">
 					<input type="password" class="form-control" placeholder="**********">
-					<div class="input-group-append">
+					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
 				</div>

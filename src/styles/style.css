@@ -259,29 +259,29 @@ textarea.form-control{
 .input-group{
 	margin-bottom: 25px;
 }
-.input-group > .form-control, .input-group > .custom-select{
+.input-group.custom > .form-control, .input-group.custom > .custom-select{
 	width: 100%;
 }
-.input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child){
+.input-group.custom > .form-control:not(:first-child), .input-group.custom > .custom-select:not(:first-child){
 	-webkit-border-radius: 0.25rem;
 	-moz-border-radius: 0.25rem;
 	border-radius: 0.25rem;
 	padding-left: 50px;
 }
-.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child){
+.input-group.custom > .custom-select:not(:last-child), .input-group.custom > .form-control:not(:last-child){
 	-webkit-border-radius: 0.25rem;
 	-moz-border-radius: 0.25rem;
 	border-radius: 0.25rem;
 	padding-right: 50px;
 }
-.input-group-prepend{
+.input-group-prepend.custom{
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: 12;
 	height: 100%;
 }
-.input-group-append{
+.input-group-append.custom{
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -481,9 +481,38 @@ textarea.form-control{
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.bootstrap-select.btn-group .dropdown-menu li.divider{
+	border: 1px solid #eaeaea;
+}
+.bootstrap-select.btn-group .dropdown-menu li.selected a{
+	background: #def2ff;
+	color: #131e22;
+}
+.bootstrap-select.btn-group .dropdown-menu li.disabled a{
+	color: #cecece;
+}
 .bootstrap-select.btn-group .dropdown-menu li a:hover{
 	background: #def2ff;
 	color: #131e22;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.check-mark{
+	background: url(../images/check-mark-green.png);
+	width: 15px;
+	height: 15px;
+	background-size: contain;
+}
+
+.label-info{
+	background-color: #009efb;
+}
+.bootstrap-tagsinput .tag{
+	display: inline-block;
+	padding: 2px 6px;
+	margin: 2px;
+	font-size: 15px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 }
 /*==============================================================
 	Global Styles End

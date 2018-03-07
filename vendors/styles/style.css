@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -17953,25 +17953,25 @@ textarea.form-control {
 .input-group {
   margin-bottom: 25px; }
 
-.input-group > .form-control, .input-group > .custom-select {
+.input-group.custom > .form-control, .input-group.custom > .custom-select {
   width: 100%; }
 
-.input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child) {
+.input-group.custom > .form-control:not(:first-child), .input-group.custom > .custom-select:not(:first-child) {
   border-radius: 0.25rem;
   padding-left: 50px; }
 
-.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child) {
+.input-group.custom > .custom-select:not(:last-child), .input-group.custom > .form-control:not(:last-child) {
   border-radius: 0.25rem;
   padding-right: 50px; }
 
-.input-group-prepend {
+.input-group-prepend.custom {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 12;
   height: 100%; }
 
-.input-group-append {
+.input-group-append.custom {
   position: absolute;
   right: 0;
   top: 0;
@@ -18174,9 +18174,35 @@ textarea.form-control {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
+.bootstrap-select.btn-group .dropdown-menu li.divider {
+  border: 1px solid #eaeaea; }
+
+.bootstrap-select.btn-group .dropdown-menu li.selected a {
+  background: #def2ff;
+  color: #131e22; }
+
+.bootstrap-select.btn-group .dropdown-menu li.disabled a {
+  color: #cecece; }
+
 .bootstrap-select.btn-group .dropdown-menu li a:hover {
   background: #def2ff;
   color: #131e22; }
+
+.bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
+  background: url(../images/check-mark-green.png);
+  width: 15px;
+  height: 15px;
+  background-size: contain; }
+
+.label-info {
+  background-color: #009efb; }
+
+.bootstrap-tagsinput .tag {
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 2px;
+  font-size: 15px;
+  border-radius: 2px; }
 
 /*==============================================================
 	Global Styles End

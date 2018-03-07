@@ -10,9 +10,6 @@ jQuery(window).on("load resize", function () {
 	$(".customscroll").mCustomScrollbar({
 		theme: "minimal-dark"
 	});
-	// $(".bootstrap-select.btn-group .dropdown-menu.inner").mCustomScrollbar({
-	// 	theme: "minimal-dark"
-	// });
 });
 jQuery(document).ready(function(){
 	"use strict";
