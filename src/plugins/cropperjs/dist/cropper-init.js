@@ -1,64 +1,62 @@
-$(function () {
+window.onload = function () {
 
   'use strict';
 
-  var console = window.console || { log: function () {} };
-  var $image = $('#image');
-  var $download = $('#download');
-  var $dataX = $('#dataX');
-  var $dataY = $('#dataY');
-  var $dataHeight = $('#dataHeight');
-  var $dataWidth = $('#dataWidth');
-  var $dataRotate = $('#dataRotate');
-  var $dataScaleX = $('#dataScaleX');
-  var $dataScaleY = $('#dataScaleY');
+  var Cropper = window.Cropper;
+  var URL = window.URL || window.webkitURL;
+  var container = document.querySelector('.img-container');
+  var image = container.getElementsByTagName('img').item(0);
+  var download = document.getElementById('download');
+  var actions = document.getElementById('actions');
+  var dataX = document.getElementById('dataX');
+  var dataY = document.getElementById('dataY');
+  var dataHeight = document.getElementById('dataHeight');
+  var dataWidth = document.getElementById('dataWidth');
+  var dataRotate = document.getElementById('dataRotate');
+  var dataScaleX = document.getElementById('dataScaleX');
+  var dataScaleY = document.getElementById('dataScaleY');
   var options = {
-        aspectRatio: 16 / 9,
-        preview: '.img-preview',
-        crop: function (e) {
-          $dataX.val(Math.round(e.x));
-          $dataY.val(Math.round(e.y));
-          $dataHeight.val(Math.round(e.height));
-          $dataWidth.val(Math.round(e.width));
-          $dataRotate.val(e.rotate);
-          $dataScaleX.val(e.scaleX);
-          $dataScaleY.val(e.scaleY);
-        }
-      };
+    aspectRatio: 16 / 9,
+    preview: '.img-preview',
+    ready: function (e) {
+      console.log(e.type);
+    },
+    cropstart: function (e) {
+      console.log(e.type, e.detail.action);
+    },
+    cropmove: function (e) {
+      console.log(e.type, e.detail.action);
+    },
+    cropend: function (e) {
+      console.log(e.type, e.detail.action);
+    },
+    crop: function (e) {
+      var data = e.detail;
 
+      console.log(e.type);
+      dataX.value = Math.round(data.x);
+      dataY.value = Math.round(data.y);
+      dataHeight.value = Math.round(data.height);
+      dataWidth.value = Math.round(data.width);
+      dataRotate.value = typeof data.rotate !== 'undefined' ? data.rotate : '';
+      dataScaleX.value = typeof data.scaleX !== 'undefined' ? data.scaleX : '';
+      dataScaleY.value = typeof data.scaleY !== 'undefined' ? data.scaleY : '';
+    },
+    zoom: function (e) {
+      console.log(e.type, e.detail.ratio);
+    }
+  };
+  var cropper = new Cropper(image, options);
+  var originalImageURL = image.src;
+  var uploadedImageType = 'image/jpeg';
+  var uploadedImageName = 'cropped.jpg';
+  var uploadedImageURL;
 
   // Tooltip
   $('[data-toggle="tooltip"]').tooltip();
 
-
-  // Cropper
-  // $image.on({
-  //   'build.cropper': function (e) {
-  //     console.log(e.type);
-  //   },
-  //   'built.cropper': function (e) {
-  //     console.log(e.type);
-  //   },
-  //   'cropstart.cropper': function (e) {
-  //     console.log(e.type, e.action);
-  //   },
-  //   'cropmove.cropper': function (e) {
-  //     console.log(e.type, e.action);
-  //   },
-  //   'cropend.cropper': function (e) {
-  //     console.log(e.type, e.action);
-  //   },
-  //   'crop.cropper': function (e) {
-  //     console.log(e.type, e.x, e.y, e.width, e.height, e.rotate, e.scaleX, e.scaleY);
-  //   },
-  //   'zoom.cropper': function (e) {
-  //     console.log(e.type, e.ratio);
-  //   }
-  // }).cropper(options);
-
-
   // Buttons
-  if (!$.isFunction(document.createElement('canvas').getContext)) {
+  if (!document.createElement('canvas').getContext) {
     $('button[data-method="getCroppedCanvas"]').prop('disabled', true);
   }
 
@@ -67,174 +65,237 @@ $(function () {
     $('button[data-method="scale"]').prop('disabled', true);
   }
 
-
   // Download
-  if (typeof $download[0].download === 'undefined') {
-    $download.addClass('disabled');
+  if (typeof download.download === 'undefined') {
+    download.className += ' disabled';
   }
 
-
   // Options
-  $('.docs-toggles').on('change', 'input', function () {
-    var $this = $(this);
-    var name = $this.attr('name');
-    var type = $this.prop('type');
+  actions.querySelector('.docs-toggles').onchange = function (event) {
+    var e = event || window.event;
+    var target = e.target || e.srcElement;
     var cropBoxData;
     var canvasData;
+    var isCheckbox;
+    var isRadio;
 
-    if (!$image.data('cropper')) {
+    if (!cropper) {
       return;
     }
 
-    if (type === 'checkbox') {
-      options[name] = $this.prop('checked');
-      cropBoxData = $image.cropper('getCropBoxData');
-      canvasData = $image.cropper('getCanvasData');
-
-      options.built = function () {
-        $image.cropper('setCropBoxData', cropBoxData);
-        $image.cropper('setCanvasData', canvasData);
-      };
-    } else if (type === 'radio') {
-      options[name] = $this.val();
+    if (target.tagName.toLowerCase() === 'label') {
+      target = target.querySelector('input');
     }
 
-    $image.cropper('destroy').cropper(options);
-  });
+    isCheckbox = target.type === 'checkbox';
+    isRadio = target.type === 'radio';
 
+    if (isCheckbox || isRadio) {
+      if (isCheckbox) {
+        options[target.name] = target.checked;
+        cropBoxData = cropper.getCropBoxData();
+        canvasData = cropper.getCanvasData();
+
+        options.ready = function () {
+          console.log('ready');
+          cropper.setCropBoxData(cropBoxData).setCanvasData(canvasData);
+        };
+      } else {
+        options[target.name] = target.value;
+        options.ready = function () {
+          console.log('ready');
+        };
+      }
+
+      // Restart
+      cropper.destroy();
+      cropper = new Cropper(image, options);
+    }
+  };
 
   // Methods
-  $('.docs-buttons').on('click', '[data-method]', function () {
-    var $this = $(this);
-    var data = $this.data();
-    var $target;
+  actions.querySelector('.docs-buttons').onclick = function (event) {
+    var e = event || window.event;
+    var target = e.target || e.srcElement;
+    var cropped;
     var result;
+    var input;
+    var data;
 
-    if ($this.prop('disabled') || $this.hasClass('disabled')) {
+    if (!cropper) {
       return;
     }
 
-    if ($image.data('cropper') && data.method) {
-      data = $.extend({}, data); // Clone a new one
+    while (target !== this) {
+      if (target.getAttribute('data-method')) {
+        break;
+      }
 
+      target = target.parentNode;
+    }
+
+    if (target === this || target.disabled || target.className.indexOf('disabled') > -1) {
+      return;
+    }
+
+    data = {
+      method: target.getAttribute('data-method'),
+      target: target.getAttribute('data-target'),
+      option: target.getAttribute('data-option') || undefined,
+      secondOption: target.getAttribute('data-second-option') || undefined
+    };
+
+    cropped = cropper.cropped;
+
+    if (data.method) {
       if (typeof data.target !== 'undefined') {
-        $target = $(data.target);
+        input = document.querySelector(data.target);
 
-        if (typeof data.option === 'undefined') {
+        if (!target.hasAttribute('data-option') && data.target && input) {
           try {
-            data.option = JSON.parse($target.val());
+            data.option = JSON.parse(input.value);
           } catch (e) {
             console.log(e.message);
           }
         }
       }
 
-      if (data.method === 'rotate') {
-        $image.cropper('clear');
-      }
-
-      result = $image.cropper(data.method, data.option, data.secondOption);
-
-      if (data.method === 'rotate') {
-        $image.cropper('crop');
-      }
-
       switch (data.method) {
-        case 'scaleX':
-        case 'scaleY':
-          $(this).data('option', -data.option);
+        case 'rotate':
+          if (cropped && options.viewMode > 0) {
+            cropper.clear();
+          }
+
           break;
 
         case 'getCroppedCanvas':
-          if (result) {
+          try {
+            data.option = JSON.parse(data.option);
+          } catch (e) {
+            console.log(e.message);
+          }
 
-            // Bootstrap's Modal
-            $('#getCroppedCanvasModal').modal().find('.modal-body').html(result);
-
-            if (!$download.hasClass('disabled')) {
-              $download.attr('href', result.toDataURL('image/jpeg'));
+          if (uploadedImageType === 'image/jpeg') {
+            if (!data.option) {
+              data.option = {};
             }
+
+            data.option.fillColor = '#fff';
           }
 
           break;
       }
 
-      if ($.isPlainObject(result) && $target) {
+      result = cropper[data.method](data.option, data.secondOption);
+
+      switch (data.method) {
+        case 'rotate':
+          if (cropped && options.viewMode > 0) {
+            cropper.crop();
+          }
+
+          break;
+
+        case 'scaleX':
+        case 'scaleY':
+          target.setAttribute('data-option', -data.option);
+          break;
+
+        case 'getCroppedCanvas':
+          if (result) {
+            // Bootstrap's Modal
+            $('#getCroppedCanvasModal').modal().find('.modal-body').html(result);
+
+            if (!download.disabled) {
+              download.download = uploadedImageName;
+              download.href = result.toDataURL(uploadedImageType);
+            }
+          }
+
+          break;
+
+        case 'destroy':
+          cropper = null;
+
+          if (uploadedImageURL) {
+            URL.revokeObjectURL(uploadedImageURL);
+            uploadedImageURL = '';
+            image.src = originalImageURL;
+          }
+
+          break;
+      }
+
+      if (typeof result === 'object' && result !== cropper && input) {
         try {
-          $target.val(JSON.stringify(result));
+          input.value = JSON.stringify(result);
         } catch (e) {
           console.log(e.message);
         }
       }
-
     }
-  });
+  };
 
+  document.body.onkeydown = function (event) {
+    var e = event || window.event;
 
-  // Keyboard
-  $(document.body).on('keydown', function (e) {
-
-    if (!$image.data('cropper') || this.scrollTop > 300) {
+    if (!cropper || this.scrollTop > 300) {
       return;
     }
 
-    switch (e.which) {
+    switch (e.keyCode) {
       case 37:
         e.preventDefault();
-        $image.cropper('move', -1, 0);
+        cropper.move(-1, 0);
         break;
 
       case 38:
         e.preventDefault();
-        $image.cropper('move', 0, -1);
+        cropper.move(0, -1);
         break;
 
       case 39:
         e.preventDefault();
-        $image.cropper('move', 1, 0);
+        cropper.move(1, 0);
         break;
 
       case 40:
         e.preventDefault();
-        $image.cropper('move', 0, 1);
+        cropper.move(0, 1);
         break;
     }
-
-  });
-
+  };
 
   // Import image
-  var $inputImage = $('#inputImage');
-  var URL = window.URL || window.webkitURL;
-  var blobURL;
+  var inputImage = document.getElementById('inputImage');
 
   if (URL) {
-    $inputImage.change(function () {
+    inputImage.onchange = function () {
       var files = this.files;
       var file;
 
-      if (!$image.data('cropper')) {
-        return;
-      }
-
-      if (files && files.length) {
+      if (cropper && files && files.length) {
         file = files[0];
 
-        if (/^image\/\w+$/.test(file.type)) {
-          blobURL = URL.createObjectURL(file);
-          $image.one('built.cropper', function () {
+        if (/^image\/\w+/.test(file.type)) {
+          uploadedImageType = file.type;
+          uploadedImageName = file.name;
 
-            // Revoke when load complete
-            URL.revokeObjectURL(blobURL);
-          }).cropper('reset').cropper('replace', blobURL);
-          $inputImage.val('');
+          if (uploadedImageURL) {
+            URL.revokeObjectURL(uploadedImageURL);
+          }
+
+          image.src = uploadedImageURL = URL.createObjectURL(file);
+          cropper.destroy();
+          cropper = new Cropper(image, options);
+          inputImage.value = null;
         } else {
           window.alert('Please choose an image file.');
         }
       }
-    });
+    };
   } else {
-    $inputImage.prop('disabled', true).parent().addClass('disabled');
+    inputImage.disabled = true;
+    inputImage.parentNode.className += ' disabled';
   }
-
-});
+};

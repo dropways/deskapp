@@ -516,6 +516,10 @@ textarea.form-control{
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
+.docs-options .dropdown-menu{max-height: 250px; overflow: auto;}
+.docs-buttons{padding-top: 15px;}
+.docs-buttons label{margin-bottom: 0;}
+.docs-buttons .btn{margin-bottom: 5px;}
 /*==============================================================
 	Global Styles End
 ==============================================================*/
