@@ -18085,8 +18085,14 @@ textarea.form-control {
 .datepicker--time-current-hours, .datepicker--time-current-minutes {
   color: #0099ff; }
 
+.datepicker-inline .datepicker {
+  margin: 0 auto; }
+
 /*---------------- clock picker style -------------------*/
 .form-control.time-picker:disabled, .form-control.time-picker[readonly] {
+  background: #ffffff; }
+
+.form-control.time-picker-default:disabled, .form-control.time-picker-default[readonly] {
   background: #ffffff; }
 
 .custom-control {

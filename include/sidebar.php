@@ -25,8 +25,8 @@
 							<li><a href="advanced-components.php">Advanced Components</a></li>
 							<li><a href="form-wizard.php">Form Wizard</a></li>
 							<li><a href="html5-editor.php">HTML5 Editor</a></li>
-							<li><a href="#">Form Pickers</a></li>
-							<li><a href="#">Image Cropper</a></li>
+							<li><a href="form-pickers.php">Form Pickers</a></li>
+							<li><a href="image-cropper.php">Image Cropper</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
