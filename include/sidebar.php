@@ -27,6 +27,16 @@
 							<li><a href="html5-editor.php">HTML5 Editor</a></li>
 							<li><a href="form-pickers.php">Form Pickers</a></li>
 							<li><a href="image-cropper.php">Image Cropper</a></li>
+							<li><a href="image-dropzone.php">Image Dropzone</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-table"></span><span class="mtext">Tables</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="#">Bootstrap Tables</a></li>
+							<li><a href="#">DataTables</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
