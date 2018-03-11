@@ -520,6 +520,8 @@ textarea.form-control{
 .docs-buttons{padding-top: 15px;}
 .docs-buttons label{margin-bottom: 0;}
 .docs-buttons .btn{margin-bottom: 5px;}
+
+.table th{font-weight: 600;}
 /*==============================================================
 	Global Styles End
 ==============================================================*/

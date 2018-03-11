@@ -35,8 +35,8 @@
 							<span class="fa fa-table"></span><span class="mtext">Tables</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">Bootstrap Tables</a></li>
-							<li><a href="#">DataTables</a></li>
+							<li><a href="basic-table.php">Basic Tables</a></li>
+							<li><a href="datatable.php">DataTables</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
