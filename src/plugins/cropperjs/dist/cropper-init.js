@@ -1,4 +1,4 @@
-window.onload = function () {
+jQuery(window).on('load',function(){
 
   'use strict';
 
@@ -298,4 +298,4 @@ window.onload = function () {
     inputImage.disabled = true;
     inputImage.parentNode.className += ' disabled';
   }
-};
+});

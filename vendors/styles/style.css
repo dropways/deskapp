@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -18823,6 +18823,35 @@ textarea.form-control {
   width: calc(100% - 100px);
   font-size: 18px; }
 
+.docs-preview {
+  margin-right: -1rem; }
+
+.img-preview {
+  float: left;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+  overflow: hidden; }
+
+.img-preview > img {
+  max-width: 100%; }
+
+.preview-lg {
+  height: 9rem;
+  width: 16rem; }
+
+.preview-md {
+  height: 4.5rem;
+  width: 8rem; }
+
+.preview-sm {
+  height: 2.25rem;
+  width: 4rem; }
+
+.preview-xs {
+  height: 1.125rem;
+  margin-right: 0;
+  width: 2rem; }
+
 /*==============================================================
 	Media css
 ==============================================================*/
@@ -18887,3 +18916,7 @@ textarea.form-control {
     text-align: center; }
   .ionicons-list li {
     width: 16.60%; } }
+
+@media (max-width: 660px) {
+  .docs-buttons .btn-group-crop {
+    display: block; } }

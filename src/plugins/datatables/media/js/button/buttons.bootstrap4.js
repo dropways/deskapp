@@ -41,7 +41,7 @@ $.extend( true, DataTable.Buttons.defaults, {
 			className: 'dt-buttons btn-group'
 		},
 		button: {
-			className: 'btn btn-secondary'
+			className: 'btn btn-outline-primary'
 		},
 		collection: {
 			tag: 'div',

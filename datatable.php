@@ -39,162 +39,370 @@
 						</div>
 					</div>
 				</div>
+				<!-- Simple Datatable start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h5 class="text-blue">Data Table with Export data</h5>
+							<h5 class="text-blue">Data Table Simple</h5>
 							<p class="font-14">you can find more options <a class="text-primary" href="https://datatables.net/" target="_blank">Click Here</a></p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12">
-							<table class="order-table display">
-								<thead>
-									<tr>
-										<th class="table-plus">Machine Name</th>
-										<th>Operating System</th>
-										<th>Client Time</th>
-										<th>Server Time</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-									<tr>
-										<td class="table-plus">ES11915741</td>
-										<td>Windows 7 Professional, 64-bit</td>
-										<td>28:09:2016 23:55:12</td>
-										<td>28:09:2016 23:56:36</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+						<table class="data-table stripe hover nowrap">
+							<thead>
+								<tr>
+									<th class="table-plus datatable-nosort">Name</th>
+									<th>Age</th>
+									<th>Office</th>
+									<th>Address</th>
+									<th>Start Date</th>
+									<th>Salart</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="table-plus">Gloria F. Mead</td>
+									<td>25</td>
+									<td>Sagittarius</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>25</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>18</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
+				<!-- Simple Datatable End -->
+				<!-- multiple select row Datatable start -->
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+							<h5 class="text-blue">Data Table with multiple select row</h5>
+						</div>
+					</div>
+					<div class="row">
+						<table class="data-table stripe hover multiple-select-row nowrap">
+							<thead>
+								<tr>
+									<th class="table-plus datatable-nosort">Name</th>
+									<th>Age</th>
+									<th>Office</th>
+									<th>Address</th>
+									<th>Start Date</th>
+									<th>Salart</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="table-plus">Gloria F. Mead</td>
+									<td>25</td>
+									<td>Sagittarius</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>25</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>18</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- multiple select row Datatable End -->
+				<!-- Export Datatable start -->
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+							<h5 class="text-blue">Data Table with Export Buttons</h5>
+						</div>
+					</div>
+					<div class="row">
+						<table class="stripe hover multiple-select-row data-table-export nowrap">
+							<thead>
+								<tr>
+									<th class="table-plus datatable-nosort">Name</th>
+									<th>Age</th>
+									<th>Office</th>
+									<th>Address</th>
+									<th>Start Date</th>
+									<th>Salart</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="table-plus">Gloria F. Mead</td>
+									<td>25</td>
+									<td>Sagittarius</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>25</td>
+									<td>Gemini</td>
+									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>20</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>18</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Sagittarius</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td class="table-plus">Andrea J. Cagle</td>
+									<td>30</td>
+									<td>Gemini</td>
+									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
+									<td>29-03-2018</td>
+									<td>$162,700</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- Export Datatable End -->
 			</div>
 			<?php include('include/footer.php'); ?>
 		</div>
@@ -205,18 +413,18 @@
 	<script src="src/plugins/datatables/media/js/dataTables.responsive.js"></script>
 	<script src="src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>
 	<!-- buttons for Export datatable -->
-	<!-- <script src="src/plugins/dataTables/media/js/buttons/dataTables.buttons.js"></script>
-	<script src="src/plugins/dataTables/media/js/buttons/buttons.bootstrap4.js"></script>
-	<script src="src/plugins/dataTables/media/js/buttons/buttons.print.js"></script>
-	<script src="src/plugins/dataTables/media/js/buttons/buttons.html5.js"></script>
-	<script src="src/plugins/dataTables/media/js/buttons/buttons.flash.js"></script> -->
+	<script src="src/plugins/datatables/media/js/button/dataTables.buttons.js"></script>
+	<script src="src/plugins/datatables/media/js/button/buttons.bootstrap4.js"></script>
+	<script src="src/plugins/datatables/media/js/button/buttons.print.js"></script>
+	<script src="src/plugins/datatables/media/js/button/buttons.html5.js"></script>
+	<script src="src/plugins/datatables/media/js/button/buttons.flash.js"></script>
+	<script src="src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
+	<script src="src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
 	<script>
 		$('document').ready(function(){
-			$('.order-table').DataTable({
-				scrollY: jQuery('.order-table').data('height'),
+			$('.data-table').DataTable({
 				scrollCollapse: true,
 				autoWidth: false,
-				bAutoWidth: true,
 				responsive: true,
 				columnDefs: [{
 					targets: "datatable-nosort",
@@ -227,7 +435,24 @@
 					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
-				//"dom": '<"table-wrap"<"top"f>rt<"bottom"lpi><"clear">>'
+			});
+			$('.data-table-export').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+				dom: 'Bfrtip',
+				buttons: [
+				'copy', 'csv', 'pdf', 'print'
+				]
 			});
 			var table = $('.select-row').DataTable();
 			$('.select-row tbody').on('click', 'tr', function () {

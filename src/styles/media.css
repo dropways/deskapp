@@ -38,4 +38,5 @@
 	.ionicons-list li{width: 16.60%;}
 }
 @media (max-width: 660px){
+	.docs-buttons .btn-group-crop{display: block;}
 }
