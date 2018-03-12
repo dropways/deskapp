@@ -44,15 +44,24 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> UI Elements </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">General Elements</a></li>
-							<li><a href="#">Media Gallery</a></li>
+							<li><a href="#">Cards</a></li>
+							<li><a href="#">User Cards</a></li>
+							<li><a href="#">Buttons</a></li>
+							<li><a href="#">Modals</a></li>
+							<li><a href="#">Tab</a></li>
+							<li><a href="#">Tooltip &amp; Popover</a></li>
+							<li><a href="#">Sweet Alert</a></li>
+							<li><a href="#">Notification</a></li>
+							<li><a href="#">Progressbar</a></li>
+							<li><a href="#">Range slider</a></li>
+							<li><a href="#">Timeline</a></li>
 							<li><a href="#">Typography</a></li>
-							<li><a href="#">Icons</a></li>
-							<li><a href="#">Glyphicons</a></li>
-							<li><a href="#">Widgets</a></li>
-							<li><a href="#">Invoice</a></li>
-							<li><a href="#">Inbox</a></li>
-							<li><a href="#">Calendar</a></li>
+							<li><a href="#">Bootstrap Ui</a></li>
+							<li><a href="#">Breadcrumb</a></li>
+							<li><a href="#">Bootstrap Switch</a></li>
+							<li><a href="#">List Media</a></li>
+							<li><a href="#">Grid</a></li>
+							<li><a href="#">Carousel</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
