@@ -56,7 +56,7 @@
 									<th>Office</th>
 									<th>Address</th>
 									<th>Start Date</th>
-									<th>Salart</th>
+									<th class="datatable-nosort">Action</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -66,7 +66,18 @@
 									<td>Sagittarius</td>
 									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -74,7 +85,18 @@
 									<td>Gemini</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -82,7 +104,18 @@
 									<td>Gemini</td>
 									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -90,7 +123,18 @@
 									<td>Sagittarius</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -98,7 +142,18 @@
 									<td>Gemini</td>
 									<td>2829 Trainer Avenue Peoria, IL 61602 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -106,7 +161,18 @@
 									<td>Sagittarius</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -114,7 +180,18 @@
 									<td>Gemini</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -122,7 +199,18 @@
 									<td>Sagittarius</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -130,7 +218,18 @@
 									<td>Sagittarius</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -138,7 +237,18 @@
 									<td>Gemini</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -146,7 +256,18 @@
 									<td>Gemini</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="table-plus">Andrea J. Cagle</td>
@@ -154,7 +275,18 @@
 									<td>Gemini</td>
 									<td>1280 Prospect Valley Road Long Beach, CA 90802 </td>
 									<td>29-03-2018</td>
-									<td>$162,700</td>
+									<td>
+										<div class="dropdown">
+											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+												<i class="fa fa-ellipsis-h"></i>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+											</div>
+										</div>
+									</td>
 								</tr>
 							</tbody>
 						</table>

@@ -44,9 +44,9 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> UI Elements </span>
 						</a>
 						<ul class="submenu">
+							<li><a href="ui-buttons.php">Buttons</a></li>
 							<li><a href="#">Cards</a></li>
 							<li><a href="#">User Cards</a></li>
-							<li><a href="#">Buttons</a></li>
 							<li><a href="#">Modals</a></li>
 							<li><a href="#">Tab</a></li>
 							<li><a href="#">Tooltip &amp; Popover</a></li>
