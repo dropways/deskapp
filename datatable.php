@@ -2,9 +2,9 @@
 <html>
 <head>
 	<?php include('include/head.php'); ?>
-	<link rel="stylesheet" type="text/css" href="src/plugins/DataTables/media/css/jquery.dataTables.css">
-	<link rel="stylesheet" type="text/css" href="src/plugins/DataTables/media/css/dataTables.bootstrap4.css">
-	<link rel="stylesheet" type="text/css" href="src/plugins/DataTables/media/css/responsive.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/dataTables.bootstrap4.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/responsive.dataTables.css">
 </head>
 <body>
 	<?php include('include/header.php'); ?>
