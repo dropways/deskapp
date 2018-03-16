@@ -80,6 +80,7 @@
 							<span class="fa fa-plug"></span><span class="mtext">Additional Pages</span>
 						</a>
 						<ul class="submenu">
+							<li><a href="video-player.php">Video Player</a></li>
 							<li><a href="login.php">Login</a></li>
 							<li><a href="forgot-password.php">Forgot Password</a></li>
 							<li><a href="reset-password.php">Reset Password</a></li>
