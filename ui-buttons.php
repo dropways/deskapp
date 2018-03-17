@@ -47,15 +47,14 @@
 							<h4 class="mb-15 text-blue">Outline buttons</h4>
 							<p class="font-14">In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code>.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
 							<div class="btn-list">
-								<button type="button" class="btn btn-primary">Primary</button>
-								<button type="button" class="btn btn-secondary">Secondary</button>
-								<button type="button" class="btn btn-success">Success</button>
-								<button type="button" class="btn btn-danger">Danger</button>
-								<button type="button" class="btn btn-warning">Warning</button>
-								<button type="button" class="btn btn-info">Info</button>
-								<button type="button" class="btn btn-light">Light</button>
-								<button type="button" class="btn btn-dark">Dark</button>
-								<button type="button" class="btn btn-link">Link</button>
+								<button type="button" class="btn btn-outline-primary">Primary</button>
+								<button type="button" class="btn btn-outline-secondary">Secondary</button>
+								<button type="button" class="btn btn-outline-success">Success</button>
+								<button type="button" class="btn btn-outline-danger">Danger</button>
+								<button type="button" class="btn btn-outline-warning">Warning</button>
+								<button type="button" class="btn btn-outline-info">Info</button>
+								<button type="button" class="btn btn-outline-light">Light</button>
+								<button type="button" class="btn btn-outline-dark">Dark</button>
 							</div>
 						</div>
 					</div>
@@ -128,13 +127,13 @@
 							<h4 class="mb-15 text-blue">Checkbox buttons</h4>
 							<p class="font-14">Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
 							<div class="btn-group-toggle btn-group" data-toggle="buttons">
-								<label class="btn btn-secondary active">
+								<label class="btn btn btn-outline-primary active">
 									<input type="checkbox" checked autocomplete="off"> Checked
 								</label>
-								<label class="btn btn-secondary">
+								<label class="btn btn btn-outline-primary">
 									<input type="checkbox" checked autocomplete="on"> Check
 								</label>
-								<label class="btn btn-secondary">
+								<label class="btn btn btn-outline-primary">
 									<input type="checkbox" checked autocomplete="on"> Check
 								</label>
 							</div>
@@ -145,13 +144,13 @@
 							<h4 class="mb-15 text-blue">radio buttons</h4>
 							<p class="font-14">Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
-								<label class="btn btn-secondary active">
+								<label class="btn btn-outline-secondary active">
 									<input type="radio" name="options" id="option1" autocomplete="off" checked> Active
 								</label>
-								<label class="btn btn-secondary">
+								<label class="btn btn-outline-secondary">
 									<input type="radio" name="options" id="option2" autocomplete="off"> Radio
 								</label>
-								<label class="btn btn-secondary">
+								<label class="btn btn-outline-secondary">
 									<input type="radio" name="options" id="option3" autocomplete="off"> Radio
 								</label>
 							</div>
@@ -161,16 +160,16 @@
 						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
 							<h4 class="mb-15 text-blue">Input With Button Groups</h4>
 							<p class="font-14">Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some utilities though to space things properly..</p>
-							<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+							<div class="btn-toolbar mb-15" role="toolbar" aria-label="Toolbar with button groups">
 								<div class="btn-group mr-2" role="group" aria-label="First group">
-									<button type="button" class="btn btn-secondary">1</button>
-									<button type="button" class="btn btn-secondary">2</button>
-									<button type="button" class="btn btn-secondary">3</button>
-									<button type="button" class="btn btn-secondary">4</button>
+									<button type="button" class="btn btn-outline-primary">1</button>
+									<button type="button" class="btn btn-outline-primary">2</button>
+									<button type="button" class="btn btn-outline-primary">3</button>
+									<button type="button" class="btn btn-outline-primary">4</button>
 								</div>
 							</div>
-							<div class="input-group">
-								<div class="input-group-prepend">
+							<div class="input-group custom">
+								<div class="input-group-prepend custom">
 									<div class="input-group-text" id="btnGroupAddon">@</div>
 								</div>
 								<input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
@@ -231,7 +230,42 @@
 							</div>
 						</div>
 					</div>
-
+					<div class="col-md-6 col-sm-12 mb-30">
+						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
+							<h4 class="mb-15 text-blue">Icon With Label Buttons</h4>
+							<p class="font-14">button using icon with label. </p>
+							<div class="btn-list">
+								<button type="button" class="btn" data-bgcolor="#3b5998" data-color="#ffffff"><i class="fa fa-facebook"></i> facebook</button>
+								<button type="button" class="btn" data-bgcolor="#1da1f2" data-color="#ffffff"><i class="fa fa-twitter"></i> twitter</button>
+								<button type="button" class="btn" data-bgcolor="#007bb5" data-color="#ffffff"><i class="fa fa-linkedin"></i> linkedin</button>
+								<button type="button" class="btn" data-bgcolor="#f46f30" data-color="#ffffff"><i class="fa fa-instagram"></i> instagram</button>
+								<button type="button" class="btn" data-bgcolor="#c32361" data-color="#ffffff"><i class="fa fa-dribbble"></i> dribbble</button>
+								<button type="button" class="btn" data-bgcolor="#3d464d" data-color="#ffffff"><i class="fa fa-dropbox"></i> dropbox</button>
+								<button type="button" class="btn" data-bgcolor="#db4437" data-color="#ffffff"><i class="fa fa-google-plus"></i> google-plus</button>
+								<button type="button" class="btn" data-bgcolor="#bd081c" data-color="#ffffff"><i class="fa fa-pinterest-p"></i> pinterest</button>
+								<button type="button" class="btn" data-bgcolor="#00aff0" data-color="#ffffff"><i class="fa fa-skype"></i> skype</button>
+								<button type="button" class="btn" data-bgcolor="#00b489" data-color="#ffffff"><i class="fa fa-vine"></i> vine</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 mb-30">
+						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
+							<h4 class="mb-15 text-blue">Icon Buttons</h4>
+							<p class="font-14">button using icon.</p>
+							<div class="btn-list">
+								<button type="button" class="btn" data-bgcolor="#3b5998" data-color="#ffffff"><i class="fa fa-facebook"></i></button>
+								<button type="button" class="btn" data-bgcolor="#1da1f2" data-color="#ffffff"><i class="fa fa-twitter"></i></button>
+								<button type="button" class="btn" data-bgcolor="#007bb5" data-color="#ffffff"><i class="fa fa-linkedin"></i></button>
+								<button type="button" class="btn" data-bgcolor="#f46f30" data-color="#ffffff"><i class="fa fa-instagram"></i></button>
+								<button type="button" class="btn" data-bgcolor="#c32361" data-color="#ffffff"><i class="fa fa-dribbble"></i></button>
+								<button type="button" class="btn" data-bgcolor="#3d464d" data-color="#ffffff"><i class="fa fa-dropbox"></i></button>
+								<button type="button" class="btn" data-bgcolor="#db4437" data-color="#ffffff"><i class="fa fa-google-plus"></i></button>
+								<button type="button" class="btn" data-bgcolor="#bd081c" data-color="#ffffff"><i class="fa fa-pinterest-p"></i></button>
+								<button type="button" class="btn" data-bgcolor="#00aff0" data-color="#ffffff"><i class="fa fa-skype"></i></button>
+								<button type="button" class="btn" data-bgcolor="#00b489" data-color="#ffffff"><i class="fa fa-vine"></i></button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<?php include('include/footer.php'); ?>

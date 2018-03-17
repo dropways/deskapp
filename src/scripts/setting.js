@@ -179,6 +179,19 @@ jQuery(document).ready(function(){
 		setCurrentTime: false
 	});
 	$('.time-picker-default').timeDropper();
+
+	// var color = $('.btn').data('color');
+	// console.log(color);
+	// $('.btn').style('color'+color);
+	$("[data-color]").each(function() {
+		$(this).css('color', $(this).attr('data-color'));
+	});
+	$("[data-bgcolor]").each(function() {
+		$(this).css('background-color', $(this).attr('data-bgcolor'));
+	});
+	$("[data-border]").each(function() {
+		$(this).css('border', $(this).attr('data-border'));
+	});
 });
 
 function CopyToClipboard(value, showNotification, notificationText) {

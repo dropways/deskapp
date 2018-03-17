@@ -45,7 +45,7 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="ui-buttons.php">Buttons</a></li>
-							<li><a href="#">Cards</a></li>
+							<li><a href="ui-cards.php">Cards</a></li>
 							<li><a href="#">User Cards</a></li>
 							<li><a href="#">Modals</a></li>
 							<li><a href="#">Tab</a></li>
