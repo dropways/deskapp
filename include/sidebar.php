@@ -47,7 +47,7 @@
 							<li><a href="ui-buttons.php">Buttons</a></li>
 							<li><a href="ui-cards.php">Cards</a></li>
 							<li><a href="#">User Cards</a></li>
-							<li><a href="#">Modals</a></li>
+							<li><a href="ui-modals.php">Modals</a></li>
 							<li><a href="#">Tab</a></li>
 							<li><a href="#">Tooltip &amp; Popover</a></li>
 							<li><a href="#">Sweet Alert</a></li>

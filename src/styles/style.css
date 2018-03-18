@@ -1215,3 +1215,10 @@ textarea.form-control{
 .btn-list .btn{
 	margin: 5px;
 }
+
+#login-modal .modal-dialog{
+	max-width: 380px;
+}
+#login-modal .login-box{
+	margin: 0;
+}
