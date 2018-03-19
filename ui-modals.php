@@ -25,6 +25,7 @@
 					</div>
 				</div>
 				<div class="row clearfix">
+					<!-- Large modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Large modal <small>Click on image</small></h5>
@@ -61,6 +62,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- Medium modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Medium modal <small>Click on image</small></h5>
@@ -91,6 +93,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- Small modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Small modal <small>Click on image</small></h5>
@@ -116,6 +119,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- Login modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Login modal <small>Click on image</small></h5>
@@ -126,6 +130,7 @@
 								<div class="modal-dialog modal-dialog-centered">
 									<div class="modal-content">
 										<div class="login-box bg-white box-shadow pd-ltr-20 border-radius-5">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 											<img src="vendors/images/login-img.png" alt="login" class="login-img">
 											<h2 class="text-center mb-30">Login</h2>
 											<form>
@@ -142,17 +147,14 @@
 													</div>
 												</div>
 												<div class="row">
-													<div class="col-sm-6">
+													<div class="col-sm-12">
 														<div class="input-group">
 															<!--
 																use code for form submit
-																<input class="btn btn-outline-primary btn-lg btn-block" type="submit" value="Sign In">
+																<input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign In">
 															-->
-															<a class="btn btn-outline-primary btn-lg btn-block" href="index.php">Sign In</a>
+															<a class="btn btn-primary btn-lg btn-block" href="index.php">Sign In</a>
 														</div>
-													</div>
-													<div class="col-sm-6">
-														<button type="button" class="btn btn-lg btn-outline-secondary btn-block" data-dismiss="modal">Close</button>
 													</div>
 												</div>
 											</form>
@@ -162,6 +164,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- Alert modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Alert modal <small>Click on image</small></h5>
@@ -182,6 +185,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- Warning modal -->
 					<div class="col-md-4 col-sm-12">
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 							<h5 class="mb-20">Warning modal <small>Click on image</small></h5>
@@ -196,6 +200,57 @@
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 											tempor incididunt ut labore et dolore magna aliqua.</p>
 											<button type="button" class="btn btn-dark" data-dismiss="modal">Ok</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Success modal -->
+					<div class="col-md-4 col-sm-12">
+						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+							<h5 class="mb-20">Success modal <small>Click on image</small></h5>
+							<a href="#" class="btn-block" data-toggle="modal" data-target="#success-modal" type="button">
+								<img src="vendors/images/modal-img3.jpg" alt="modal">
+							</a>
+							<div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-body text-center font-18">
+											<h3 class="mb-20">Form Submitted!</h3>
+											<div class="mb-30 text-center"><img src="vendors/images/success.png"></div>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										</div>
+										<div class="modal-footer justify-content-center">
+											<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Confirmation modal -->
+					<div class="col-md-4 col-sm-12">
+						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+							<h5 class="mb-20">Confirmation modal <small>Click on image</small></h5>
+							<a href="#" class="btn-block" data-toggle="modal" data-target="#confirmation-modal" type="button">
+								<img src="vendors/images/modal-img3.jpg" alt="modal">
+							</a>
+							<div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-body text-center font-18">
+											<h4 class="padding-top-30 mb-30 weight-500">Are you sure you want to continue?</h4>
+											<div class="padding-bottom-30 row" style="max-width: 170px; margin: 0 auto;">
+												<div class="col-6">
+													<button type="button" class="btn btn-secondary border-radius-100 btn-block confirmation-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+													NO
+												</div>
+												<div class="col-6">
+													<button type="button" class="btn btn-primary border-radius-100 btn-block confirmation-btn" data-dismiss="modal"><i class="fa fa-check"></i></button>
+													YES
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
