@@ -49,7 +49,7 @@
 						<div class="col-sm-12 col-md-12 col-lg-9">
 							<!-- <h3>Demo:</h3> -->
 							<div class="img-container">
-								<img src="vendors/images/error-bg.jpg" id="image" alt="Picture">
+								<img src="vendors/images/img3.jpg" id="image" alt="Picture">
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-3">

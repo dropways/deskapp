@@ -27566,6 +27566,9 @@ jQuery(document).ready(function(){
 	// tooltip init
 	$('[data-toggle="tooltip"]').tooltip()
 
+	// popover init
+	$('[data-toggle="popover"]').popover()
+
 	// form-control on focus add class
 	$(".form-control").on('focus',function(){
 		$(this).parent().addClass("focus");

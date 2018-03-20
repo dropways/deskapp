@@ -17751,6 +17751,12 @@ p {
 .pd-30 {
   padding: 30px; }
 
+.pb-20 {
+  padding-bottom: 20px; }
+
+.pt-20 {
+  padding-top: 20px; }
+
 .margin-5 {
   margin: 5px; }
 
@@ -18239,6 +18245,9 @@ textarea.form-control {
   border-radius: 6px;
   -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.35); }
+
+.popover-header {
+  font-weight: 500; }
 
 /*==============================================================
 	Global Styles End
