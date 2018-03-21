@@ -51,7 +51,7 @@
 							<li><a href="ui-tabs.php">Tabs</a></li>
 							<li><a href="ui-tooltip-popover.php">Tooltip &amp; Popover</a></li>
 							<li><a href="ui-sweet-alert.php">Sweet Alert</a></li>
-							<li><a href="#">Notification</a></li>
+							<li><a href="ui-notification.php">Notification</a></li>
 							<li><a href="#">Range slider</a></li>
 							<li><a href="#">Progressbar</a></li>
 							<li><a href="#">Timeline</a></li>

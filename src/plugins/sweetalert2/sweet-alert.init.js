@@ -35,6 +35,17 @@
             )
         });
 
+        //Error Message
+        $('#sa-error').click(function () {
+            swal(
+                {
+                    type: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
+                }
+            )
+        });
+
         //Warning Message
         $('#sa-warning').click(function () {
             swal({
@@ -54,6 +65,19 @@
             })
         });
 
+        //Custom Position Message
+        $('#sa-custom-position').click(function () {
+            swal(
+                {
+                    position: 'top-end',
+                    type: 'success',
+                    title: 'Your work has been saved',
+                    showConfirmButton: false,
+                    timer: 1500
+                }
+            )
+        });
+
         //Parameter
         $('#sa-params').click(function () {
             swal({
@@ -63,8 +87,8 @@
                 showCancelButton: true,
                 confirmButtonText: 'Yes, delete it!',
                 cancelButtonText: 'No, cancel!',
-                confirmButtonClass: 'btn btn-success',
-                cancelButtonClass: 'btn btn-danger',
+                confirmButtonClass: 'btn btn-success margin-5',
+                cancelButtonClass: 'btn btn-danger margin-5',
                 buttonsStyling: false
             }).then(function () {
                 swal(
@@ -90,7 +114,7 @@
             swal({
                 title: 'Sweet!',
                 text: 'Modal with a custom image.',
-                imageUrl: 'vendors/images/logo.png',
+                imageUrl: 'vendors/images/deskapp-color-logo.png',
                 imageHeight: 30,
                 animation: false
             })
@@ -120,13 +144,13 @@
                 title: '<i>HTML</i> <u>example</u>',
                 type: 'info',
                 html: 'You can use <b>bold text</b>, ' +
-                '<a href="#">links</a> ' +
+                '<a href="#" class="text-blue">links</a> ' +
                 'and other HTML tags',
                 showCloseButton: true,
                 showCancelButton: true,
                 confirmButtonClass: 'btn btn-success',
                 cancelButtonClass: 'btn btn-danger',
-                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
+                confirmButtonText: '<i class="fa fa-thumbs-up"></i>',
                 cancelButtonText: '<i class="fa fa-thumbs-down"></i>'
             })
         });
@@ -137,7 +161,7 @@
                 title: 'Custom width, padding, background.',
                 width: 600,
                 padding: 100,
-                background: '#fff url(//subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/geometry.png)'
+                background: '#fff url(vendors/images/img1.jpg)'
             })
         });
 
