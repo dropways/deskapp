@@ -17730,6 +17730,9 @@ p {
 .mx-h-450 {
   max-height: 450px; }
 
+.pd-0 {
+  padding: 0px; }
+
 .padding-top-10 {
   padding-top: 10px; }
 
@@ -19045,6 +19048,58 @@ textarea.form-control {
   border-color: #0099ff; }
 
 /*==============================================================
+	Timeline Start
+==============================================================*/
+.timeline ul {
+  position: relative; }
+
+.timeline ul:before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #0099ff;
+  position: absolute;
+  left: 150px; }
+
+.timeline ul li {
+  position: relative;
+  padding-left: 180px;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.timeline ul li:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 142px;
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 0px 3px #0099ff;
+  box-shadow: 0px 0px 0px 3px #0099ff; }
+
+.timeline .timeline-date {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 120px;
+  background: #0099ff;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 5px; }
+
+/*==============================================================
+	Timeline End
+==============================================================*/
+.list-unstyled > li > ul {
+  margin-left: 35px; }
+
+.list-unstyled > li > ul li {
+  list-style: circle; }
+
+/*==============================================================
 	Media css
 ==============================================================*/
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -19107,7 +19162,20 @@ textarea.form-control {
   .forgot-password {
     text-align: center; }
   .ionicons-list li {
-    width: 16.60%; } }
+    width: 16.60%; }
+  .timeline .timeline-date {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+    left: 35px; }
+  .timeline ul:before {
+    left: 10px; }
+  .timeline ul li {
+    padding-left: 0px;
+    padding-bottom: 0; }
+  .timeline ul li:before {
+    left: 2px;
+    top: 28px; } }
 
 @media (max-width: 660px) {
   .docs-buttons .btn-group-crop {

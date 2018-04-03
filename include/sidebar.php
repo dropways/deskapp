@@ -52,13 +52,12 @@
 							<li><a href="ui-tooltip-popover.php">Tooltip &amp; Popover</a></li>
 							<li><a href="ui-sweet-alert.php">Sweet Alert</a></li>
 							<li><a href="ui-notification.php">Notification</a></li>
-							<li><a href="#">Range slider</a></li>
-							<li><a href="#">Progressbar</a></li>
-							<li><a href="#">Timeline</a></li>
-							<li><a href="#">Typography</a></li>
-							<li><a href="#">List Media</a></li>
-							<li><a href="#">Grid</a></li>
-							<li><a href="#">Carousel</a></li>
+							<li><a href="ui-timeline.php">Timeline</a></li>
+							<li><a href="ui-progressbar.php">Progressbar</a></li>
+							<li><a href="ui-typography.php">Typography</a></li>
+							<li><a href="ui-list-group.php">List group</a></li>
+							<li><a href="ui-range-slider.php">Range slider</a></li>
+							<li><a href="ui-carousel.php">Carousel</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

@@ -109,6 +109,7 @@ p {
 .mx-h-380{max-height: 380px;}
 .mx-h-400{max-height: 400px;}
 .mx-h-450{max-height: 450px;}
+.pd-0{padding: 0px;}
 .padding-top-10{padding-top: 10px;}
 .padding-top-30{padding-top: 30px;}
 .padding-bottom-30{padding-bottom: 30px;}
@@ -1410,4 +1411,64 @@ textarea.form-control{
 }
 .nav.vtabs.customtab .nav-link.active, .nav.vtabs.customtab .nav-item.show .nav-link{
 	border-color: #0099ff;
+}
+
+/*==============================================================
+	Timeline Start
+==============================================================*/
+.timeline{}
+.timeline ul{
+	position: relative;
+}
+.timeline ul:before{
+	content: "";
+	width: 3px;
+	height: 100%;
+	background: #0099ff;
+	position: absolute;
+	left: 150px;
+}
+.timeline ul li{
+	position: relative;
+	padding-left: 180px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.timeline ul li:before{
+	content: "";
+	position: absolute;
+	top: 30px;
+	left: 142px;
+	width: 18px;
+	height: 18px;
+	background: #ffffff;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-box-shadow: 0px 0px 0px 3px #0099ff;
+	-moz-box-shadow: 0px 0px 0px 3px #0099ff;
+	box-shadow: 0px 0px 0px 3px #0099ff;
+}
+.timeline .timeline-date{
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 120px;
+	background: #0099ff;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 6px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/*==============================================================
+	Timeline End
+==============================================================*/
+
+.list-unstyled > li > ul{
+	margin-left: 35px;
+}
+.list-unstyled > li > ul li{
+	list-style: circle;
 }

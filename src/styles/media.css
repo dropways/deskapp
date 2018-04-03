@@ -36,6 +36,10 @@
 	.page-header{margin-bottom: 30px;}
 	.forgot-password{text-align: center;}
 	.ionicons-list li{width: 16.60%;}
+	.timeline .timeline-date{position: relative; top: 0; margin-bottom: 20px; left: 35px;}
+	.timeline ul:before{left: 10px;}
+	.timeline ul li{padding-left: 0px; padding-bottom: 0;}
+	.timeline ul li:before{left: 2px; top: 28px;}
 }
 @media (max-width: 660px){
 	.docs-buttons .btn-group-crop{display: block;}
