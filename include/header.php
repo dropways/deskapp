@@ -22,7 +22,7 @@
 						<a class="dropdown-item" href="#"><i class="fa fa-user-md" aria-hidden="true"></i> Profile</a>
 						<a class="dropdown-item" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Setting</a>
 						<a class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i> Help</a>
-						<a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a>
+						<a class="dropdown-item" href="login.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a>
 					</div>
 				</div>
 			</div>

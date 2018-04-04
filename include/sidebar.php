@@ -39,6 +39,11 @@
 							<li><a href="datatable.php">DataTables</a></li>
 						</ul>
 					</li>
+					<li>
+						<a href="calendar.php" class="dropdown-toggle no-arrow">
+							<span class="fa fa-calendar-o"></span><span class="mtext">Calendar</span>
+						</a>
+					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-desktop"></span><span class="mtext"> UI Elements </span>
@@ -84,6 +89,59 @@
 							<li><a href="404.php">404</a></li>
 							<li><a href="500.php">500</a></li>
 						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-pie-chart"></span><span class="mtext">Chart</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="#">Highchart</a></li>
+							<li><a href="#">jQuery Knob</a></li>
+							<li><a href="#">jvectormap</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-clone"></span><span class="mtext">Extra Pages</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="#">Blank</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Blog Detail</a></li>
+							<li><a href="#">Product</a></li>
+							<li><a href="#">Product Detail</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Pricing Tables</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-list"></span><span class="mtext">Multi Level Menu</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="#">Level 1</a></li>
+							<li><a href="#">Level 1</a></li>
+							<li><a href="#">Level 1</a></li>
+							<li class="dropdown">
+								<a href="javascript:;" class="dropdown-toggle">
+									<span class="fa fa-plug"></span><span class="mtext">Level 2</span>
+								</a>
+								<ul class="submenu child">
+									<li><a href="#">Level 2</a></li>
+									<li><a href="#">Level 2</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Level 1</a></li>
+							<li><a href="#">Level 1</a></li>
+							<li><a href="#">Level 1</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="sitemap.php" class="dropdown-toggle no-arrow">
+							<span class="fa fa-sitemap"></span><span class="mtext">Sitemap</span>
+						</a>
 					</li>
 				</ul>
 			</div>

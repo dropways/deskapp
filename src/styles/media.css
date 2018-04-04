@@ -40,6 +40,9 @@
 	.timeline ul:before{left: 10px;}
 	.timeline ul li{padding-left: 0px; padding-bottom: 0;}
 	.timeline ul li:before{left: 2px; top: 28px;}
+	.fc-toolbar .fc-left{float: none !important; padding-bottom: 10px;}
+	.fc-toolbar .fc-left:after, .fc-toolbar .fc-right:after{content: ""; clear: both; display: table;}
+	.fc-toolbar .fc-right{float: none !important; padding-bottom: 10px;}
 }
 @media (max-width: 660px){
 	.docs-buttons .btn-group-crop{display: block;}

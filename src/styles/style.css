@@ -217,7 +217,7 @@ p {
 	height: auto;
 	border: 0 !important;
 }
-.dropdown.show .dropdown-toggle::after{
+.dropdown.show > .dropdown-toggle::after{
 	content: "\f106";
 }
 .dropdown-toggle.no-arrow:after{
@@ -869,7 +869,7 @@ textarea.form-control{
 	right: 15px;
 	font-size: 18px;
 }
-.sidebar-menu .dropdown-toggle:hover, .sidebar-menu .show .dropdown-toggle{
+.sidebar-menu .dropdown-toggle:hover, .sidebar-menu .show > .dropdown-toggle{
 	background: #def2ff;
 	color: #0099ff;
 }
@@ -882,7 +882,7 @@ textarea.form-control{
 	top: 13px;
 	text-align: center;
 }
-.sidebar-menu .dropdown-toggle:hover .fa, .sidebar-menu .show .dropdown-toggle .fa{
+.sidebar-menu .dropdown-toggle:hover .fa, .sidebar-menu .show > .dropdown-toggle .fa{
 	color: #0099ff;
 }
 .sidebar-menu .submenu{
@@ -919,6 +919,9 @@ textarea.form-control{
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.sidebar-menu .submenu li.dropdown:before{
+	display: none;
+}
 .sidebar-menu .submenu li a{
 	display: block;
 	padding: 10px 15px 10px 60px;
@@ -932,11 +935,22 @@ textarea.form-control{
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.sidebar-menu .submenu li a.dropdown-toggle{
+	padding: 10px 15px 10px 60px;
+	font-size: 16px;
+}
+.sidebar-menu .submenu.child{
+	padding-left: 15px;
+}
 .sidebar-menu .submenu li:hover:before{
 	left: 18px;
 }
 .sidebar-menu .submenu li a:hover, .sidebar-menu .submenu li a.active{
 	color: #0099ff;
+}
+.sidebar-menu .dropdown-toggle.active, .sidebar-menu .dropdown-toggle.active .fa{
+	color: #0099ff;
+	background: #def2ff;
 }
 
 /*==============================================================
@@ -1471,4 +1485,87 @@ textarea.form-control{
 }
 .list-unstyled > li > ul li{
 	list-style: circle;
+}
+
+.sitemap{
+	border-left: 2px dashed #2976aa;
+}
+.sitemap h5{
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.sitemap ul{
+	position: relative;
+	padding-left: 25px;
+}
+.sitemap ul li{
+	min-height: 40px;
+	position: relative;
+	padding-left: 45px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+.sitemap ul li:last-child{
+	margin-bottom: 0;
+}
+.sitemap ul li:before{
+	content: "";
+	background: url(../images/page-icon.svg) no-repeat;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.sitemap ul li:after{
+	content: "";
+	width: 25px;
+	left: -25px;
+	top: 40%;
+	position: absolute;
+	border-top: 2px dashed #2976aa;
+}
+.sitemap ul li a{
+	display: inline-block;
+	color: #2976aa;
+	font-weight: 500;
+	font-size: 15px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.sitemap ul li a:hover{
+	color: #000;
+}
+.sitemap ul li.child{
+	padding-left: 0;
+	padding-top: 0;
+	border-left: 2px dashed #2976aa;
+}
+.sitemap ul li.child h5{
+	padding-top: 0;
+}
+.sitemap ul li.child:before, .sitemap ul li.child:after{
+	display: none;
+}
+
+.calendar-wrap{}
+.calendar-wrap .fc-event.ui-draggable-handle{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.fc th{
+	font-weight: 500;
+	padding: 10px !important;
+	background: #def2ff;
+}
+.fc-day-grid-event .fc-time{
+	font-weight: 500 !important;
+}
+.fc-day-grid-event .fc-content{
+	padding: 3px 9px;
+}
+.fc-header-toolbar h2{
+	font-size: 24px;
 }

@@ -37,7 +37,7 @@ var path = {
 	],
 	scripts: [
 		config.srcDir + 'scripts/jquery.min.js',
-		//config.srcDir + 'scripts/moment.js',
+		config.srcDir + 'scripts/moment.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/popper.min.js',
 		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/bootstrap.js',
 		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
