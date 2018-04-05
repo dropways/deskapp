@@ -107,8 +107,8 @@
 						<ul class="submenu">
 							<li><a href="#">Blank</a></li>
 							<li><a href="blog.php">Blog</a></li>
-							<li><a href="#">Blog Detail</a></li>
-							<li><a href="#">Product</a></li>
+							<li><a href="blog-detail.php">Blog Detail</a></li>
+							<li><a href="product.php">Product</a></li>
 							<li><a href="#">Product Detail</a></li>
 							<li><a href="#">FAQ</a></li>
 							<li><a href="#">Profile</a></li>
