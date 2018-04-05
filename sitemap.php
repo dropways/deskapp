@@ -71,6 +71,14 @@
 										<li><a href="themify.php">Themify Icons</a></li>
 									</ul>
 								</div>
+								<div class="sitemap">
+									<h5 class="weight-500">Charts</h5>
+									<ul>
+										<li><a href="#">Highchart</a></li>
+										<li><a href="#">jQuery Knob</a></li>
+										<li><a href="#">jvectormap</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
@@ -110,12 +118,14 @@
 									<h5 class="weight-500">Extra Pages</h5>
 									<ul>
 										<li><a href="#">Blank</a></li>
-										<li><a href="#">Blog</a></li>
+										<li><a href="blog.php">Blog</a></li>
 										<li><a href="#">Blog Detail</a></li>
 										<li><a href="#">Product</a></li>
 										<li><a href="#">Product Detail</a></li>
+										<li><a href="#">FAQ</a></li>
 										<li><a href="#">Profile</a></li>
 										<li><a href="#">Gallery</a></li>
+										<li><a href="#">Pricing Tables</a></li>
 									</ul>
 								</div>
 							</div>

@@ -92,7 +92,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-pie-chart"></span><span class="mtext">Chart</span>
+							<span class="fa fa-pie-chart"></span><span class="mtext">Charts</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="#">Highchart</a></li>
@@ -106,7 +106,7 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="#">Blank</a></li>
-							<li><a href="#">Blog</a></li>
+							<li><a href="blog.php">Blog</a></li>
 							<li><a href="#">Blog Detail</a></li>
 							<li><a href="#">Product</a></li>
 							<li><a href="#">Product Detail</a></li>

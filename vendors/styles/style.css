@@ -17757,6 +17757,9 @@ p {
 .pb-20 {
   padding-bottom: 20px; }
 
+.pt-10 {
+  padding-top: 10px; }
+
 .pt-20 {
   padding-top: 20px; }
 
@@ -17780,6 +17783,9 @@ p {
 
 .mb-5 {
   margin-bottom: 5px !important; }
+
+.font-30 {
+  font-size: 30px; }
 
 .font-24 {
   font-size: 24px; }
@@ -19107,6 +19113,9 @@ textarea.form-control {
 /*==============================================================
 	Timeline End
 ==============================================================*/
+/*==============================================================
+	sitemap Start
+==============================================================*/
 .list-unstyled > li > ul {
   margin-left: 35px; }
 
@@ -19173,6 +19182,12 @@ textarea.form-control {
 .sitemap ul li.child:before, .sitemap ul li.child:after {
   display: none; }
 
+/*==============================================================
+	sitemap Start
+==============================================================*/
+/*==============================================================
+	Calendar Start
+==============================================================*/
 .calendar-wrap .fc-event.ui-draggable-handle {
   padding: 5px;
   margin-bottom: 5px; }
@@ -19190,6 +19205,55 @@ textarea.form-control {
 
 .fc-header-toolbar h2 {
   font-size: 24px; }
+
+/*==============================================================
+	Calendar End
+==============================================================*/
+/*==============================================================
+	Blog Start
+==============================================================*/
+.blog-wrap {
+  padding-bottom: 50px; }
+
+.blog-list ul li {
+  border-radius: 4px;
+  margin-bottom: 40px;
+  background: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.blog-list ul li:hover {
+  -webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25); }
+
+.blog-list ul li .blog-img {
+  height: 100%;
+  min-height: 300px;
+  border-radius: 4px 0px 0px 4px;
+  background-size: cover !important; }
+
+.blog-list ul li .blog-caption {
+  padding: 20px;
+  font-size: 16px;
+  color: #78909c; }
+
+.blog-list ul li .blog-caption h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+
+.blog-list ul li .blog-caption h4 a {
+  color: #131e22;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.blog-list ul li:hover .blog-caption h4 a {
+  color: #0099ff; }
+
+/*==============================================================
+	Blog Start
+==============================================================*/
 
 /*==============================================================
 	Media css
