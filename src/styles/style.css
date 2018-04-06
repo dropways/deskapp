@@ -84,6 +84,9 @@ p {
 	margin: 0 0 15px 0;
 	padding: 0;
 }
+.slick-slide{
+	outline: none !important;
+}
 .container{
 	max-width: 1120px;
 	width: 100%;
@@ -103,7 +106,7 @@ p {
 	z-index: 12345;
 }
 
-
+.mx-w-150{max-width: 150px;}
 .mx-h-300{max-height: 300px;}
 .mx-h-350{max-height: 350px;}
 .mx-h-380{max-height: 380px;}
@@ -1785,6 +1788,109 @@ textarea.form-control{
 .price del{
 	font-size: 15px;
 }
+.product-slider{
+	margin-bottom: 20px;
+}
+.slider-arrow .slick-arrow {
+	position: absolute;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	border: 1px solid #2a2d31;
+	background: #2a2d31;
+	border-radius: 0;
+	cursor: pointer;
+	font-size: 0;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.slider-arrow .slick-arrow:hover {
+	border-color: #2a2d31;
+}
+.slider-arrow .slick-arrow:hover:before {
+	color: #ffffff;
+}
+.slider-arrow .slick-arrow:before {
+	font-family: "FontAwesome";
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 38px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.slider-arrow .slick-arrow.slick-prev {
+	z-index: 12;
+	left: 15px;
+}
+.slider-arrow .slick-arrow.slick-prev:before {
+	content: "\f177";
+}
+.slider-arrow .slick-arrow.slick-next {
+	right: 15px;
+}
+.slider-arrow .slick-arrow.slick-next:before {
+	content: "\f178";
+}
+.product-slide-nav{
+	padding: 10px;
+}
+.product-detail-desc{
+	font-size: 16px;
+	color: #78909c;
+}
 /*==============================================================
 	Product Page End
+==============================================================*/
+/*==============================================================
+	Faq Page Start
+==============================================================*/
+.faq-wrap{}
+.faq-wrap .card{
+	margin-bottom: 20px;
+	border: 0;
+	-webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+}
+.faq-wrap .card-header{
+	background: #ffffff;
+	text-align: left;
+	border: 0;
+	padding: 0;
+}
+.faq-wrap .card-header .btn{
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	font-size: 20px;
+	padding: 16px 40px 16px 40px;
+	position: relative;
+	white-space: normal;
+}
+.faq-wrap .card-header .btn:before{
+	content: "Q.";
+	font-weight: 500;
+	position: absolute;
+	left: 10px;
+}
+.faq-wrap .card-header .btn:after{
+	content: "\f068";
+	font-family: "FontAwesome";
+	position: absolute;
+	right: 10px;
+	color: #2976aa;
+	top: 16px;
+}
+.faq-wrap .card-header .btn.collapsed:after{
+	content: "\f067";
+}
+.faq-wrap .card-body{
+	padding-top: 0;
+	color: #78909c;
+}
+/*==============================================================
+	Faq Page End
 ==============================================================*/

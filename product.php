@@ -4,10 +4,8 @@
 	<?php include('include/head.php'); ?>
 </head>
 <body>
-	<?php include('include/header.php'); ?>
-	<?php include('include/sidebar.php'); ?>
-	<div class="main-container">
-		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
+	<div class="container">
+		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
@@ -27,7 +25,7 @@
 				<div class="product-wrap">
 					<div class="product-list">
 						<ul class="row">
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img1.jpg" alt=""></div>
 									<div class="product-caption">
@@ -39,7 +37,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img2.jpg" alt=""></div>
 									<div class="product-caption">
@@ -51,7 +49,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img3.jpg" alt=""></div>
 									<div class="product-caption">
@@ -63,7 +61,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img4.jpg" alt=""></div>
 									<div class="product-caption">
@@ -76,7 +74,7 @@
 								</div>
 							</li>
 
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img2.jpg" alt=""></div>
 									<div class="product-caption">
@@ -88,7 +86,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img4.jpg" alt=""></div>
 									<div class="product-caption">
@@ -100,7 +98,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img1.jpg" alt=""></div>
 									<div class="product-caption">
@@ -112,7 +110,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img3.jpg" alt=""></div>
 									<div class="product-caption">
@@ -125,7 +123,7 @@
 								</div>
 							</li>
 
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img1.jpg" alt=""></div>
 									<div class="product-caption">
@@ -137,7 +135,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img2.jpg" alt=""></div>
 									<div class="product-caption">
@@ -149,7 +147,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img3.jpg" alt=""></div>
 									<div class="product-caption">
@@ -161,7 +159,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="col-lg-3 col-md-6 col-sm-12">
+							<li class="col-lg-4 col-md-6 col-sm-12">
 								<div class="product-box">
 									<div class="producct-img"><img src="vendors/images/product-img4.jpg" alt=""></div>
 									<div class="product-caption">
@@ -190,7 +188,6 @@
 					</div>
 				</div>
 			</div>
-			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>

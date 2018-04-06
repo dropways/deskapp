@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -17697,6 +17697,9 @@ p {
   margin: 0 0 15px 0;
   padding: 0; }
 
+.slick-slide {
+  outline: none !important; }
+
 .container {
   max-width: 1120px;
   width: 100%; }
@@ -17714,6 +17717,9 @@ p {
   width: 100%;
   height: 100%;
   z-index: 12345; }
+
+.mx-w-150 {
+  max-width: 150px; }
 
 .mx-h-300 {
   max-height: 300px; }
@@ -19387,8 +19393,109 @@ textarea.form-control {
 .price del {
   font-size: 15px; }
 
+.product-slider {
+  margin-bottom: 20px; }
+
+.slider-arrow .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+  border: 1px solid #2a2d31;
+  background: #2a2d31;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 0;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.slider-arrow .slick-arrow:hover {
+  border-color: #2a2d31; }
+
+.slider-arrow .slick-arrow:hover:before {
+  color: #ffffff; }
+
+.slider-arrow .slick-arrow:before {
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 38px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.slider-arrow .slick-arrow.slick-prev {
+  z-index: 12;
+  left: 15px; }
+
+.slider-arrow .slick-arrow.slick-prev:before {
+  content: "\f177"; }
+
+.slider-arrow .slick-arrow.slick-next {
+  right: 15px; }
+
+.slider-arrow .slick-arrow.slick-next:before {
+  content: "\f178"; }
+
+.product-slide-nav {
+  padding: 10px; }
+
+.product-detail-desc {
+  font-size: 16px;
+  color: #78909c; }
+
 /*==============================================================
 	Product Page End
+==============================================================*/
+/*==============================================================
+	Faq Page Start
+==============================================================*/
+.faq-wrap .card {
+  margin-bottom: 20px;
+  border: 0;
+  -webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.2); }
+
+.faq-wrap .card-header {
+  background: #ffffff;
+  text-align: left;
+  border: 0;
+  padding: 0; }
+
+.faq-wrap .card-header .btn {
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  font-size: 20px;
+  padding: 16px 40px 16px 40px;
+  position: relative;
+  white-space: normal; }
+
+.faq-wrap .card-header .btn:before {
+  content: "Q.";
+  font-weight: 500;
+  position: absolute;
+  left: 10px; }
+
+.faq-wrap .card-header .btn:after {
+  content: "\f068";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 10px;
+  color: #2976aa;
+  top: 16px; }
+
+.faq-wrap .card-header .btn.collapsed:after {
+  content: "\f067"; }
+
+.faq-wrap .card-body {
+  padding-top: 0;
+  color: #78909c; }
+
+/*==============================================================
+	Faq Page End
 ==============================================================*/
 
 /*==============================================================
@@ -19477,7 +19584,9 @@ textarea.form-control {
     display: table; }
   .fc-toolbar .fc-right {
     float: none !important;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  .faq-wrap .card-header .btn {
+    font-size: 17px; } }
 
 @media (max-width: 660px) {
   .docs-buttons .btn-group-crop {
