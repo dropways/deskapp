@@ -123,9 +123,9 @@
 										<li><a href="product.php">Product</a></li>
 										<li><a href="product-detail.php">Product Detail</a></li>
 										<li><a href="faq.php">FAQ</a></li>
-										<li><a href="#">Profile</a></li>
+										<li><a href="profile.php">Profile</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
-										<li><a href="#">Pricing Tables</a></li>
+										<li><a href="pricing-table.php">Pricing Tables</a></li>
 									</ul>
 								</div>
 							</div>

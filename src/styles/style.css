@@ -161,6 +161,7 @@ p {
 .text-light-green{color: #41ccba;}
 .bg-blue{background-color: #0099ff;}
 .text-blue{color: #0099ff;}
+.text-light-blue{color: #2976aa;}
 .bg-light-orange{background-color: #f56767;}
 .text-light-orange{color: #f56767;}
 .bg-light-purple{background-color: #a683eb;}
@@ -547,6 +548,10 @@ textarea.form-control{
 	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .35);
 }
 .popover-header{font-weight: 500;}
+.list-group-flush .list-group-item{
+	border-top: 0;
+	margin-bottom: 0;
+}
 /*==============================================================
 	Global Styles End
 ==============================================================*/
@@ -1362,6 +1367,14 @@ textarea.form-control{
 	-o-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+.da-card .da-social h5 {
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+	text-overflow: ellipsis;
+}
 .da-card .da-social ul li{
 	float: left;
 }
@@ -1899,3 +1912,117 @@ textarea.form-control{
 .gallery-wrap > ul > li{
 	margin-bottom: 30px;
 }
+/*==============================================================
+	pricing-table Start
+==============================================================*/
+.pricing-table-wrap{}
+.pricing-table-wrap .card{
+	border: 0;
+	-webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
+}
+.pricing-table-wrap .btn{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.pricing-table-wrap .list-group-flush .list-group-item{
+	background: transparent;
+}
+
+.pricing-table-style2{
+}
+.pricing-table-style2 .icon{
+	max-width: 180px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	min-height: 180px;
+	max-height: 180px;
+	display: flex;
+}
+.pricing-table-style2 .icon img {
+    width: 100%;
+}
+/*==============================================================
+	pricing-table End
+==============================================================*/
+/*==============================================================
+	Profile Page Start
+==============================================================*/
+.profile-photo{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 15px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.profile-photo img{
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.profile-info{
+	border-top: 2px dashed #eff5f7;
+	padding: 15px;
+}
+.profile-info ul li{
+	margin-bottom: 15px;
+	font-size: 16px;
+	word-wrap: break-word;
+}
+.profile-info ul li span{
+	display: block;
+	font-size: 14px;
+	color: #78909c;
+	font-weight: 500;
+}
+.profile-info ul li:last-child{
+	margin-bottom: 0;
+}
+.profile-social{
+	border-top: 2px dashed #eff5f7;
+	padding: 15px;
+}
+.profile-social ul li{
+	float: left;
+	margin: 5px;
+}
+.profile-social ul li .btn{
+	padding: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+.profile-skills{
+	border-top: 2px dashed #eff5f7;
+	padding: 15px;
+}
+.profile-tab .nav-tabs.customtab{
+	background: #e7eef0;
+}
+.profile-tab .nav-tabs.customtab .nav-link{
+	padding: 18px 30px;
+	background: transparent;
+	font-weight: 500;
+}
+.profile-setting{
+	background: #f5fcff;
+	height: 100%;
+}
+.profile-setting .container{
+	max-width: 800px;
+}
+.profile-setting ul{
+	padding: 30px 0;
+	background: #ffffff;
+}
+.profile-setting ul li{
+	min-height: 300px;
+	padding: 20px;
+}
+/*==============================================================
+	Profile Page End
+==============================================================*/
