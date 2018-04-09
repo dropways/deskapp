@@ -223,6 +223,10 @@ p {
 	height: auto;
 	border: 0 !important;
 }
+.bootstrap-select .dropdown-toggle::after{
+	position: relative;
+	right: 5px;
+}
 .dropdown.show > .dropdown-toggle::after{
 	content: "\f106";
 }
@@ -2009,19 +2013,27 @@ textarea.form-control{
 	font-weight: 500;
 }
 .profile-setting{
-	background: #f5fcff;
+	background: #def2ff;
 	height: 100%;
 }
 .profile-setting .container{
 	max-width: 800px;
 }
-.profile-setting ul{
-	padding: 30px 0;
-	background: #ffffff;
+.profile-tab .tab-content{
+	height: calc(100% - 63px);
 }
-.profile-setting ul li{
-	min-height: 300px;
+.profile-setting .profile-edit-list{
+	padding: 30px 0;
+	margin: 0;
+}
+.profile-setting .profile-edit-list > li{
 	padding: 20px;
+}
+.profile-setting .btn-outline-secondary{
+	border-color: #ced4da;
+}
+.profile-setting .profile-edit-list .form-control{
+	font-weight: 400;
 }
 /*==============================================================
 	Profile Page End

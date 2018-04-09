@@ -25,8 +25,8 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<div class="profile-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 							</div>
@@ -102,13 +102,13 @@
 											<a class="nav-link" data-toggle="tab" href="#tasks" role="tab">Tasks</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link active" data-toggle="tab" href="#setting" role="tab">Setting</a>
+											<a class="nav-link active" data-toggle="tab" href="#setting" role="tab">Settings</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" data-toggle="tab" href="#document" role="tab">Document</a>
 										</li>
 									</ul>
-									<div class="tab-content height-100-p">
+									<div class="tab-content">
 										<div class="tab-pane fade" id="timeline" role="tabpanel">
 											<div class="pd-20">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -121,27 +121,114 @@
 										</div>
 										<div class="tab-pane fade show active height-100-p" id="setting" role="tabpanel">
 											<div class="profile-setting">
-												<div class="container">
-													<form>
-														<ul>
-															<li>
-																<h4 class="text-blue mb-20">Edit Your Personal Setting</h4>
-																<div class="form-group">
-																	<label>Full Name</label>
-																	<input class="form-control form-control-lg" type="text" placeholder="Johnny Brown">
+												<form>
+													<ul class="profile-edit-list row">
+														<li class="weight-500 col-md-6">
+															<h4 class="text-blue mb-20">Edit Your Personal Setting</h4>
+															<div class="form-group">
+																<label>Full Name</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Title</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Email</label>
+																<input class="form-control form-control-lg" type="email">
+															</div>
+															<div class="form-group">
+																<label>Date of birth</label>
+																<input class="form-control form-control-lg date-picker" type="text">
+															</div>
+															<div class="form-group">
+																<label>Country</label>
+																<select class="selectpicker form-control form-control-lg" data-style="btn-outline-secondary btn-lg" title="Not Chosen">
+																	<optgroup>
+																		<option>United States</option>
+																		<option>India</option>
+																		<option>United Kingdom</option>
+																	</optgroup>
+																</select>
+															</div>
+															<div class="form-group">
+																<label>State/Province/Region</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Postal Code</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Phone Number</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Visa Card Number</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<label>Paypal ID</label>
+																<input class="form-control form-control-lg" type="text">
+															</div>
+															<div class="form-group">
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="customCheck1-1">
+																	<label class="custom-control-label" for="customCheck1-1">I agree to receive notification emails</label>
 																</div>
-																<div class="form-group">
-																	<label>Title</label>
-																	<input class="form-control form-control-lg" type="text" placeholder="Johnny Brown">
-																</div>
-																<div class="form-group">
-																	<label>Email</label>
-																	<input class="form-control form-control-lg" value="bootstrap@example.com" type="email">
-																</div>
-															</li>
-														</ul>
-													</form>
-												</div>
+															</div>
+															<div class="form-group mb-0">
+																<input type="submit" class="btn btn-primary" value="Update Information">
+															</div>
+														</li>
+														<li class="weight-500 col-md-6">
+															<h4 class="text-blue mb-20">Edit Social Media links</h4>
+															<div class="form-group">
+																<label>Facebook Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Twitter Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Linkedin Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Instagram Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Dribbble Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Dropbox Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Google-plus Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Pinterest Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Skype Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group">
+																<label>Vine Url:</label>
+																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
+															</div>
+															<div class="form-group mb-0">
+																<input type="submit" class="btn btn-primary" value="Save & Update">
+															</div>
+														</li>
+													</ul>
+												</form>
 											</div>
 										</div>
 										<div class="tab-pane fade" id="document" role="tabpanel">

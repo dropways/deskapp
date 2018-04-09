@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -17938,6 +17938,10 @@ p {
   height: auto;
   border: 0 !important; }
 
+.bootstrap-select .dropdown-toggle::after {
+  position: relative;
+  right: 5px; }
+
 .dropdown.show > .dropdown-toggle::after {
   content: "\f106"; }
 
@@ -19605,19 +19609,27 @@ textarea.form-control {
   font-weight: 500; }
 
 .profile-setting {
-  background: #f5fcff;
+  background: #def2ff;
   height: 100%; }
 
 .profile-setting .container {
   max-width: 800px; }
 
-.profile-setting ul {
-  padding: 30px 0;
-  background: #ffffff; }
+.profile-tab .tab-content {
+  height: calc(100% - 63px); }
 
-.profile-setting ul li {
-  min-height: 300px;
+.profile-setting .profile-edit-list {
+  padding: 30px 0;
+  margin: 0; }
+
+.profile-setting .profile-edit-list > li {
   padding: 20px; }
+
+.profile-setting .btn-outline-secondary {
+  border-color: #ced4da; }
+
+.profile-setting .profile-edit-list .form-control {
+  font-weight: 400; }
 
 /*==============================================================
 	Profile Page End
