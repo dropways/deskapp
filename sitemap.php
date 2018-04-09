@@ -124,7 +124,7 @@
 										<li><a href="product-detail.php">Product Detail</a></li>
 										<li><a href="faq.php">FAQ</a></li>
 										<li><a href="#">Profile</a></li>
-										<li><a href="#">Gallery</a></li>
+										<li><a href="gallery.php">Gallery</a></li>
 										<li><a href="#">Pricing Tables</a></li>
 									</ul>
 								</div>

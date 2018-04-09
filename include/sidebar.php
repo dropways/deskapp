@@ -112,7 +112,7 @@
 							<li><a href="product-detail.php">Product Detail</a></li>
 							<li><a href="faq.php">FAQ</a></li>
 							<li><a href="#">Profile</a></li>
-							<li><a href="#">Gallery</a></li>
+							<li><a href="gallery.php">Gallery</a></li>
 							<li><a href="#">Pricing Tables</a></li>
 						</ul>
 					</li>
@@ -121,21 +121,21 @@
 							<span class="fa fa-list"></span><span class="mtext">Multi Level Menu</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">Level 1</a></li>
-							<li><a href="#">Level 1</a></li>
-							<li><a href="#">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
 							<li class="dropdown">
 								<a href="javascript:;" class="dropdown-toggle">
 									<span class="fa fa-plug"></span><span class="mtext">Level 2</span>
 								</a>
 								<ul class="submenu child">
-									<li><a href="#">Level 2</a></li>
-									<li><a href="#">Level 2</a></li>
+									<li><a href="javascript:;">Level 2</a></li>
+									<li><a href="javascript:;">Level 2</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Level 1</a></li>
-							<li><a href="#">Level 1</a></li>
-							<li><a href="#">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
+							<li><a href="javascript:;">Level 1</a></li>
 						</ul>
 					</li>
 					<li>
