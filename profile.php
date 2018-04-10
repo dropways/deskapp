@@ -113,10 +113,10 @@
 								<div class="tab height-100-p">
 									<ul class="nav nav-tabs customtab" role="tablist">
 										<li class="nav-item">
-											<a class="nav-link" data-toggle="tab" href="#timeline" role="tab">Timeline</a>
+											<a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">Timeline</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link active" data-toggle="tab" href="#tasks" role="tab">Tasks</a>
+											<a class="nav-link" data-toggle="tab" href="#tasks" role="tab">Tasks</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" data-toggle="tab" href="#setting" role="tab">Settings</a>
@@ -126,14 +126,142 @@
 										</li>
 									</ul>
 									<div class="tab-content">
-										<div class="tab-pane fade" id="timeline" role="tabpanel">
+										<!-- Timeline Tab start -->
+										<div class="tab-pane fade show active" id="timeline" role="tabpanel">
 											<div class="pd-20">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+												<div class="profile-timeline">
+													<div class="timeline-month">
+														<h5>August, 2017</h5>
+													</div>
+													<div class="profile-timeline-list">
+														<ul>
+															<li>
+																<div class="date">12 Aug</div>
+																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+														</ul>
+													</div>
+													<div class="timeline-month">
+														<h5>July, 2017</h5>
+													</div>
+													<div class="profile-timeline-list">
+														<ul>
+															<li>
+																<div class="date">12 Aug</div>
+																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">12 Aug</div>
+																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+														</ul>
+													</div>
+													<div class="timeline-month">
+														<h5>June, 2017</h5>
+													</div>
+													<div class="profile-timeline-list">
+														<ul>
+															<li>
+																<div class="date">12 Aug</div>
+																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+															<li>
+																<div class="date">10 Aug</div>
+																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																<div class="task-time">09:30 am</div>
+															</li>
+														</ul>
+													</div>
+												</div>
 											</div>
 										</div>
-										<div class="tab-pane fade show active" id="tasks" role="tabpanel">
+										<!-- Timeline Tab End -->
+										<!-- Tasks Tab start -->
+										<div class="tab-pane fade" id="tasks" role="tabpanel">
 											<div class="pd-20 profile-task-wrap">
 												<div class="container pd-0">
+													<!-- Open Task start -->
 													<div class="task-title row align-items-center">
 														<div class="col-md-8 col-sm-12">
 															<h5>Open Tasks (4 Left)</h5>
@@ -182,7 +310,8 @@
 															</li>
 														</ul>
 													</div>
-
+													<!-- Open Task End -->
+													<!-- Close Task start -->
 													<div class="task-title row align-items-center">
 														<div class="col-md-12 col-sm-12">
 															<h5>Closed Tasks</h5>
@@ -228,14 +357,14 @@
 															</li>
 														</ul>
 													</div>
-
+													<!-- Close Task start -->
 													<!-- add task popup start -->
-													<div class="modal fade" id="task-add" tabindex="-1" role="dialog">
+													<div class="modal fade customscroll" id="task-add" tabindex="-1" role="dialog">
 														<div class="modal-dialog modal-dialog-centered" role="document">
 															<div class="modal-content">
 																<div class="modal-header">
 																	<h5 class="modal-title" id="exampleModalLongTitle">Tasks Add</h5>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																	<button type="button" class="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Close Modal">
 																		<span aria-hidden="true">&times;</span>
 																	</button>
 																</div>
@@ -259,7 +388,7 @@
 																					<div class="form-group row">
 																						<label class="col-md-4">Assigned to</label>
 																						<div class="col-md-8">
-																							<select class="selectpicker form-control" data-style="btn-outline-secondary" title="Not Chosen" multiple="" data-selected-text-format="count" data-count-selected-text= "{0} people selected">
+																							<select class="selectpicker form-control" data-style="btn-outline-primary" title="Not Chosen" multiple="" data-selected-text-format="count" data-count-selected-text= "{0} people selected">
 																								<option>Ferdinand M.</option>
 																								<option>Don H. Rabon</option>
 																								<option>Ann P. Harris</option>
@@ -269,7 +398,43 @@
 																							</select>
 																						</div>
 																					</div>
+																					<div class="form-group row mb-0">
+																						<label class="col-md-4">Due Date</label>
+																						<div class="col-md-8">
+																							<input type="text" class="form-control date-picker">
+																						</div>
+																					</div>
+																				</form>
+																			</li>
+																			<li>
+																				<a href="javascript:;" class="remove-task"  data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Remove Task"><i class="ion-minus-circled"></i></a>
+																				<form>
 																					<div class="form-group row">
+																						<label class="col-md-4">Task Type</label>
+																						<div class="col-md-8">
+																							<input type="text" class="form-control">
+																						</div>
+																					</div>
+																					<div class="form-group row">
+																						<label class="col-md-4">Task Message</label>
+																						<div class="col-md-8">
+																							<textarea class="form-control"></textarea>
+																						</div>
+																					</div>
+																					<div class="form-group row">
+																						<label class="col-md-4">Assigned to</label>
+																						<div class="col-md-8">
+																							<select class="selectpicker form-control" data-style="btn-outline-primary" title="Not Chosen" multiple="" data-selected-text-format="count" data-count-selected-text= "{0} people selected">
+																								<option>Ferdinand M.</option>
+																								<option>Don H. Rabon</option>
+																								<option>Ann P. Harris</option>
+																								<option>Katie D. Verdin</option>
+																								<option>Christopher S. Fulghum</option>
+																								<option>Matthew C. Porter</option>
+																							</select>
+																						</div>
+																					</div>
+																					<div class="form-group row mb-0">
 																						<label class="col-md-4">Due Date</label>
 																						<div class="col-md-8">
 																							<input type="text" class="form-control date-picker">
@@ -278,6 +443,9 @@
 																				</form>
 																			</li>
 																		</ul>
+																	</div>
+																	<div class="add-more-task">
+																		<a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Add Task"><i class="ion-plus-circled"></i> Add Task Boxes</a>
 																	</div>
 																</div>
 																<div class="modal-footer">
@@ -291,6 +459,8 @@
 												</div>
 											</div>
 										</div>
+										<!-- Tasks Tab End -->
+										<!-- Setting Tab start -->
 										<div class="tab-pane fade height-100-p" id="setting" role="tabpanel">
 											<div class="profile-setting">
 												<form>
@@ -414,6 +584,7 @@
 												</form>
 											</div>
 										</div>
+										<!-- Setting Tab End -->
 										<div class="tab-pane fade" id="document" role="tabpanel">
 											<div class="pd-20">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
