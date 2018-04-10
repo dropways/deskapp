@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -17748,6 +17748,9 @@ p {
 .padding-bottom-30 {
   padding-bottom: 30px; }
 
+.pd-5 {
+  padding: 5px; }
+
 .pd-10 {
   padding: 10px; }
 
@@ -17762,6 +17765,9 @@ p {
 
 .pb-20 {
   padding-bottom: 20px; }
+
+.pb-30 {
+  padding-bottom: 30px; }
 
 .pt-10 {
   padding-top: 10px; }
@@ -17789,6 +17795,12 @@ p {
 
 .mb-5 {
   margin-bottom: 5px !important; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.mr-20 {
+  margin-right: 20px; }
 
 .font-30 {
   font-size: 30px; }
@@ -18103,6 +18115,9 @@ textarea.form-control {
   padding: 10px; }
 
 /*-------------------------------- datepicker style ----------------*/
+.datepicker {
+  z-index: 1060; }
+
 .datepicker--day-name {
   color: #0099ff; }
 
@@ -18166,6 +18181,9 @@ textarea.form-control {
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #00bcf2; }
+
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  border: 2px solid rgba(0, 123, 255, 0); }
 
 .highcharts-legend-item .highcharts-graph {
   display: none; }
@@ -19557,10 +19575,22 @@ textarea.form-control {
   width: 160px;
   height: 160px;
   margin: 0 auto 15px;
-  border-radius: 100%;
-  overflow: hidden; }
+  position: relative; }
 
-.profile-photo img {
+.profile-photo .edit-avatar {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 100%; }
+
+.profile-photo .avatar-photo {
   border-radius: 100%; }
 
 .profile-info {
@@ -19609,7 +19639,6 @@ textarea.form-control {
   font-weight: 500; }
 
 .profile-setting {
-  background: #def2ff;
   height: 100%; }
 
 .profile-setting .container {
@@ -19630,6 +19659,78 @@ textarea.form-control {
 
 .profile-setting .profile-edit-list .form-control {
   font-weight: 400; }
+
+.task-title {
+  padding-bottom: 30px; }
+
+.task-title a {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.profile-task-wrap .container {
+  max-width: 800px; }
+
+.profile-task-list ul li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #263238;
+  margin-bottom: 25px; }
+
+.profile-task-list.close-tasks ul li {
+  color: #90a4ae;
+  text-decoration: line-through; }
+
+.profile-task-list ul li .task-type {
+  font-size: 16px;
+  color: #90a4ae;
+  font-weight: 500; }
+
+.profile-task-list ul li .task-assign {
+  font-size: 16px;
+  color: #90a4ae;
+  font-weight: 300; }
+
+.profile-task-list ul li .due-date {
+  display: inline-block;
+  padding-left: 10px; }
+
+.profile-task-list ul li .due-date:before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  display: inline-block;
+  font-size: 8px;
+  vertical-align: middle;
+  margin-right: 8px;
+  opacity: 0.5; }
+
+.profile-task-list ul li .custom-control {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%; }
+
+.profile-task-list ul li .custom-control-label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; }
+
+.profile-task-list ul li .custom-control-label::before, .profile-task-list ul li .custom-control-label::after {
+  top: 50%;
+  margin-top: -12px; }
+
+.task-list-form > ul > li {
+  padding: 15px;
+  background: #e7eef0; }
+
+.task-list-form .form-control {
+  font-weight: 400; }
+
+.task-list-form textarea.form-control {
+  height: 80px; }
 
 /*==============================================================
 	Profile Page End

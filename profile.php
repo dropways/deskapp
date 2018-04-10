@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php include('include/head.php'); ?>
+	<link rel="stylesheet" type="text/css" href="src/plugins/cropperjs/dist/cropper.css">
 </head>
 <body>
 	<?php include('include/header.php'); ?>
@@ -28,7 +29,23 @@
 					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-30">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<div class="profile-photo">
-								<img src="vendors/images/photo2.jpg" alt="">
+								<a href="modal" data-toggle="modal" data-target="#modal" class="edit-avatar"><i class="fa fa-pencil"></i></a>
+								<img src="vendors/images/photo2.jpg" alt="" class="avatar-photo">
+								<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+											<div class="modal-body pd-5">
+												<div class="img-container">
+													<img id="image" src="vendors/images/photo2.jpg" alt="Picture">
+												</div>
+											</div>
+											<div class="modal-footer">
+												<input type="submit" value="Update" class="btn btn-primary">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 							<h5 class="text-center">Ferdinand M. Childs</h5>
 							<p class="text-center text-muted">Lorem ipsum dolor sit amet</p>
@@ -99,10 +116,10 @@
 											<a class="nav-link" data-toggle="tab" href="#timeline" role="tab">Timeline</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" data-toggle="tab" href="#tasks" role="tab">Tasks</a>
+											<a class="nav-link active" data-toggle="tab" href="#tasks" role="tab">Tasks</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link active" data-toggle="tab" href="#setting" role="tab">Settings</a>
+											<a class="nav-link" data-toggle="tab" href="#setting" role="tab">Settings</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" data-toggle="tab" href="#document" role="tab">Document</a>
@@ -114,12 +131,167 @@
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 											</div>
 										</div>
-										<div class="tab-pane fade" id="tasks" role="tabpanel">
-											<div class="pd-20">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<div class="tab-pane fade show active" id="tasks" role="tabpanel">
+											<div class="pd-20 profile-task-wrap">
+												<div class="container pd-0">
+													<div class="task-title row align-items-center">
+														<div class="col-md-8 col-sm-12">
+															<h5>Open Tasks (4 Left)</h5>
+														</div>
+														<div class="col-md-4 col-sm-12 text-right">
+															<a href="task-add" data-toggle="modal" data-target="#task-add" class="bg-light-blue btn text-blue weight-500"><i class="ion-plus-round"></i> Add</a>
+														</div>
+													</div>
+													<div class="profile-task-list pb-30">
+														<ul>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-1">
+																	<label class="custom-control-label" for="task-1"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ea earum.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2019</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-2">
+																	<label class="custom-control-label" for="task-2"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2019</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-3">
+																	<label class="custom-control-label" for="task-3"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2019</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-4">
+																	<label class="custom-control-label" for="task-4"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet. Id ea earum.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2019</span></div></div>
+															</li>
+														</ul>
+													</div>
+
+													<div class="task-title row align-items-center">
+														<div class="col-md-12 col-sm-12">
+															<h5>Closed Tasks</h5>
+														</div>
+													</div>
+													<div class="profile-task-list close-tasks">
+														<ul>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-close-1" checked="" disabled="">
+																	<label class="custom-control-label" for="task-close-1"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ea earum.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2018</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-close-2" checked="" disabled="">
+																	<label class="custom-control-label" for="task-close-2"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2018</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-close-3" checked="" disabled="">
+																	<label class="custom-control-label" for="task-close-3"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2018</span></div></div>
+															</li>
+															<li>
+																<div class="custom-control custom-checkbox mb-5">
+																	<input type="checkbox" class="custom-control-input" id="task-close-4" checked="" disabled="">
+																	<label class="custom-control-label" for="task-close-4"></label>
+																</div>
+																<div class="task-type">Email</div>
+																Lorem ipsum dolor sit amet. Id ea earum.
+																<div class="task-assign">Assigned to Ferdinand M. <div class="due-date">due date <span>22 February 2018</span></div></div>
+															</li>
+														</ul>
+													</div>
+
+													<!-- add task popup start -->
+													<div class="modal fade" id="task-add" tabindex="-1" role="dialog">
+														<div class="modal-dialog modal-dialog-centered" role="document">
+															<div class="modal-content">
+																<div class="modal-header">
+																	<h5 class="modal-title" id="exampleModalLongTitle">Tasks Add</h5>
+																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																		<span aria-hidden="true">&times;</span>
+																	</button>
+																</div>
+																<div class="modal-body pd-0">
+																	<div class="task-list-form">
+																		<ul>
+																			<li>
+																				<form>
+																					<div class="form-group row">
+																						<label class="col-md-4">Task Type</label>
+																						<div class="col-md-8">
+																							<input type="text" class="form-control">
+																						</div>
+																					</div>
+																					<div class="form-group row">
+																						<label class="col-md-4">Task Message</label>
+																						<div class="col-md-8">
+																							<textarea class="form-control"></textarea>
+																						</div>
+																					</div>
+																					<div class="form-group row">
+																						<label class="col-md-4">Assigned to</label>
+																						<div class="col-md-8">
+																							<select class="selectpicker form-control" data-style="btn-outline-secondary" title="Not Chosen" multiple="" data-selected-text-format="count" data-count-selected-text= "{0} people selected">
+																								<option>Ferdinand M.</option>
+																								<option>Don H. Rabon</option>
+																								<option>Ann P. Harris</option>
+																								<option>Katie D. Verdin</option>
+																								<option>Christopher S. Fulghum</option>
+																								<option>Matthew C. Porter</option>
+																							</select>
+																						</div>
+																					</div>
+																					<div class="form-group row">
+																						<label class="col-md-4">Due Date</label>
+																						<div class="col-md-8">
+																							<input type="text" class="form-control date-picker">
+																						</div>
+																					</div>
+																				</form>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-primary">Add</button>
+																	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- add task popup End -->
+												</div>
 											</div>
 										</div>
-										<div class="tab-pane fade show active height-100-p" id="setting" role="tabpanel">
+										<div class="tab-pane fade height-100-p" id="setting" role="tabpanel">
 											<div class="profile-setting">
 												<form>
 													<ul class="profile-edit-list row">
@@ -142,13 +314,24 @@
 																<input class="form-control form-control-lg date-picker" type="text">
 															</div>
 															<div class="form-group">
+																<label>Gender</label>
+																<div class="d-flex">
+																<div class="custom-control custom-radio mb-5 mr-20">
+																	<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+																	<label class="custom-control-label weight-400" for="customRadio4">Male</label>
+																</div>
+																<div class="custom-control custom-radio mb-5">
+																	<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+																	<label class="custom-control-label weight-400" for="customRadio5">Female</label>
+																</div>
+																</div>
+															</div>
+															<div class="form-group">
 																<label>Country</label>
 																<select class="selectpicker form-control form-control-lg" data-style="btn-outline-secondary btn-lg" title="Not Chosen">
-																	<optgroup>
-																		<option>United States</option>
-																		<option>India</option>
-																		<option>United Kingdom</option>
-																	</optgroup>
+																	<option>United States</option>
+																	<option>India</option>
+																	<option>United Kingdom</option>
 																</select>
 															</div>
 															<div class="form-group">
@@ -174,7 +357,7 @@
 															<div class="form-group">
 																<div class="custom-control custom-checkbox mb-5">
 																	<input type="checkbox" class="custom-control-input" id="customCheck1-1">
-																	<label class="custom-control-label" for="customCheck1-1">I agree to receive notification emails</label>
+																	<label class="custom-control-label weight-400" for="customCheck1-1">I agree to receive notification emails</label>
 																</div>
 															</div>
 															<div class="form-group mb-0">
@@ -184,43 +367,43 @@
 														<li class="weight-500 col-md-6">
 															<h4 class="text-blue mb-20">Edit Social Media links</h4>
 															<div class="form-group">
-																<label>Facebook Url:</label>
+																<label>Facebook URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Twitter Url:</label>
+																<label>Twitter URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Linkedin Url:</label>
+																<label>Linkedin URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Instagram Url:</label>
+																<label>Instagram URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Dribbble Url:</label>
+																<label>Dribbble URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Dropbox Url:</label>
+																<label>Dropbox URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Google-plus Url:</label>
+																<label>Google-plus URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Pinterest Url:</label>
+																<label>Pinterest URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Skype Url:</label>
+																<label>Skype URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group">
-																<label>Vine Url:</label>
+																<label>Vine URL:</label>
 																<input class="form-control form-control-lg" type="text" placeholder="Paste your link here">
 															</div>
 															<div class="form-group mb-0">
@@ -246,5 +429,36 @@
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>
+	<script src="src/plugins/cropperjs/dist/cropper.js"></script>
+	<script>
+		window.addEventListener('DOMContentLoaded', function () {
+			var image = document.getElementById('image');
+			var cropBoxData;
+			var canvasData;
+			var cropper;
+
+			$('#modal').on('shown.bs.modal', function () {
+				cropper = new Cropper(image, {
+					autoCropArea: 1,
+					dragMode: 'move',
+					aspectRatio: 3 / 3,
+					restore: false,
+					guides: false,
+					center: false,
+					highlight: false,
+					cropBoxMovable: false,
+					cropBoxResizable: false,
+					toggleDragModeOnDblclick: false,
+					ready: function () {
+						cropper.setCropBoxData(cropBoxData).setCanvasData(canvasData);
+					}
+				});
+			}).on('hidden.bs.modal', function () {
+				cropBoxData = cropper.getCropBoxData();
+				canvasData = cropper.getCanvasData();
+				cropper.destroy();
+			});
+		});
+	</script>
 </body>
 </html>
