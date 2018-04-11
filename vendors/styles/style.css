@@ -7590,8 +7590,8 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------
@@ -19823,6 +19823,94 @@ textarea.form-control {
 /*==============================================================
 	Profile Page End
 ==============================================================*/
+.contact-directory-list > ul > li {
+  margin-bottom: 30px; }
+
+.contact-directory-box {
+  background: #ffffff;
+  min-height: 400px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px; }
+
+.contact-dire-info {
+  padding: 30px 25px 20px; }
+
+.contact-directory-box .contact-avatar span {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  overflow: hidden; }
+
+.contact-directory-box .contact-avatar span img {
+  border-radius: 100%; }
+
+.contact-directory-box .contact-name {
+  padding-bottom: 20px; }
+
+.contact-directory-box .contact-name h4 {
+  font-weight: 500; }
+
+.contact-directory-box .contact-name p {
+  margin-bottom: 2px;
+  color: #7f92a9; }
+
+.contact-directory-box .contact-skill {
+  padding-bottom: 20px; }
+
+.contact-directory-box .contact-skill .badge {
+  border: 1px solid #ced9ee;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 7px 11px;
+  margin: 3px 0; }
+
+.contact-directory-box .contact-skill .badge.badge-primary {
+  background: #55a8fd;
+  border-color: #55a8fd;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
+
+.contact-directory-box .profile-sort-desc {
+  font-weight: 400;
+  color: #6f7c8d; }
+
+.contact-directory-box .view-contact a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 5px;
+  letter-spacing: 0.050em;
+  position: relative;
+  border-radius: 0px 0px 6px 6px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.contact-directory-box:hover .view-contact a {
+  background: #55a8fd;
+  color: #ffffff; }
+
+.contact-directory-box:hover .view-contact a:before {
+  opacity: 0; }
+
+.contact-directory-box .view-contact a:before {
+  content: "";
+  width: 80px;
+  height: 1px;
+  background: #6f7c8d;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
 
 /*==============================================================
 	Media css

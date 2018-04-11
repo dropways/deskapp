@@ -106,6 +106,7 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="#">Blank</a></li>
+							<li><a href="contact-directory.php">Contact Directory</a></li>
 							<li><a href="blog.php">Blog</a></li>
 							<li><a href="blog-detail.php">Blog Detail</a></li>
 							<li><a href="product.php">Product</a></li>

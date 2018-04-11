@@ -121,9 +121,6 @@
 										<li class="nav-item">
 											<a class="nav-link" data-toggle="tab" href="#setting" role="tab">Settings</a>
 										</li>
-										<li class="nav-item">
-											<a class="nav-link" data-toggle="tab" href="#document" role="tab">Document</a>
-										</li>
 									</ul>
 									<div class="tab-content">
 										<!-- Timeline Tab start -->
@@ -167,37 +164,37 @@
 													<div class="profile-timeline-list">
 														<ul>
 															<li>
-																<div class="date">12 Aug</div>
+																<div class="date">12 July</div>
 																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 July</div>
 																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 July</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 July</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">12 Aug</div>
+																<div class="date">12 July</div>
 																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 July</div>
 																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
@@ -210,43 +207,43 @@
 													<div class="profile-timeline-list">
 														<ul>
 															<li>
-																<div class="date">12 Aug</div>
+																<div class="date">12 June</div>
 																<div class="task-name"><i class="ion-android-alarm-clock"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-chatboxes"></i> Task Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
 															</li>
 															<li>
-																<div class="date">10 Aug</div>
+																<div class="date">10 June</div>
 																<div class="task-name"><i class="ion-ios-clock"></i> Event Added</div>
 																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 																<div class="task-time">09:30 am</div>
@@ -445,7 +442,7 @@
 																		</ul>
 																	</div>
 																	<div class="add-more-task">
-																		<a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Add Task"><i class="ion-plus-circled"></i> Add Task Boxes</a>
+																		<a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Add Task"><i class="ion-plus-circled"></i> Add More Task</a>
 																	</div>
 																</div>
 																<div class="modal-footer">
@@ -517,6 +514,10 @@
 																<input class="form-control form-control-lg" type="text">
 															</div>
 															<div class="form-group">
+																<label>Address</label>
+																<textarea class="form-control"></textarea>
+															</div>
+															<div class="form-group">
 																<label>Visa Card Number</label>
 																<input class="form-control form-control-lg" type="text">
 															</div>
@@ -585,11 +586,6 @@
 											</div>
 										</div>
 										<!-- Setting Tab End -->
-										<div class="tab-pane fade" id="document" role="tabpanel">
-											<div class="pd-20">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -610,7 +606,7 @@
 
 			$('#modal').on('shown.bs.modal', function () {
 				cropper = new Cropper(image, {
-					autoCropArea: 1,
+					autoCropArea: 0.5,
 					dragMode: 'move',
 					aspectRatio: 3 / 3,
 					restore: false,
