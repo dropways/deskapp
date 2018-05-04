@@ -117,7 +117,7 @@
 								<div class="sitemap">
 									<h5 class="weight-500">Extra Pages</h5>
 									<ul>
-										<li><a href="#">Blank</a></li>
+										<li><a href="blank.php">Blank</a></li>
 										<li><a href="contact-directory.php">Contact Directory</a></li>
 										<li><a href="blog.php">Blog</a></li>
 										<li><a href="blog-detail.php">Blog Detail</a></li>

@@ -105,7 +105,7 @@
 							<span class="fa fa-clone"></span><span class="mtext">Extra Pages</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">Blank</a></li>
+							<li><a href="blank.php">Blank</a></li>
 							<li><a href="contact-directory.php">Contact Directory</a></li>
 							<li><a href="blog.php">Blog</a></li>
 							<li><a href="blog-detail.php">Blog Detail</a></li>
@@ -142,6 +142,11 @@
 					<li>
 						<a href="sitemap.php" class="dropdown-toggle no-arrow">
 							<span class="fa fa-sitemap"></span><span class="mtext">Sitemap</span>
+						</a>
+					</li>
+					<li>
+						<a href="invoice.php" class="dropdown-toggle no-arrow">
+							<span class="fa fa-map-o"></span><span class="mtext">Invoice <span class="fi-burst-new text-danger new"></span></span>
 						</a>
 					</li>
 				</ul>
