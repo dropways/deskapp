@@ -909,6 +909,15 @@ textarea.form-control{
 .sidebar-menu .dropdown-toggle:hover .fa, .sidebar-menu .show > .dropdown-toggle .fa{
 	color: #0099ff;
 }
+.sidebar-menu .dropdown-toggle .new{
+	font-size: 24px;
+	line-height: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sidebar-menu .dropdown-toggle .new:before{
+	line-height: 14px;
+}
 .sidebar-menu .submenu{
 	position: relative;
 	width: 100%;
@@ -2330,3 +2339,56 @@ textarea.form-control{
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+/*==============================================================
+	Invoice Page Start
+==============================================================*/
+.invoice-wrap{
+	overflow: auto;
+}
+.invoice-box{
+	background: #ffffff;
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.invoice-header	{
+	padding-bottom: 30px;
+}
+.invoice-desc .invoice-sub{
+	width: 40%;
+	float: left;
+	padding: 8px 15px;
+}
+.invoice-desc .invoice-rate{
+	width: 20%;
+	float: left;
+	padding: 8px 15px;
+}
+.invoice-desc .invoice-hours{
+	width: 20%;
+	float: left;
+	padding: 8px 15px;
+}
+.invoice-desc .invoice-subtotal{
+	width: 20%;
+	float: right;
+	padding: 8px 15px;
+}
+.invoice-desc .invoice-desc-head{
+	background: #eaeaea;
+	font-weight: 500;
+}
+.invoice-desc .invoice-desc-body{
+	padding-top: 15px;
+	min-height: 400px;
+}
+.invoice-desc .invoice-desc-footer .invoice-desc-body{
+	min-height: 50px;
+}
+.invoice-desc .invoice-desc-body ul li{
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 5px;
+}
+/*==============================================================
+	Invoice Page End
+==============================================================*/
