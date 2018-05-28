@@ -566,6 +566,10 @@ textarea.form-control{
 	border-top: 0;
 	margin-bottom: 0;
 }
+
+.docs-cropped .modal-body > img, .docs-cropped .modal-body > canvas{
+	max-width: 100%;
+}
 /*==============================================================
 	Global Styles End
 ==============================================================*/

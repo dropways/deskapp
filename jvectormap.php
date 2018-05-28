@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php include('include/head.php'); ?>
+	<link rel="stylesheet" type="text/css" href="src/plugins/jvectormap/jquery-jvectormap-2.0.3.css">
 </head>
 <body>
 	<?php include('include/header.php'); ?>
@@ -13,12 +14,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>blank</h4>
+								<h4>Charts</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">blank</li>
+									<li class="breadcrumb-item active" aria-current="page">Charts</li>
 								</ol>
 							</nav>
 						</div>
@@ -36,12 +37,36 @@
 						</div>
 					</div>
 				</div>
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-30">
+						<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
+							<div id="chart1" style="width:100%!important; height:615px"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>
+	<script src="src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+	<script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+	<script>
+		jQuery('#chart1').vectorMap({
+			map: 'world_mill_en',
+			backgroundColor: '#0099ff',
+			borderWidth: 1,
+			zoomOnScroll : false,
+			color: '#ddd',
+			regionStyle: {
+				initial: {
+					fill: '#fff'
+				}
+			},
+			enableZoom: true,
+			normalizeFunction: 'linear',
+			showTooltip: true
+		});
+	</script>
 </body>
 </html>

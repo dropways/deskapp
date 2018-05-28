@@ -92,12 +92,12 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-pie-chart"></span><span class="mtext">Charts</span>
+							<span class="fa fa-pie-chart"></span><span class="mtext">Charts <span class="fi-burst-new text-danger new"></span></span>
 						</a>
 						<ul class="submenu">
-							<li><a href="#">Highchart</a></li>
-							<li><a href="#">jQuery Knob</a></li>
-							<li><a href="#">jvectormap</a></li>
+							<li><a href="highchart.php">Highchart</a></li>
+							<li><a href="knob-chart.php">jQuery Knob</a></li>
+							<li><a href="jvectormap.php">jvectormap</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -146,7 +146,7 @@
 					</li>
 					<li>
 						<a href="invoice.php" class="dropdown-toggle no-arrow">
-							<span class="fa fa-map-o"></span><span class="mtext">Invoice <span class="fi-burst-new text-danger new"></span></span>
+							<span class="fa fa-map-o"></span><span class="mtext">Invoice</span>
 						</a>
 					</li>
 				</ul>
