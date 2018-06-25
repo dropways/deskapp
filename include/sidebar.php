@@ -92,7 +92,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-pie-chart"></span><span class="mtext">Charts <span class="fi-burst-new text-danger new"></span></span>
+							<span class="fa fa-pie-chart"></span><span class="mtext">Charts</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="highchart.php">Highchart</a></li>
@@ -142,6 +142,11 @@
 					<li>
 						<a href="sitemap.php" class="dropdown-toggle no-arrow">
 							<span class="fa fa-sitemap"></span><span class="mtext">Sitemap</span>
+						</a>
+					</li>
+					<li>
+						<a href="chat.php" class="dropdown-toggle no-arrow">
+							<span class="fa fa-comments-o"></span><span class="mtext">Chat <span class="fi-burst-new text-danger new"></span></span>
 						</a>
 					</li>
 					<li>

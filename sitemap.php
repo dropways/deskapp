@@ -53,6 +53,12 @@
 										<li><a href="invoice.php">Invoice</a></li>
 									</ul>
 								</div>
+								<div class="sitemap">
+									<h5 class="weight-500">Chat Module</h5>
+									<ul>
+										<li><a href="chat.php">Chat</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
