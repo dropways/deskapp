@@ -47,6 +47,18 @@
 										<li><a href="image-dropzone.php">Image Dropzone</a></li>
 									</ul>
 								</div>
+								<div class="sitemap">
+									<h5 class="weight-500">Invoice</h5>
+									<ul>
+										<li><a href="invoice.php">Invoice</a></li>
+									</ul>
+								</div>
+								<div class="sitemap">
+									<h5 class="weight-500">Chat Module</h5>
+									<ul>
+										<li><a href="chat.php">Chat</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
@@ -74,9 +86,9 @@
 								<div class="sitemap">
 									<h5 class="weight-500">Charts</h5>
 									<ul>
-										<li><a href="#">Highchart</a></li>
-										<li><a href="#">jQuery Knob</a></li>
-										<li><a href="#">jvectormap</a></li>
+										<li><a href="highchart.php">Highchart</a></li>
+										<li><a href="knob-chart.php">jQuery Knob</a></li>
+										<li><a href="jvectormap.php">jvectormap</a></li>
 									</ul>
 								</div>
 							</div>
