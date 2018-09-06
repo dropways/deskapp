@@ -18326,7 +18326,7 @@ textarea.form-control {
   display: none; }
 
 .header-right .brand-logo a {
-  padding: 13px 6px 5px; }
+  padding: 0px 6px 0px; }
 
 .header-right .menu-icon {
   position: relative;
@@ -18516,10 +18516,12 @@ textarea.form-control {
 .brand-logo {
   width: 250px;
   height: 70px;
-  background: #0069d9; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: table; }
 
 .brand-logo a {
-  display: block;
+  display: table-cell;
+  vertical-align: middle;
   position: relative;
   font-size: 22px;
   color: #ffffff;
@@ -18527,7 +18529,7 @@ textarea.form-control {
   font-weight: 500;
   line-height: 45px;
   font-family: 'Work Sans', sans-serif;
-  padding: 10px 20px 5px;
+  padding: 0px 20px 0px;
   text-align: center; }
 
 .brand-logo a span {
@@ -18539,7 +18541,7 @@ textarea.form-control {
   white-space: nowrap; }
 
 .brand-logo a img {
-  max-width: 160px;
+  max-width: 200px;
   display: block;
   margin: 0 auto; }
 
@@ -20298,7 +20300,7 @@ textarea.form-control {
     visibility: visible;
     display: none; }
   .header-right .brand-logo {
-    display: block; }
+    display: table; }
   .header-right .menu-icon {
     display: block; }
   .footer-wrap {

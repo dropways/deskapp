@@ -359,6 +359,9 @@
 			labels: {
 				finish: "Submit"
 			},
+			onStepChanged: function (event, currentIndex, priorIndex) {
+				$('.steps .current').prevAll().addClass('disabled');
+			},
 			onFinished: function (event, currentIndex) {
 				$('#success-modal').modal('show');
 			}

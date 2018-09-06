@@ -12,7 +12,7 @@
 	.left-side-bar{left: -251px;}
 	.left-side-bar:before{display: block; opacity: 0; visibility: hidden;}
 	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
-	.header-right .brand-logo{display: block;}
+	.header-right .brand-logo{display: table;}
 	.header-right .menu-icon{display: block;}
 	.footer-wrap{width: 100%;}
 }
