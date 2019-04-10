@@ -1,4 +1,4 @@
-var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plumber, rename, sass, streamqueue, uglify,changed;
+var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plumber, rename, sass, streamqueue, uglify,changed,reload;
 
 gulp = require('gulp');
 sass = require('gulp-sass');
@@ -10,8 +10,9 @@ uglify = require('gulp-uglify');
 imagemin = require('gulp-imagemin');
 minify = require('gulp-clean-css');
 streamqueue = require('streamqueue');
-browserSync = require('browser-sync');
+browserSync = require('browser-sync').create();
 changed = require('gulp-changed');
+reload = browserSync.reload;
 
 config = {
 	srcDir: './src/'
@@ -75,7 +76,9 @@ gulp.task('styles', function() {
 					.pipe(gulp.dest('vendors/styles/'))
 					.pipe(minify({keepSpecialComments: 0}))
 					.pipe(rename({suffix: '.min'}))
-					.pipe(plumber.stop()).pipe(gulp.dest('vendors/styles/')).pipe(browserSync.reload({stream: true}));
+					.pipe(plumber.stop())
+					.pipe(gulp.dest('vendors/styles/'))
+					.pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('scripts', function() {
@@ -118,35 +121,49 @@ gulp.task('fonts', function() {
 					.pipe(gulp.dest('vendors/fonts/'));
 });
 
-gulp.task('connect-sync', ['styles', 'scripts', 'php'], function() {
-	browserSync.init({
-		proxy: 'localhost/deskapp',
-		open: true,
-		reloadDelay: 50,
-		watchOptions: {
-			debounceDelay: 50
-		}
+// gulp.task('connect-sync', ['styles', 'scripts', 'php'], function() {
+// 	browserSync.init({
+// 		proxy: 'localhost/deskapp',
+// 		open: true,
+// 		reloadDelay: 50,
+// 		watchOptions: {
+// 			debounceDelay: 50
+// 		}
+// 	});
+// 	gulp.watch(['src/styles/**/**'], ['styles']);
+// 	gulp.watch(['src/scripts/**/**'], ['scripts']);
+// 	gulp.watch(path.php, ['php']);
+// 	return gulp.watch(['*', 'vendors/**/**'], function(file) {
+// 		if (file.type === "changed") {
+// 			return browserSync.reload(file.path);
+// 		}
+// 	});
+// });
+gulp.task('connect-sync', function (done) {
+	browserSync.reload();
+	done();
+    browserSync.init({
+      proxy: 'localhost/deskapp', // Change this value to match your local URL.
+	    socket: {
+	      domain: 'localhost:3000'
+	    }
 	});
-	gulp.watch(['src/styles/**/**'], ['styles']);
-	gulp.watch(['src/scripts/**/**'], ['scripts']);
-	gulp.watch(path.php, ['php']);
-	return gulp.watch(['*', 'vendors/**/**'], function(file) {
-		if (file.type === "changed") {
-			return browserSync.reload(file.path);
-		}
-	});
+	gulp.watch("*.php").on("change", reload);
+	gulp.watch("src/styles/*.*").on("change", reload);
+	gulp.watch("src/scripts/**").on("change", reload);
 });
 
 gulp.task('watch', function(){
-	gulp.watch("src/styles/**/*.*", ['styles']);
-	gulp.watch("src/fonts/**/*", ['fonts']);
-	gulp.watch("src/scripts/**/*.js", ['scripts']);
+	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
+	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
+	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));
 	//gulp.watch(path.images, ['images']);
 });
 
-gulp.task('default', ['styles', 'fonts', 'scripts', 'connect-sync'], function(){
-	gulp.watch("src/styles/**/*.*", ['styles']);
-	gulp.watch("src/fonts/**/*", ['fonts']);
-	gulp.watch("src/scripts/**/*.js", ['scripts']);
+// gulp.task('default', ['styles', 'fonts', 'scripts', 'connect-sync'], function(){
+gulp.task('default', gulp.series(gulp.parallel('styles', 'fonts', 'scripts', ['connect-sync']), function(){
+	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
+	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
+	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));
 	//gulp.watch(path.images, ['images']);
-});
+}));

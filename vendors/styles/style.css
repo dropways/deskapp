@@ -20311,6 +20311,8 @@ textarea.form-control {
     width: 100%; } }
 
 @media (max-width: 767px) {
+  .main-container {
+    height: auto; }
   .pre-loader {
     background-size: 43%; }
   .xs-pd-20-10 {
