@@ -8,7 +8,7 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="customscroll customscroll-10-p height-100-p xs-pd-20-10 pd-ltr-20">
+		<div class="customscroll xs-pd-20-10 pd-ltr-20">
 			<div class="page-header">
 				<div class="row">
 					<div class="col-md-6 col-sm-12">

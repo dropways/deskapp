@@ -19,11 +19,11 @@
 		"gulp-clean-css": "^3.10.0",
 		"gulp-coffee": "^2.3.2",
 		"gulp-concat": "^2.6.0",
-		"gulp-imagemin": "^4.1.0",
+		"gulp-imagemin": "^5.0.3",
 		"gulp-install": "^1.1.0",
 		"gulp-plumber": "^1.2.1",
 		"gulp-rename": "^1.4.0",
-		"gulp-sass": "^3.2.1",
+		"gulp-sass": "^4.0.2",
 		"gulp-uglify": "^3.0.2",
 		"streamqueue": "^1.1.1"
 	},

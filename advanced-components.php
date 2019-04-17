@@ -13,7 +13,7 @@
 	<?php include('include/header.php'); ?>
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
-		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
+		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
@@ -120,7 +120,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>Single Select</label>
-									<select class="selectpicker form-control" data-style="btn-outline-primary">
+									<select class="selectpicker form-control" data-style="btn-outline-primary" data-size="5">
 										<optgroup label="Condiments" data-max-options="2">
 											<option>Mustard</option>
 											<option>Ketchup</option>

@@ -26,9 +26,9 @@ jQuery(document).ready(function(){
 	});
 
 	// click to scroll
-	$('.collapse-box').on('shown.bs.collapse', function () {
-		$(".customscroll").mCustomScrollbar("scrollTo",$(this));
-	});
+	// $('.collapse-box').on('shown.bs.collapse', function () {
+	// 	$(".customscroll").mCustomScrollbar("scrollTo",$(this));
+	// });
 
 	// code split
 	var entityMap = {
@@ -83,12 +83,12 @@ jQuery(document).ready(function(){
 	})
 
 	// Dropdown Slide Animation
-	$('.dropdown').on('show.bs.dropdown', function(e){
-		$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
-	});
-	$('.dropdown').on('hide.bs.dropdown', function(e){
-		$(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
-	});
+	// $('.dropdown').on('show.bs.dropdown', function(e){
+	// 	$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+	// });
+	// $('.dropdown').on('hide.bs.dropdown', function(e){
+	// 	$(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+	// });
 
 	// sidebar menu icon
 	$('.menu-icon').on('click', function(){

@@ -149,8 +149,9 @@ gulp.task('connect-sync', function (done) {
 	    }
 	});
 	gulp.watch("*.php").on("change", reload);
-	gulp.watch("src/styles/*.*").on("change", reload);
+	gulp.watch("src/styles/**/*.*").on("change", reload);
 	gulp.watch("src/scripts/**").on("change", reload);
+	done();
 });
 
 gulp.task('watch', function(){
