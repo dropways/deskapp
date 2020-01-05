@@ -15,58 +15,66 @@ changed = require('gulp-changed');
 reload = browserSync.reload;
 
 config = {
-	srcDir: './src/'
+	nodeDir: './node_modules/'
 };
 
 var path = {
 	styles: [
-		config.srcDir + 'styles/theme.css',
-		config.srcDir + 'plugins/bootstrap-4.0.0/dist/css/bootstrap.css',
-		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css',
-		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.css',
-		config.srcDir + 'fonts/font-awesome/css/font-awesome.css',
-		config.srcDir + 'fonts/foundation-icons/foundation-icons.css',
-		config.srcDir + 'fonts/ionicons-master/css/ionicons.css',
-		config.srcDir + 'fonts/themify-icons/themify-icons.css',
-		config.srcDir + 'plugins/air-datepicker/dist/css/datepicker.css',
-		config.srcDir + 'plugins/timedropper/timedropper.css',
-		config.srcDir + 'plugins/highlight.js/src/styles/solarized-dark.css',
-		config.srcDir + 'plugins/select2/dist/css/select2.css',
-		config.srcDir + 'plugins/bootstrap-select/dist/css/bootstrap-select.css',
-		config.srcDir + 'styles/style.css',
-		config.srcDir + 'styles/media.css',
+		'src/styles/style.css',
+		'src/styles/media.css'
+	],
+	corestyle: [
+		'src/styles/theme.css',
+		'src/plugins/bootstrap/bootstrap.min.css',
+		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css',
+		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.css',
+		'src/plugins/air-datepicker/dist/css/datepicker.css',
+		'src/plugins/timedropper/timedropper.css',
+		'src/plugins/highlight.js/src/styles/solarized-dark.css',
+		'src/plugins/select2/dist/css/select2.css',
+		'src/plugins/bootstrap-select/bootstrap-select.min.css'
+	],
+	icon_styles: [
+		'src/fonts/font-awesome/css/font-awesome.css',
+		'src/fonts/foundation-icons/foundation-icons.css',
+		'src/fonts/ionicons-master/css/ionicons.css',
+		'src/fonts/themify-icons/themify-icons.css'
 	],
 	scripts: [
-		config.srcDir + 'scripts/jquery.min.js',
-		config.srcDir + 'scripts/moment.js',
-		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/popper.min.js',
-		config.srcDir + 'plugins/bootstrap-4.0.0/dist/js/bootstrap.js',
-		config.srcDir + 'plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
-		config.srcDir + 'plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
-		config.srcDir + 'plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
-		config.srcDir + 'plugins/air-datepicker/dist/js/datepicker.js',
-		config.srcDir + 'plugins/air-datepicker/dist/js/i18n/datepicker.en.js',
-		config.srcDir + 'plugins/timedropper/timedropper.js',
-		config.srcDir + 'plugins/highlight.js/src/highlight.pack.js',
-		config.srcDir + 'plugins/select2/dist/js/select2.full.js',
-		config.srcDir + 'plugins/bootstrap-select/dist/js/bootstrap-select.js',
-		config.srcDir + 'scripts/clipboard.min.js',
-		config.srcDir + 'scripts/setting.js'
+		'src/scripts/setting.js'
+	],
+	core: [
+		'src/scripts/jquery.min.js',
+		'src/scripts/moment.js',
+		'src/plugins/bootstrap/popper.min.js',
+		'src/plugins/bootstrap/bootstrap.min.js',
+		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
+		'src/plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
+		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
+		'src/plugins/air-datepicker/dist/js/datepicker.js',
+		'src/plugins/air-datepicker/dist/js/i18n/datepicker.en.js',
+		'src/plugins/timedropper/timedropper.js',
+		'src/plugins/highlight.js/src/highlight.pack.js',
+		'src/plugins/select2/dist/js/select2.full.js',
+		'src/plugins/bootstrap-select/bootstrap-select.min.js',
+		'src/scripts/clipboard.min.js',
 	],
 	fonts: [
-		config.srcDir + 'fonts/font-awesome/fonts/*.*',
-		config.srcDir + 'fonts/foundation-icons/*.*',
-		config.srcDir + 'fonts/ionicons-master/fonts/*.*',
-		config.srcDir + 'fonts/themify-icons/fonts/*.*',
-		config.srcDir + 'fonts/**/*.*',
+		'src/fonts/font-awesome/fonts/*.*',
+		'src/fonts/foundation-icons/*.*',
+		'src/fonts/ionicons-master/fonts/*.*',
+		'src/fonts/themify-icons/fonts/*.*',
+		'src/fonts/**/*.*',
 	],
 	images: 'src/images/**/*.*',
-	php: ['*.php']
+	php: ['*.php'],
 };
 
 gulp.task('styles', function() {
 	var stream;
-	stream = streamqueue({objectMode: true});
+	stream = streamqueue({
+		objectMode: true
+	});
 	stream.queue(gulp.src(path.styles));
 	return stream.done()
 					.pipe(plumber())
@@ -81,64 +89,97 @@ gulp.task('styles', function() {
 					.pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('scripts', function() {
+gulp.task('corestyle', function() {
 	var stream;
-	stream = streamqueue({objectMode: true});
-	stream.queue(gulp.src(path.scripts));
+	stream = streamqueue({
+		objectMode: true
+	});
+	stream.queue(gulp.src(path.corestyle));
 	return stream.done()
 					.pipe(plumber())
-					.pipe(concat('script.js'))
-					.pipe(gulp.dest('vendors/scripts/')).pipe(rename({suffix: '.min'}))
-					.pipe(uglify())
+					.pipe(sass())
+					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
+					.pipe(concat('core.css'))
+					.pipe(gulp.dest('vendors/styles/'))
+					.pipe(minify({keepSpecialComments: 0}))
+					.pipe(rename({suffix: '.min'}))
 					.pipe(plumber.stop())
-					.pipe(gulp.dest('vendors/scripts/'))
+					.pipe(gulp.dest('vendors/styles/'))
 					.pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('images', function() {
+gulp.task('icon_styles', function() {
 	var stream;
-	stream = streamqueue({objectMode: true});
-	stream.queue(gulp.src(path.images));
+	stream = streamqueue({
+		objectMode: true
+	});
+	stream.queue(gulp.src(path.icon_styles));
 	return stream.done()
-					.pipe(changed('vendors/images/'))
-					.pipe(imagemin({optimizationLevel: 3,progressive: true,interlaced: true}))
-					.pipe(gulp.dest('vendors/images/'));
+					.pipe(plumber())
+					.pipe(sass())
+					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
+					.pipe(concat('icon-font.css'))
+					.pipe(gulp.dest('vendors/styles/'))
+					.pipe(minify({keepSpecialComments: 0}))
+					.pipe(rename({suffix: '.min'}))
+					.pipe(plumber.stop())
+					.pipe(gulp.dest('vendors/styles/'))
+					.pipe(browserSync.reload({stream: true}));
+});
+
+
+gulp.task('scripts', function() {
+	var stream;
+	stream = streamqueue({
+		objectMode: true
+	});
+	stream.queue(gulp.src(path.scripts));
+    return stream.done()
+                    .pipe(plumber())
+                    .pipe(concat('script.js'))
+                    .pipe(gulp.dest('vendors/scripts/'))
+                    .pipe(rename({suffix: '.min'}))
+                    .pipe(uglify()).pipe(plumber.stop())
+                    .pipe(gulp.dest('vendors/scripts/'))
+                    .pipe(browserSync.reload({stream: true}));
+});
+
+gulp.task('core', function() {
+	var stream;
+	stream = streamqueue({
+		objectMode: true
+	});
+	stream.queue(gulp.src(path.core));
+    return stream.done()
+                    .pipe(plumber())
+                    .pipe(concat('core.js'))
+                    .pipe(gulp.dest('vendors/scripts/'))
+                    .pipe(rename({suffix: '.min'}))
+                    .pipe(uglify()).pipe(plumber.stop())
+                    .pipe(gulp.dest('vendors/scripts/'))
+                    .pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('php', function() {
 	var stream;
-	stream = streamqueue({objectMode: true});
+	stream = streamqueue({
+		objectMode: true
+	});
 	stream.queue(gulp.src(path.php));
-	return stream.done()
-					.pipe(browserSync.reload({stream: true}));
+    return stream.done()
+                    .pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('fonts', function() {
 	var stream;
-	stream = streamqueue({objectMode: true});
+	stream = streamqueue({
+		objectMode: true
+	});
 	stream.queue(gulp.src(path.fonts));
-	return stream.done()
-					.pipe(gulp.dest('vendors/fonts/'));
+    return stream.done()
+                    .pipe(gulp.dest('vendors/fonts/'));
 });
 
-// gulp.task('connect-sync', ['styles', 'scripts', 'php'], function() {
-// 	browserSync.init({
-// 		proxy: 'localhost/deskapp',
-// 		open: true,
-// 		reloadDelay: 50,
-// 		watchOptions: {
-// 			debounceDelay: 50
-// 		}
-// 	});
-// 	gulp.watch(['src/styles/**/**'], ['styles']);
-// 	gulp.watch(['src/scripts/**/**'], ['scripts']);
-// 	gulp.watch(path.php, ['php']);
-// 	return gulp.watch(['*', 'vendors/**/**'], function(file) {
-// 		if (file.type === "changed") {
-// 			return browserSync.reload(file.path);
-// 		}
-// 	});
-// });
 gulp.task('connect-sync', function (done) {
 	browserSync.reload();
 	done();
@@ -149,22 +190,23 @@ gulp.task('connect-sync', function (done) {
 	    }
 	});
 	gulp.watch("*.php").on("change", reload);
-	gulp.watch("src/styles/**/*.*").on("change", reload);
-	gulp.watch("src/scripts/**").on("change", reload);
-	done();
+	gulp.watch("src/styles/**/*.css").on("change", reload);
+	gulp.watch("src/plugins/**/*.css").on("change", reload);
 });
 
 gulp.task('watch', function(){
 	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
+	gulp.watch("src/styles/**/*.*", gulp.series('corestyle'));	
 	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
 	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));
-	//gulp.watch(path.images, ['images']);
+	gulp.watch("src/core/**/*.js", gulp.series('core'));
 });
 
-// gulp.task('default', ['styles', 'fonts', 'scripts', 'connect-sync'], function(){
-gulp.task('default', gulp.series(gulp.parallel('styles', 'fonts', 'scripts', ['connect-sync']), function(){
+gulp.task('default', gulp.series(gulp.parallel('styles', 'corestyle', 'fonts', 'scripts', 'core', 'icon_styles', ['connect-sync']), function(){
 	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
 	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
+	gulp.watch("src/styles/**/*.*", gulp.series('corestyle'));
 	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));
-	//gulp.watch(path.images, ['images']);
+	gulp.watch("src/scripts/**/*.js", gulp.series('core'));
+	gulp.watch("src/fonts/**/*.*", gulp.series('icon_styles'));
 }));

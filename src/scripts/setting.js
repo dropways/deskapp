@@ -1,5 +1,6 @@
 jQuery(window).on("load",function() {
 	"use strict";
+	// pre loader
 	jQuery(".pre-loader").fadeToggle("medium");
 	// bootstrap wysihtml5
 	$('.textarea_editor').wysihtml5({
@@ -7,11 +8,12 @@ jQuery(window).on("load",function() {
 	});
 });
 jQuery(window).on("load resize", function () {
+	// custom scrollbar
 	$(".customscroll").mCustomScrollbar({
-		theme: "minimal-dark",
-		advanced:{
-			autoScrollOnFocus: false,
-		},
+		theme:"dark-2",
+		scrollInertia: 200,
+		autoExpandScrollbar: true,
+		advanced: { autoExpandHorizontalScroll: true }
 	});
 });
 jQuery(document).ready(function(){
