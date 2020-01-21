@@ -45,9 +45,9 @@ var path = {
 	],
 	core: [
 		'src/scripts/jquery.min.js',
-		'src/scripts/moment.js',
 		'src/plugins/bootstrap/popper.min.js',
 		'src/plugins/bootstrap/bootstrap.min.js',
+		'src/scripts/moment.js',
 		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
 		'src/plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
 		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',

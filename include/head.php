@@ -15,9 +15,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,600i,700,800,900&display=swap" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,700&display=swap" rel="stylesheet">
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="vendors/styles/core.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
 	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
-	<link rel="stylesheet" type="text/css" href="vendors/styles/style.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>

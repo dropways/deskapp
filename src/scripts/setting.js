@@ -68,7 +68,7 @@ jQuery(document).ready(function(){
 	$('.custom-select2').select2();
 
 	// Bootstrap Select
-	$('.selectpicker').selectpicker();
+	//$('.selectpicker').selectpicker();
 
 	// tooltip init
 	$('[data-toggle="tooltip"]').tooltip()

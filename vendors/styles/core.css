@@ -11237,23 +11237,47 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   border-color: #5897fb; }
 
 /*!
- * Bootstrap-select v1.13.1 (https://developer.snapappointments.com/bootstrap-select)
+ * Bootstrap-select v1.13.12 (https://developer.snapappointments.com/bootstrap-select)
  *
- * Copyright 2012-2018 SnapAppointments, LLC
+ * Copyright 2012-2019 SnapAppointments, LLC
  * Licensed under MIT (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)
  */
+@-webkit-keyframes bs-notify-fadeOut {
+  0% {
+    opacity: .9; }
+  100% {
+    opacity: 0; } }
+
+@keyframes bs-notify-fadeOut {
+  0% {
+    opacity: .9; }
+  100% {
+    opacity: 0; } }
+
 .bootstrap-select > select.bs-select-hidden, select.bs-select-hidden, select.selectpicker {
   display: none !important; }
 
 .bootstrap-select {
-  width: 220px\9; }
+  width: 220px\0;
+  vertical-align: middle; }
 
 .bootstrap-select > .dropdown-toggle {
   position: relative;
   width: 100%;
-  z-index: 1;
   text-align: right;
-  white-space: nowrap; }
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.bootstrap-select > .dropdown-toggle:after {
+  margin-top: -1px; }
 
 .bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:active, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
   color: #999; }
@@ -11270,19 +11294,20 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   height: 100% !important;
   padding: 0 !important;
   opacity: 0 !important;
-  border: none; }
+  border: none;
+  z-index: 0 !important; }
 
 .bootstrap-select > select.mobile-device {
   top: 0;
   left: 0;
   display: block !important;
   width: 100% !important;
-  z-index: 2; }
+  z-index: 2 !important; }
 
-.bootstrap-select.is-invalid .dropdown-toggle, .error .bootstrap-select .dropdown-toggle, .has-error .bootstrap-select .dropdown-toggle, .was-validated .bootstrap-select .selectpicker:invalid + .dropdown-toggle {
+.bootstrap-select.is-invalid .dropdown-toggle, .error .bootstrap-select .dropdown-toggle, .has-error .bootstrap-select .dropdown-toggle, .was-validated .bootstrap-select select:invalid + .dropdown-toggle {
   border-color: #b94a48; }
 
-.bootstrap-select.is-valid .dropdown-toggle, .was-validated .bootstrap-select .selectpicker:valid + .dropdown-toggle {
+.bootstrap-select.is-valid .dropdown-toggle, .was-validated .bootstrap-select select:valid + .dropdown-toggle {
   border-color: #28a745; }
 
 .bootstrap-select.fit-width {
@@ -11291,7 +11316,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 220px; }
 
-.bootstrap-select .dropdown-toggle:focus {
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
   outline: thin dotted #333 !important;
   outline: 5px auto -webkit-focus-ring-color !important;
   outline-offset: -2px; }
@@ -11299,16 +11324,18 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .bootstrap-select.form-control {
   margin-bottom: 0;
   padding: 0;
-  border: none; }
+  border: none;
+  height: auto; }
 
 :not(.input-group) > .bootstrap-select.form-control:not([class*=col-]) {
   width: 100%; }
 
 .bootstrap-select.form-control.input-group-btn {
+  float: none;
   z-index: auto; }
 
-.bootstrap-select.form-control.input-group-btn:not(:first-child):not(:last-child) > .btn {
-  border-radius: 0; }
+.form-inline .bootstrap-select, .form-inline .bootstrap-select.form-control:not([class*=col-]) {
+  width: auto; }
 
 .bootstrap-select:not(.input-group-btn), .bootstrap-select[class*=col-] {
   float: none;
@@ -11360,26 +11387,39 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .bootstrap-select.bs-container .dropdown-menu {
   z-index: 1060; }
 
-.bootstrap-select .dropdown-toggle:before {
-  content: '';
-  display: inline-block; }
-
 .bootstrap-select .dropdown-toggle .filter-option {
-  position: absolute;
+  position: static;
   top: 0;
   left: 0;
-  padding-top: inherit;
-  padding-right: inherit;
-  padding-bottom: inherit;
-  padding-left: inherit;
+  float: left;
   height: 100%;
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto; }
 
-.bootstrap-select .dropdown-toggle .filter-option-inner {
+.bs3.bootstrap-select .dropdown-toggle .filter-option {
+  padding-right: inherit; }
+
+.input-group .bs3-has-addon.bootstrap-select .dropdown-toggle .filter-option {
+  position: absolute;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  padding-left: inherit;
+  float: none; }
+
+.input-group .bs3-has-addon.bootstrap-select .dropdown-toggle .filter-option .filter-option-inner {
   padding-right: inherit; }
 
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  overflow: hidden; }
+
+.bootstrap-select .dropdown-toggle .filter-expand {
+  width: 0 !important;
+  float: left;
+  opacity: 0 !important;
   overflow: hidden; }
 
 .bootstrap-select .dropdown-toggle .caret {
@@ -11417,7 +11457,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   position: relative; }
 
 .bootstrap-select .dropdown-menu li.active small {
-  color: #fff; }
+  color: rgba(255, 255, 255, 0.5) !important; }
 
 .bootstrap-select .dropdown-menu li.disabled a {
   cursor: not-allowed; }
@@ -11458,6 +11498,10 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.bootstrap-select .dropdown-menu .notify.fadeOut {
+  -webkit-animation: .3s linear 750ms forwards bs-notify-fadeOut;
+  animation: .3s linear 750ms forwards bs-notify-fadeOut; }
+
 .bootstrap-select .no-results {
   padding: 3px;
   background: #f5f5f5;
@@ -11471,6 +11515,9 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .bootstrap-select.fit-width .dropdown-toggle .filter-option-inner, .bootstrap-select.fit-width .dropdown-toggle .filter-option-inner-inner {
   display: inline; }
+
+.bootstrap-select.fit-width .dropdown-toggle .bs-caret:before {
+  content: '\00a0'; }
 
 .bootstrap-select.fit-width .dropdown-toggle .caret {
   position: static;
