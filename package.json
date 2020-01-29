@@ -31,7 +31,7 @@
 	"dependencies": {
 		"gulp-install": "^1.1.0",
 		"install": "^0.12.1",
-		"npm": "^6.11.2",
+		"npm": "^6.4.1",
 		"onscreen": "^1.1.3"
 	}
 }

@@ -180,6 +180,24 @@ gulp.task('fonts', function() {
                     .pipe(gulp.dest('vendors/fonts/'));
 });
 
+gulp.task('images', function() {
+	var stream;
+	stream = streamqueue({
+		objectMode: true
+	});
+	stream.queue(gulp.src(path.images));
+	return stream.done().pipe(changed('vendors/images/')).pipe(imagemin({
+		optimizationLevel: 3,
+		progressive: true,
+		interlaced: true,
+		svgoPlugins: [
+			{
+				removeViewBox: false
+			}
+		]
+	})).pipe(gulp.dest('vendors/images/'));
+});
+
 gulp.task('connect-sync', function (done) {
 	browserSync.reload();
 	done();

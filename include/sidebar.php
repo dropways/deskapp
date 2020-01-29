@@ -1,7 +1,7 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="index.php">
-				<img src="vendors/images/deskapp-logo.png" alt="">
+				<img src="vendors/images/deskapp-logo.svg" alt="">
 			</a>
 		</div>
 		<div class="menu-block customscroll">

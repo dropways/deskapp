@@ -896,7 +896,7 @@ textarea.form-control{
 	left: 50%;
 }
 .brand-logo{
-	width: 250px;
+	width: 280px;
 	height: 70px;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	display: table;
@@ -911,7 +911,7 @@ textarea.form-control{
 	font-weight: 500;
 	line-height: 45px;
 	font-family: 'Muli', sans-serif;
-	padding: 0px 20px 0px;
+	padding: 0px 10px 0px;
 	text-align: center;
 }
 .brand-logo a span{
