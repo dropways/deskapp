@@ -1,16 +1,20 @@
-	<div class="pre-loader"></div>
+	<div class="pre-loader">
+		<div class="pre-loader-box">
+			<div class="loader-logo"><img src="vendors/images/deskapp-logo.svg" alt=""></div>
+			<div class='loader-progress' id="progress_div">
+				<div class='bar' id='bar1'></div>
+			</div>
+			<div class='percent' id='percent1'>0%</div>
+			<div class="loading-text">
+				Loading...
+			</div>
+		</div>
+	</div>
+
 	<div class="header clearfix">
 		<div class="header-right">
-			<div class="brand-logo">
-				<a href="index.php">
-					<img src="vendors/images/logo.png" alt="" class="mobile-logo">
-				</a>
-			</div>
 			<div class="menu-icon">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
+				<img src="vendors/images/menu-icon.svg" alt="">
 			</div>
 			<div class="user-info-dropdown">
 				<div class="dropdown">

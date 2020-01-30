@@ -1,7 +1,5 @@
 jQuery(window).on("load",function() {
 	"use strict";
-	// pre loader
-	jQuery(".pre-loader").fadeToggle("medium");
 	// bootstrap wysihtml5
 	$('.textarea_editor').wysihtml5({
 		html: true
@@ -96,14 +94,16 @@ jQuery(document).ready(function(){
 	$('.menu-icon').on('click', function(){
 		$(this).toggleClass('open');
 		$('.left-side-bar').toggleClass('open');
+		$('.mobile-menu-overlay').toggleClass('show');
 	});
 
 	var w = $(window).width();
 	$(document).on('touchstart click', function(e){
-		if($(e.target).parents('.left-side-bar').length == 0 && !$(e.target).is('.menu-icon, .menu-icon span'))
+		if($(e.target).parents('.left-side-bar').length == 0 && !$(e.target).is('.menu-icon, .menu-icon img'))
 		{
 			$('.left-side-bar').removeClass('open');
 			$('.menu-icon').removeClass('open');
+			$('.mobile-menu-overlay').removeClass('show');
 		};
 	});
 	$(window).on('resize', function() {
@@ -111,6 +111,7 @@ jQuery(document).ready(function(){
 		if ($(window).width() > 1200) {
 			$('.left-side-bar').removeClass('open');
 			$('.menu-icon').removeClass('open');
+			$('.mobile-menu-overlay').removeClass('show');
 		}
 	});
 

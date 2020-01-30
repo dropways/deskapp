@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.14" height="27.941" viewBox="0 0 30.14 27.941">
+  <g id="menu-icon" transform="translate(0 -75.821)">
+    <g id="Group_2" data-name="Group 2" transform="translate(0 87.821)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" d="M28.963,236H1.177C.527,236,0,236.882,0,237.971s.527,1.971,1.177,1.971H28.963c.65,0,1.177-.882,1.177-1.971S29.613,236,28.963,236Z" transform="translate(0 -236)" fill="#181f48"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 75.821)">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_2" data-name="Path 2" d="M28.963,76H1.177C.527,76,0,76.882,0,77.971s.527,1.971,1.177,1.971H28.963c.65,0,1.177-.882,1.177-1.971S29.613,76,28.963,76Z" transform="translate(0 -76)" fill="#181f48"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(0 99.821)">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_3" data-name="Path 3" d="M28.963,396H1.177C.527,396,0,396.882,0,397.971s.527,1.971,1.177,1.971H28.963c.65,0,1.177-.882,1.177-1.971S29.613,396,28.963,396Z" transform="translate(0 -396)" fill="#181f48"/>
+      </g>
+    </g>
+  </g>
+</svg>

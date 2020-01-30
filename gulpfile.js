@@ -2,6 +2,7 @@ var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plu
 
 gulp = require('gulp');
 sass = require('gulp-sass');
+csso = require('gulp-csso');
 plumber = require('gulp-plumber');
 rename = require('gulp-rename');
 autoprefixer = require('gulp-autoprefixer');
@@ -20,11 +21,11 @@ config = {
 
 var path = {
 	styles: [
+		'src/styles/theme.css',
 		'src/styles/style.css',
 		'src/styles/media.css'
 	],
-	corestyle: [
-		'src/styles/theme.css',
+	corestyle: [		
 		'src/plugins/bootstrap/bootstrap.min.css',
 		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css',
 		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.css',
@@ -78,7 +79,7 @@ gulp.task('styles', function() {
 	stream.queue(gulp.src(path.styles));
 	return stream.done()
 					.pipe(plumber())
-					.pipe(sass())
+					.pipe(csso())
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('style.css'))
 					.pipe(gulp.dest('vendors/styles/'))
@@ -220,8 +221,8 @@ gulp.task('watch', function(){
 	gulp.watch("src/core/**/*.js", gulp.series('core'));
 });
 
-gulp.task('default', gulp.series(gulp.parallel('styles', 'corestyle', 'fonts', 'scripts', 'core', 'icon_styles', ['connect-sync']), function(){
-	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
+gulp.task('default', gulp.series(gulp.parallel(['styles'], 'corestyle', 'fonts', 'scripts', 'core', 'icon_styles', ['connect-sync']), function(){
+	gulp.watch("src/styles/**/*.css", gulp.series('styles'));
 	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
 	gulp.watch("src/styles/**/*.*", gulp.series('corestyle'));
 	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));

@@ -3,18 +3,25 @@
 ==============================================================*/
 @media (max-width: 1400px){
 }
+@media (min-width: 1201px) and (max-width: 1400px){
+	.brand-logo{width: 250px;}
+	.left-side-bar{width: 250px;}
+	.main-container{padding-left: 260px;}
+}
 @media (min-width: 1200px) and (max-width: 1400px){
 	.device-usage-chart .width-50-p{width: 100%;}
 }
 @media (max-width: 1200px){
-	.main-container{padding-left: 0;}
+	.main-container{padding-left: 0; padding-right: 0;}
 	.header-right{width: 100%;}
-	.left-side-bar{left: -251px;}
+	.left-side-bar{left: -281px;}
 	.left-side-bar:before{display: block; opacity: 0; visibility: hidden;}
 	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
 	.header-right .brand-logo{display: table;}
-	.header-right .menu-icon{display: block;}
+	.header-right .menu-icon{display: block; padding-left: 15px; padding-top: 7px;}
 	.footer-wrap{width: 100%;}
+	.mobile-menu-overlay{display: block; opacity: 0; visibility: hidden;}
+	.mobile-menu-overlay.show{opacity: 0.6; visibility: visible;}
 }
 @media (max-width: 1024px){
 }

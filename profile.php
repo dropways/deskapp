@@ -26,7 +26,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-30">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-30">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<div class="profile-photo">
 								<a href="modal" data-toggle="modal" data-target="#modal" class="edit-avatar"><i class="fa fa-pencil"></i></a>
@@ -107,7 +107,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 mb-30">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 mb-30">
 						<div class="bg-white border-radius-4 box-shadow height-100-p">
 							<div class="profile-tab height-100-p">
 								<div class="tab height-100-p">

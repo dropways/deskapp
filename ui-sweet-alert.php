@@ -27,85 +27,85 @@
 
 				<div class="row clearfix">
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A basic message</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-basic">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A title with a text under</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-title">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A success message!</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-success">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A error message!</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-error">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A warning message, with a function attached to the "Confirm"-button...</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-warning">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A custom positioned dialog</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-custom-position">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">By passing a parameter, you can execute something else for "Cancel".</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-params">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A message with custom Image Header</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-image">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A message with auto close timer</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="sa-close">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">Custom HTML description and buttons</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="custom-html-alert">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">A message with custom width, padding and background</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="custom-padding-width-alert">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">Ajax request example</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="ajax-alert">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">Chaining modals (queue) example</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="chaining-alert">Click me</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow text-center height-100-p">
+						<div class="pd-20 bg-white border-radius-10 box-shadow text-center height-100-p">
 							<h5 class="pt-20 mb-30">Dynamic queue example</h5>
 							<button type="button" class="btn mb-20 btn-outline-primary" id="dynamic-alert">Click me</button>
 						</div>

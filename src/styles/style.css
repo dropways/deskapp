@@ -95,7 +95,7 @@ p {
 	Global Styles Start
 ==============================================================*/
 .pre-loader{
-	background: url(../images/new-loader.gif) no-repeat #fffef2;
+	background: #ffffff;
 	background-position: center center;
 	background-size: 13%;
 	position: fixed;
@@ -104,6 +104,39 @@ p {
 	width: 100%;
 	height: 100%;
 	z-index: 12345;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.pre-loader .loader-logo{
+	padding-bottom: 15px;
+}
+.pre-loader .loader-progress{
+	height: 8px;
+	border-radius: 15px;
+	max-width: 200px;
+	margin: 0 auto;
+	display: block;
+	background: #ecf0f4;
+	overflow: hidden;
+}
+.pre-loader .bar{
+	width: 0%;
+	height: 8px;
+	display: block;
+	background: #1b00ff;
+}
+.pre-loader .percent{
+	text-align: center;
+	font-size: 24px;
+	display: none;
+}
+.pre-loader .loading-text{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 15px;
 }
 
 .mx-w-150{max-width: 150px;}
@@ -407,6 +440,7 @@ textarea.form-control{
 	font-family: 'Muli', sans-serif;
 	letter-spacing: 0.035em;
 	font-weight: 500;
+	padding: .438rem 1rem;
 }
 .btn-lg, .btn-group-lg > .btn{
 	font-size: 18px;
@@ -629,6 +663,20 @@ textarea.form-control{
 .docs-buttons .btn{margin-bottom: 5px;}
 
 .table th{font-weight: 600;}
+.table-striped tbody tr:nth-of-type(odd){background: #ecf0f4;}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{
+	background: #ECF0F3 !important;
+}
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover{
+	background: #ECF0F3 !important;
+}
+table.dataTable.hover tbody tr:hover.selected, table.dataTable.display tbody tr:hover.selected, table.dataTable tbody tr.selected{
+	background-color: #1b00ff !important;
+}
+table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.odd.selected{
+	background-color: #1b00ff !important;
+}
 
 .plyr{
 	-webkit-border-radius: 6px;
@@ -900,6 +948,7 @@ textarea.form-control{
 	height: 70px;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	display: table;
+	background: #ffffff;
 }
 .brand-logo a{
 	display: table-cell;
@@ -939,6 +988,9 @@ textarea.form-control{
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
+}
+.left-side-bar .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background: rgba(255,255,255,0.6);
 }
 .left-side-bar:before{
 	content: "";
@@ -1048,7 +1100,7 @@ textarea.form-control{
 	height: 2px;
 	margin-top: -1px;
 	width: 10px;
-	background: #1b00ff;
+	background: rgba(255,255,255,0.4);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1091,6 +1143,24 @@ textarea.form-control{
 }
 .sidebar-menu .dropdown-toggle.active, .sidebar-menu .dropdown-toggle.active .micon{
 	color: #ffffff;
+}
+
+.mobile-menu-overlay{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/cancel.svg) no-repeat #121421;
+	opacity: 0.6;
+	z-index: 123;
+	background-size: 20px;
+	background-position: 98% 15px;
+	display: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /*==============================================================
@@ -1395,6 +1465,8 @@ textarea.form-control{
 
 .da-card{
 	position: relative;
+    border-radius: 16px;
+    overflow: hidden;
 }
 .da-card .da-card-content{
 	padding: 20px;
@@ -1539,6 +1611,7 @@ textarea.form-control{
 	margin-bottom: 0;
 }
 .nav-tabs.customtab .nav-link{
+	color: #181f48;
 	border: 0;
 	border-bottom: 2px solid transparent;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2144,7 +2217,7 @@ textarea.form-control{
 	padding: 15px;
 }
 .profile-tab .nav-tabs.customtab{
-	background: #e7eef0;
+	background: #ccd5dc;
 }
 .profile-tab .nav-tabs.customtab .nav-link{
 	padding: 18px 30px;
@@ -2236,6 +2309,7 @@ textarea.form-control{
 .profile-task-list ul li .custom-control-label::before, .profile-task-list ul li .custom-control-label::after{
 	top: 50%;
 	margin-top: -12px;
+	left: 0;
 }
 .task-list-scroll{
 	height: 303px;
@@ -2348,12 +2422,12 @@ textarea.form-control{
 .contact-directory-box{
 	background: #ffffff;
 	min-height: 400px;
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+	-webkit-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .contact-dire-info{
 	padding: 30px 25px 20px;
@@ -2397,11 +2471,11 @@ textarea.form-control{
 	margin: 3px 0;
 }
 .contact-directory-box .contact-skill .badge.badge-primary{
-	background: #0069d9;
-	border-color: #0069d9;
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	background: #1b00ff;
+	border-color: #1b00ff;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 .contact-directory-box .profile-sort-desc{
 	font-weight: 400;
@@ -2425,7 +2499,7 @@ textarea.form-control{
 	transition: all 0.3s ease-in-out;
 }
 .contact-directory-box:hover .view-contact a{
-	background: #0069d9;
+	background: #1b00ff;
 	color: #ffffff;
 }
 .contact-directory-box:hover .view-contact a:before{
@@ -2435,7 +2509,7 @@ textarea.form-control{
 	content: "";
 	width: 80px;
 	height: 1px;
-	background: #6f7c8d;
+	background: #1b00ff;
 	position: absolute;
 	left: 0;
 	right: 0;
