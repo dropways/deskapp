@@ -29,6 +29,8 @@
 	.device-usage-chart .width-50-p{width: 100%;}
 }
 @media (max-width: 767px){
+	.login-box{padding: 40px 15px;}
+	.login-header .brand-logo a img{max-width: 150px;}
 	/*.main-container{height: auto;}*/
 	.pre-loader{background-size: 43%;}
 	.xs-pd-20-10{padding: 20px 10px;}

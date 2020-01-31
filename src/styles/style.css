@@ -154,10 +154,12 @@ p {
 .pd-20{padding: 20px;}
 .pd-ltr-20{padding: 20px 20px 0;}
 .pd-30{padding: 30px;}
+.pb-10{padding-bottom: 10px;}
 .pb-20{padding-bottom: 20px;}
 .pb-30{padding-bottom: 30px;}
 .pt-10{padding-top: 10px;}
 .pt-20{padding-top: 20px;}
+.pt-30{padding-top: 30px;}
 .margin-5{margin: 5px;}
 .mt-15{margin-top: 15px;}
 .mb-30{margin-bottom: 30px;}
@@ -1170,17 +1172,43 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 /*==============================================================
 	Login Start
 ==============================================================*/
+.login-page{
+	background: #ffffff;
+}
+.login-header{
+	position: relative;
+	padding: 0 15px;
+}
+.login-header .brand-logo{
+	width: auto;
+	border: 0;
+}
+.login-menu a{
+	font-size: 20px;
+	font-weight: 600;
+	color: #1b00ff;
+}
 .login-wrap{
-	height: 100%;
+	height: calc(100% - 70px);
+	overflow: auto;
+	padding: 30px 0;
+}
+.login-wrap .container{
+	max-width: 1300px;
 }
 .login-wrap .mCustomScrollBox{
 	height: auto;
 	width: 100%;
 }
 .login-box{
-	max-width: 380px;
+	max-width: 400px;
 	width: 100%;
+	padding: 40px;
 	margin: 5px auto;
+}
+.login-box .login-title{
+	padding: 0px 0 10px;
+	margin-bottom: 30px;
 }
 .login-box .login-img{
 	display: block;
