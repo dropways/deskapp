@@ -31,13 +31,13 @@
 						</div>
 						<form>
 							<div class="input-group custom">
-								<input type="text" class="form-control" placeholder="Username">
+								<input type="text" class="form-control form-control-lg" placeholder="Username">
 								<div class="input-group-append custom">
 									<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
 								</div>
 							</div>
 							<div class="input-group custom">
-								<input type="password" class="form-control" placeholder="**********">
+								<input type="password" class="form-control form-control-lg" placeholder="**********">
 								<div class="input-group-append custom">
 									<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
 								</div>

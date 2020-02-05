@@ -381,7 +381,7 @@ textarea.form-control{
 	color: #007bff;
 }
 .form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-append > .btn{
-	height: 48px;
+	height: 50px;
 	font-size: 16px;
 }
 /* ---------------- form validation class -------------*/
@@ -443,6 +443,9 @@ textarea.form-control{
 	letter-spacing: 0.035em;
 	font-weight: 500;
 	padding: .438rem 1rem;
+}
+.btn-lg{
+	padding: .657rem 1rem;
 }
 .btn-lg, .btn-group-lg > .btn{
 	font-size: 18px;
