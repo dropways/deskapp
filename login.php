@@ -74,17 +74,13 @@
 									<div class="input-group mb-0">
 										<!--
 											use code for form submit
-											<input class="btn btn-outline-primary btn-lg btn-block" type="submit" value="Sign In">
+											<input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign In">
 										-->
-										<a class="btn btn-outline-primary btn-lg btn-block" href="index.php">Sign In</a>
+										<a class="btn btn-primary btn-lg btn-block" href="index.php">Sign In</a>
 									</div>
 									<div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">OR</div>
 									<div class="input-group mb-0">
-										<!--
-											use code for form submit
-											<input class="btn btn-outline-primary btn-lg btn-block" type="submit" value="Sign In">
-										-->
-										<a class="btn btn-primary btn-lg btn-block" href="index.php">Register To Create Account</a>
+										<a class="btn btn-outline-primary btn-lg btn-block" href="index.php">Register To Create Account</a>
 									</div>
 								</div>
 							</div>

@@ -191,8 +191,8 @@ p {
 .min-height-200px{min-height: 200px;}
 
 .bg-cover{background-size: cover !important;}
-.bg-light-blue{background-color: #def2ff;}
-.color-light-blue{color: #def2ff;}
+.bg-light-blue{background-color: #e1e1f5;}
+.color-light-blue{color: #e1e1f5;}
 .bg-light-gray{background-color: #ecf0f4;}
 .bg-white{background: #ffffff;}
 .color-white{color: #ffffff;}
@@ -294,7 +294,7 @@ p {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.dropdown-item:hover, .dropdown-item:focus{
+.dropdown-item:hover, .dropdown-item:focus {
 	background: #ecf0f4;
 	color: #1b00ff;
 }
@@ -381,7 +381,7 @@ textarea.form-control{
 	font-size: 20px;
 }
 .form-control:focus ~ .input-group-append .fa{
-	color: #007bff;
+	color: #1b00ff;
 }
 .form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-append > .btn{
 	height: 50px;
@@ -487,7 +487,7 @@ textarea.form-control{
 }
 .datepicker--day-name{color: #1b00ff;}
 .datepicker--nav-action path{stroke: #1b00ff;}
-.datepicker--cell.-focus-, .datepicker--nav-title:hover, .datepicker--nav-action:hover{background: #def2ff; color: #1b00ff;}
+.datepicker--cell.-focus-, .datepicker--nav-title:hover, .datepicker--nav-action:hover{background: #e1e1f5; color: #1b00ff;}
 .datepicker--cell.-selected-{color: #ffffff;}
 .datepicker--time-current-hours:after, .datepicker--time-current-minutes:after{display: none;}
 .datepicker--time-current-hours, .datepicker--time-current-minutes{color: #1b00ff;}
@@ -609,9 +609,22 @@ textarea.form-control{
 	outline: none !important;
 }
 .bootstrap-select .dropdown-header{
-	color: #131e22;
-	font-weight: 500;
+	color: #222222;
+	font-weight: 700;
 	font-size: 15px;
+}
+.bootstrap-select .dropdown-menu li .dropdown-item:hover{
+	color: #1b00ff;
+}
+.bootstrap-select .dropdown-menu li .dropdown-item.active:hover{
+	background-color: #1b00ff;
+	color: #ffffff;
+}
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark{
+	top: 13px;
+}
+.bootstrap-select .bs-ok-default:after{
+	border-width: 0 2px 2px 0;
 }
 .dropup .dropdown-toggle::after{
 	content: "\f107";
@@ -636,14 +649,14 @@ textarea.form-control{
 	border: 1px solid #eaeaea;
 }
 .bootstrap-select.btn-group .dropdown-menu li.selected a{
-	background: #def2ff;
+	background: #e1e1f5;
 	color: #131e22;
 }
 .bootstrap-select.btn-group .dropdown-menu li.disabled a{
 	color: #cecece;
 }
 .bootstrap-select.btn-group .dropdown-menu li a:hover{
-	background: #def2ff;
+	background: #e1e1f5;
 	color: #131e22;
 }
 .bootstrap-select.btn-group .dropdown-menu li a span.check-mark{
@@ -998,7 +1011,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	transition: all 0.5s ease;
 }
 .left-side-bar .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	background: rgba(255,255,255,0.6);
+	background: #ecf0f4;
 }
 .left-side-bar:before{
 	content: "";
@@ -1026,7 +1039,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 .sidebar-menu .dropdown-toggle{
 	display: block;
-	padding: 18px 15px 18px 60px;
+	padding: 18px 15px 18px 67px;
 	font-size: 16px;
 	color: #ffffff;
 	font-weight: 300;
@@ -1050,8 +1063,8 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .sidebar-menu .dropdown-toggle .micon{
 	position: absolute;
 	left: 10px;
-	width: 35px;
-	height: 35px;
+	width: 42px;
+	height: 42px;
 	font-size: 18px;
 	display: flex;
 	align-items: center;
@@ -1873,7 +1886,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .fc th{
 	font-weight: 500;
 	padding: 10px !important;
-	background: #def2ff;
+	background: #e1e1f5;
 }
 .fc-day-grid-event .fc-time{
 	font-weight: 500 !important;
@@ -2304,7 +2317,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	padding: 15px;
 }
 .profile-tab .nav-tabs.customtab{
-	background: #ccd5dc;
+	background: #ffffff;
 }
 .profile-tab .nav-tabs.customtab .nav-link{
 	padding: 18px 30px;
@@ -2822,7 +2835,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .chat-box .chat-desc ul li.admin_chat .chat-body p{
 	text-align: right;
 	display: inline-block;
-	background: #def2ff;
+	background: #e1e1f5;
 	padding: 12px 15px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
