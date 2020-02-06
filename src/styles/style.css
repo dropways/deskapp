@@ -377,6 +377,9 @@ textarea.form-control{
 	border: 0;
 	background: transparent;
 }
+.input-group-text i{
+	font-size: 20px;
+}
 .form-control:focus ~ .input-group-append .fa{
 	color: #007bff;
 }
@@ -1175,12 +1178,12 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 /*==============================================================
 	Login Start
 ==============================================================*/
-.login-page{
-	background: #ffffff;
-}
+.login-page{}
 .login-header{
 	position: relative;
 	padding: 0 15px;
+	background-color: #ffffff;
+	z-index: 1;
 }
 .login-header .brand-logo{
 	width: auto;
@@ -1206,12 +1209,65 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .login-box{
 	max-width: 400px;
 	width: 100%;
-	padding: 40px;
+	padding: 40px 20px;
 	margin: 5px auto;
+}
+.select-role{
+	margin-bottom: 25px;
+	padding: 0 5px;
+}
+.select-role .btn-group{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+}
+.select-role .btn-group .btn{
+	margin: 0 5px;
+	border: 1px solid #d4d4d4;
+	text-align: left;
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: calc(50% - 10px);
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: #333333;
+	position: relative;
+}
+.select-role .btn-group .btn.active, .select-role .btn-group .btn.focus.active, .select-role .btn-group .btn.active:focus{
+	background-color: rgba(27,0,255,0.05);
+	border-color: rgba(27,0,255,0.5);
+	color: #1b00ff;
+}
+.select-role .btn-group .btn .icon{
+	position: absolute;
+	left: 15px;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	margin-top: -15px;
+}
+.select-role .btn-group .btn .icon .svg{
+	width: 30px;
+	height: 30px;
+}
+.select-role .btn-group .btn span{
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #222222;
 }
 .login-box .login-title{
 	padding: 0px 0 10px;
 	margin-bottom: 30px;
+}
+.login-box .login-title h2{
+	font-size: 24px;
+	font-weight: 800;
 }
 .login-box .login-img{
 	display: block;

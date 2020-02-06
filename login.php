@@ -27,9 +27,25 @@
 				<div class="col-md-5">
 					<div class="login-box bg-white box-shadow border-radius-10">
 						<div class="login-title">
-							<h2 class="text-center font-weight-700 text-primary">Login Here</h2>
+							<h2 class="text-center text-primary">Login To DeskApp</h2>
 						</div>
 						<form>
+							<div class="select-role">
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+									<label class="btn active">
+										<input type="radio" name="options" id="admin">
+										<div class="icon"><img src="vendors/images/briefcase.svg" class="svg" alt=""></div>
+										<span>I'm</span>
+										Manager
+									</label>
+									<label class="btn">
+										<input type="radio" name="options" id="user">
+										<div class="icon"><img src="vendors/images/person.svg" class="svg" alt=""></div>
+										<span>I'm</span>
+										Employee
+									</label>
+								</div>
+							</div>
 							<div class="input-group custom">
 								<input type="text" class="form-control form-control-lg" placeholder="Username">
 								<div class="input-group-append custom">
