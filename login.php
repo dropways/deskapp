@@ -13,7 +13,7 @@
 			</div>
 			<div class="login-menu">
 				<ul>
-					<li><a href="#">Register</a></li>
+					<li><a href="register.php">Register</a></li>
 				</ul>
 			</div>
 		</div>
@@ -21,10 +21,10 @@
 	<div class="login-wrap d-flex align-items-center flex-wrap justify-content-center">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-md-7">
+				<div class="col-md-6 col-lg-7">
 					<img src="vendors/images/login-page-img.png" alt="">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6 col-lg-5">
 					<div class="login-box bg-white box-shadow border-radius-10">
 						<div class="login-title">
 							<h2 class="text-center text-primary">Login To DeskApp</h2>
@@ -80,7 +80,7 @@
 									</div>
 									<div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">OR</div>
 									<div class="input-group mb-0">
-										<a class="btn btn-outline-primary btn-lg btn-block" href="index.php">Register To Create Account</a>
+										<a class="btn btn-outline-primary btn-lg btn-block" href="register.php">Register To Create Account</a>
 									</div>
 								</div>
 							</div>

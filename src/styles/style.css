@@ -188,6 +188,16 @@ p {
 .height-100-p{height: 100%;}
 .width-50-p{width: 50%;}
 
+.max-width-200 {max-width: 200px;}
+.max-width-300 {max-width: 300px;}
+.max-width-400 {max-width: 400px;}
+.max-width-500 {max-width: 500px;}
+.max-width-600 {max-width: 600px;}
+.max-width-700 {max-width: 700px;}
+.max-width-800 {max-width: 800px;}
+.max-width-900 {max-width: 900px;}
+.max-width-1000 {max-width: 1000px;}
+
 .min-height-200px{min-height: 200px;}
 
 .bg-cover{background-size: cover !important;}
@@ -252,6 +262,17 @@ p {
 	-webkit-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
 	-moz-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
 	box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+}
+.bootstrap-select .dropdown-toggle{
+	height: 45px;
+}
+.bootstrap-select .dropdown-toggle.btn-light{
+	background-color: transparent;
+	border-color: #d4d4d4;
+}
+.bootstrap-select .dropdown-toggle.btn-light:not(:disabled):not(.disabled):active{
+	background-color: transparent;
+	border-color: #d4d4d4;
 }
 .dropdown-toggle::after{
 	content: "\f107";
@@ -1292,6 +1313,124 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 /*==============================================================
 	Login End
+==============================================================*/
+/*==============================================================
+	Register Page Start
+==============================================================*/
+.register-page-wrap{
+	position: relative;
+	height: calc(100% - 70px);
+	background-color: #ffffff;
+}
+.register-page-wrap .wizard-content{
+	height: 100%;
+}
+.register-page-wrap .wizard-content .wizard{
+	position: relative;
+	height: 100%;
+	padding-left: 350px;
+}
+.register-page-wrap .wizard-content .wizard .steps{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 350px;
+	height: 100%;
+	overflow: auto;
+	background: #181f48;
+	-webkit-border-radius: 0px 15px 15px 0px;
+	-moz-border-radius: 0px 15px 15px 0px;
+	border-radius: 0px 15px 15px 0px;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul{
+	display: block;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li{
+	display: block;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li:before,
+.register-page-wrap .wizard-content .wizard > .steps > ul > li:after{
+	display: none;
+}
+.register-page-wrap .wizard-content .wizard > .steps .step{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 0;
+	background-color: transparent;
+	border-color: rgba(255,255,255,.2);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li.done > a .step{
+	background: url(../images/tick.svg) no-repeat rgba(255,255,255,.2);
+    font-size: 0;
+    background-size: 22px;
+    background-position: center center;
+    border-color: rgba(255,255,255,.2);
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li.current .step{
+	border-color: #1b00ff;
+	color: #1b00ff;
+	background-color: transparent;
+}
+.register-page-wrap .wizard-content .wizard > .steps .info{
+	width: calc(100% - 50px);
+	padding-left: 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li{
+	width: 100%;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li a{
+	padding: 20px;
+	margin: 0;;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: left;
+	color: rgba(255,255,255,.6);
+	font-weight: 700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.register-page-wrap .wizard-content .wizard > .steps > ul > li.current > a,
+.register-page-wrap .wizard-content .wizard > .steps > ul > li.done > a{
+	color: #ffffff;
+}
+.register-page-wrap .wizard-content .wizard > .content{
+	height: calc(100% - 80px);
+	overflow: auto;
+	padding: 30px 15px;
+}
+.register-page-wrap .wizard-content .wizard > .actions{
+	padding: 20px 15px;
+	text-align: right;
+}
+.register-page-wrap .col-form-label{
+	font-weight: 600;
+	font-size: 15px;
+}
+.register-info li{
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+/*==============================================================
+	Register Page End
 ==============================================================*/
 .main-container{
 	padding: 80px 10px 0px 290px;
@@ -2991,5 +3130,15 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 ==============================================================*/
 
 .wizard-content .wizard>.actions>ul>li>a{
-	background: #0069d9;
+	background-color: #1b00ff;
+	font-weight: 600;
+}
+.wizard-content .wizard>.actions>ul>li>a[href="#previous"]{
+	border-color: #1b00ff;
+	border-width: 2px;
+	color: #1b00ff;
+}
+.wizard-content .wizard>.actions>ul>li.disabled>a[href="#previous"]{
+	display: none;
+	border-color: #1b00ff;
 }

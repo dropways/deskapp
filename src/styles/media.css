@@ -24,6 +24,8 @@
 	.mobile-menu-overlay.show{opacity: 0.6; visibility: visible;}
 }
 @media (max-width: 1024px){
+	.register-page-wrap .wizard-content .wizard{padding-left: 300px;}
+	.register-page-wrap .wizard-content .wizard .steps{width: 300px;}
 }
 @media (max-width: 991px){
 	.device-usage-chart .width-50-p{width: 100%;}
@@ -57,4 +59,11 @@
 }
 @media (max-width: 660px){
 	.docs-buttons .btn-group-crop{display: block;}
+	.select-role .btn-group .btn{padding-left: 35px; font-size: 14px;}
+	.select-role .btn-group .btn .icon{left: 5px; width: 25px; height: 25px;}
+	.select-role .btn-group .btn .icon .svg{width: 25px; height: 25px;}
+	.forgot-password a{font-size: 14px; font-weight: 600;}
+	.btn-group-lg>.btn, .btn-lg{font-size: 16px;}
+	.register-page-wrap .wizard-content .wizard{padding-left: 0;}
+	.register-page-wrap .wizard-content .wizard .steps{display: none;}
 }
