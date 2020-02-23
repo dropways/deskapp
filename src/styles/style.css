@@ -183,6 +183,7 @@ p {
 .weight-500{font-weight: 500;}
 .weight-600{font-weight: 600;}
 .weight-700{font-weight: 700;}
+.weight-800{font-weight: 800;}
 
 .height-auto{height: auto;}
 .height-100-p{height: 100%;}
@@ -1320,65 +1321,56 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .register-page-wrap{
 	position: relative;
 	height: calc(100% - 70px);
-	background-color: #ffffff;
-}
-.register-page-wrap .wizard-content{
-	height: 100%;
+	overflow: auto;
+	padding: 30px 0;
 }
 .register-page-wrap .wizard-content .wizard{
 	position: relative;
-	height: 100%;
-	padding-left: 350px;
+	overflow: auto;
 }
 .register-page-wrap .wizard-content .wizard .steps{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 350px;
-	height: 100%;
-	overflow: auto;
-	background: #181f48;
-	-webkit-border-radius: 0px 15px 15px 0px;
-	-moz-border-radius: 0px 15px 15px 0px;
-	border-radius: 0px 15px 15px 0px;
-}
-.register-page-wrap .wizard-content .wizard > .steps > ul{
-	display: block;
-}
-.register-page-wrap .wizard-content .wizard > .steps > ul > li{
-	display: block;
-}
-.register-page-wrap .wizard-content .wizard > .steps > ul > li:before,
-.register-page-wrap .wizard-content .wizard > .steps > ul > li:after{
-	display: none;
+	position: relative;
 }
 .register-page-wrap .wizard-content .wizard > .steps .step{
 	position: relative;
 	top: 0;
 	left: 0;
 	margin-left: 0;
-	background-color: transparent;
-	border-color: rgba(255,255,255,.2);
+	display: block;
+	margin: 0 auto;
+	border-width: 2px;
+	background-color: #ffffff;
+	border-color: rgba(24, 31, 72, .3);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 .register-page-wrap .wizard-content .wizard > .steps > ul > li.done > a .step{
-	background: url(../images/tick.svg) no-repeat rgba(255,255,255,.2);
+	background: url(../images/tick.svg) no-repeat #ecf0f4;
     font-size: 0;
     background-size: 22px;
     background-position: center center;
-    border-color: rgba(255,255,255,.2);
+    border-color: rgba(24, 31, 72, .3);
+}
+.register-page-wrap .wizard-content .wizard.wizard-circle>.steps>ul>li:after,
+.register-page-wrap .wizard-content .wizard.wizard-circle>.steps>ul>li:before{
+	/*display: none;*/
+	background: rgba(24, 31, 72, .3);
+}
+.wizard-content .wizard.wizard-circle>.steps>ul>li.current~li:before,
+.wizard-content .wizard.wizard-circle>.steps>ul>li.current~li:after{
+	background: rgba(24, 31, 72, .3);
 }
 .register-page-wrap .wizard-content .wizard > .steps > ul > li.current .step{
 	border-color: #1b00ff;
-	color: #1b00ff;
-	background-color: transparent;
+	color: #181f48;
+	background-color: #ffffff;
 }
 .register-page-wrap .wizard-content .wizard > .steps .info{
-	width: calc(100% - 50px);
-	padding-left: 20px;
+	display: block;
+	width: 100%;
+	padding-top: 10px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1387,21 +1379,19 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .register-page-wrap .wizard-content .wizard > .steps > ul{
 	display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
     height: 100%;
+    padding: 0 10px;
 }
 .register-page-wrap .wizard-content .wizard > .steps > ul > li{
-	width: 100%;
+	width: 25%;
 }
 .register-page-wrap .wizard-content .wizard > .steps > ul > li a{
-	padding: 20px;
-	margin: 0;;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	text-align: left;
-	color: rgba(255,255,255,.6);
+	padding: 20px 10px;
+	margin: 0;
+	text-align: center;
+	color: rgba(24, 31, 72, .6);
+	font-size: 11px;
 	font-weight: 700;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -1410,15 +1400,14 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 .register-page-wrap .wizard-content .wizard > .steps > ul > li.current > a,
 .register-page-wrap .wizard-content .wizard > .steps > ul > li.done > a{
-	color: #ffffff;
+	color: #181f48;
 }
 .register-page-wrap .wizard-content .wizard > .content{
-	height: calc(100% - 80px);
-	overflow: auto;
-	padding: 30px 15px;
+	overflow: hidden;
+	padding: 15px 15px 0;
 }
 .register-page-wrap .wizard-content .wizard > .actions{
-	padding: 20px 15px;
+	padding: 0px 15px 20px;
 	text-align: right;
 }
 .register-page-wrap .col-form-label{
@@ -1429,6 +1418,13 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	margin-bottom: 15px;
 	font-size: 14px;
 }
+/*.register-page-wrap .wizard-content .wizard > .content > .body.current{
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}*/
 /*==============================================================
 	Register Page End
 ==============================================================*/
