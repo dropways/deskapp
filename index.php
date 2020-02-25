@@ -8,14 +8,74 @@
 	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
 		<div class="pd-ltr-20">
-			<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p mb-30">
+			<div class="bg-white pd-20 box-shadow border-radius-10 height-100-p mb-30">
 				<div class="row align-items-center">
 					<div class="col-md-4">
 						<img src="vendors/images/banner-img.png" alt="">
 					</div>
 					<div class="col-md-8">
-						<h4 class="font-20 weight-800 mb-10">Welcome back Johnny Brown!</h4>
-						<p class="font-14 weight-500 max-width-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic non repellendus debitis iure, doloremque assumenda. Autem modi, corrupti, nobis ea iure fugiat, veniam non quaerat mollitia animi error corporis.</p>
+						<h4 class="font-20 weight-500 mb-10 text-capitalize">
+							Welcome back <div class="weight-800 font-30 text-blue">Johnny Brown!</div>
+						</h4>
+						<p class="font-18 weight-500 max-width-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic non repellendus debitis iure, doloremque assumenda. Autem modi, corrupti, nobis ea iure fugiat, veniam non quaerat mollitia animi error corporis.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-3 mb-30">
+					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
+						<div class="d-flex flex-wrap align-items-center">
+							<div class="circle-icon">
+								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-user" aria-hidden="true"></i></div>
+							</div>
+							<div class="widget-data">
+								<div class="weight-800 font-18">2020</div>
+								<div class="weight-500">Contact</div>
+							</div>
+							<div class="progress-data"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mb-30">
+					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
+						<div class="d-flex flex-wrap align-items-center">
+							<div class="circle-icon">
+								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+							</div>
+							<div class="widget-data">
+								<div class="weight-800 font-18">400</div>
+								<div class="weight-500">Deals</div>
+							</div>
+							<div class="progress-data"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mb-30">
+					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
+						<div class="d-flex flex-wrap align-items-center">
+							<div class="circle-icon">
+								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+							</div>
+							<div class="widget-data">
+								<div class="weight-800 font-18">350</div>
+								<div class="weight-500">Campaign</div>
+							</div>
+							<div class="progress-data"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mb-30">
+					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
+						<div class="d-flex flex-wrap align-items-center">
+							<div class="circle-icon">
+								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-dollar" aria-hidden="true"></i></div>
+							</div>
+							<div class="widget-data">
+								<div class="weight-800 font-18">$6060</div>
+								<div class="weight-500">Worth</div>
+							</div>
+							<div class="progress-data"></div>
+						</div>
 					</div>
 				</div>
 			</div>

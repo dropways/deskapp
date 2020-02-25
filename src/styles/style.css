@@ -170,13 +170,13 @@ p {
 .mr-10{margin-right: 10px;}
 .mr-20{margin-right: 20px;}
 
-.font-30{font-size: 30px;}
-.font-24{font-size: 24px;}
-.font-20{font-size: 20px;}
-.font-18{font-size: 18px;}
-.font-16{font-size: 16px;}
-.font-14{font-size: 14px;}
-.font-12{font-size: 12px;}
+.font-30{font-size: 30px; line-height: 1.46em;}
+.font-24{font-size: 24px; line-height: 1.5em;}
+.font-20{font-size: 20px; line-height: 1.5em;}
+.font-18{font-size: 18px; line-height: 1.6em;}
+.font-16{font-size: 16px; line-height: 1.75em;}
+.font-14{font-size: 14px; line-height: 1.85em;}
+.font-12{font-size: 12px; line-height: 2em;}
 
 .weight-300{font-weight: 300;}
 .weight-400{font-weight: 400;}
@@ -1234,7 +1234,18 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	overflow: auto;
 	padding: 30px 0;
 }
-.login-wrap .container{
+body.IE .login-wrap,
+body.IE .register-page-wrap{
+	display: block !important;
+	padding: 0;
+}
+body.IE .login-wrap .container,
+body.IE .register-page-wrap .container{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+.login-wrap .container,
+.register-page-wrap .container{
 	max-width: 1300px;
 }
 .login-wrap .mCustomScrollBox{
@@ -1324,6 +1335,10 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	overflow: auto;
 	padding: 30px 0;
 }
+.register-page-wrap .register-box{
+	max-width: 410px;
+	margin: 0 auto;
+}
 .register-page-wrap .wizard-content .wizard{
 	position: relative;
 	overflow: auto;
@@ -1405,6 +1420,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .register-page-wrap .wizard-content .wizard > .content{
 	overflow: hidden;
 	padding: 15px 15px 0;
+	min-height: 320px;
 }
 .register-page-wrap .wizard-content .wizard > .actions{
 	padding: 0px 15px 20px;
@@ -1429,8 +1445,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	Register Page End
 ==============================================================*/
 .main-container{
-	padding: 80px 10px 0px 290px;
-	height: 100vh;
+	padding: 80px 20px 0px 300px;
 }
 .page-header .dropdown-menu{
 	-webkit-border-radius: 5px;
@@ -1438,6 +1453,31 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	border-radius: 5px;
 }
 
+.search-icon-box{
+	position: relative;
+}
+.search-icon-box input{
+	height: 70px;
+	width: 100%;
+	font-size: 25px;
+	padding: 0 60px 0 30px;
+	font-weight: 300;
+	border: 0;
+	color: #ffffff;
+	background: #202342;
+}
+.search-icon-box input::-webkit-input-placeholder{opacity:1; color: #ffffff;}
+.search-icon-box input:-moz-placeholder{opacity:1; color: #ffffff;}
+.search-icon-box input::-moz-placeholder{opacity:1; color: #ffffff;}
+.search-icon-box input:-ms-input-placeholder{opacity:1; color: #ffffff;}
+.search-icon-box .search_icon{
+	position: absolute;
+	font-size: 30px;
+	line-height: 1;
+	right: 20px;
+	top: 22px;
+	color: #ffffff;
+}
 .fontawesome-icon-list{
 	padding-top: 20px;
 }
@@ -3137,4 +3177,26 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .wizard-content .wizard>.actions>ul>li.disabled>a[href="#previous"]{
 	display: none;
 	border-color: #1b00ff;
+}
+
+.widget-style1{
+	padding: 20px 10px;
+}
+.widget-style1 .circle-icon{
+	width: 50px;
+}
+.widget-style1 .circle-icon .icon{
+	width: 50px;
+	height: 50px;
+	background: #ecf0f4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.widget-style1 .widget-data{
+	width: calc(100% - 110px);
+	padding: 0 15px;
+}
+.widget-style1 .progress-data{
+	width: 60px;
 }

@@ -199,18 +199,6 @@
 													<div class="col-sm-8">123 Example</div>
 												</div>
 											</li>
-											<li>
-												<div class="row">
-													<div class="col-sm-4 weight-600">Credit Card Type</div>
-													<div class="col-sm-8">Visa</div>
-												</div>
-											</li>
-											<li>
-												<div class="row">
-													<div class="col-sm-4 weight-600">Credit Card Number</div>
-													<div class="col-sm-8">.... .... .... .000</div>
-												</div>
-											</li>
 										</ul>
 										<div class="custom-control custom-checkbox mt-4">
 											<input type="checkbox" class="custom-control-input" id="customCheck1">

@@ -89,6 +89,15 @@ jQuery(document).ready(function(){
 			});
 		}
 	}
+
+	// Search Icon
+	$("#filter_input").on("keyup", function() {
+		var value = $(this).val().toLowerCase();
+		$("#filter_list .fa-hover").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		});
+	});
+
 	// custom select 2 init
 	$('.custom-select2').select2();
 
@@ -309,3 +318,26 @@ function CopyToClipboard(value, showNotification, notificationText) {
 		});
 	}
 }
+
+(function detectIE() {
+    var ua = window.navigator.userAgent;
+
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+        // IE 10 or older => return version number
+        var ieV = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        document.querySelector('body').className += ' IE';
+    }
+
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        // IE 11 => return version number
+        var rv = ua.indexOf('rv:');
+        var ieV = parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        document.querySelector('body').className += ' IE';
+    }
+
+    // other browser
+    return false;
+})();
+
