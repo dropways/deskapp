@@ -36,6 +36,7 @@ var path = {
 		'src/plugins/bootstrap-select/bootstrap-select.min.css'
 	],
 	icon_styles: [
+		'src/fonts/dropways/dropways.css',
 		'src/fonts/font-awesome/css/font-awesome.css',
 		'src/fonts/foundation-icons/foundation-icons.css',
 		'src/fonts/ionicons-master/css/ionicons.css',
@@ -61,6 +62,7 @@ var path = {
 		'src/scripts/clipboard.min.js',
 	],
 	fonts: [
+		'src/fonts/dropways/*.*',
 		'src/fonts/font-awesome/fonts/*.*',
 		'src/fonts/foundation-icons/*.*',
 		'src/fonts/ionicons-master/fonts/*.*',

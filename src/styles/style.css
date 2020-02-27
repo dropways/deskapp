@@ -160,6 +160,12 @@ p {
 .pt-10{padding-top: 10px;}
 .pt-20{padding-top: 20px;}
 .pt-30{padding-top: 30px;}
+.pr-10{padding-right: 10px;}
+.pr-20{padding-right: 20px;}
+.pr-30{padding-right: 30px;}
+.pl-10{padding-left: 10px;}
+.pl-20{padding-left: 20px;}
+.pl-30{padding-left: 30px;}
 .margin-5{margin: 5px;}
 .mt-15{margin-top: 15px;}
 .mb-30{margin-bottom: 30px;}
@@ -264,6 +270,14 @@ p {
 	-moz-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
 	box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
 }
+
+.wave1{
+	background-image: url(../images/wave.png);
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
 .bootstrap-select .dropdown-toggle{
 	height: 45px;
 }
@@ -1087,12 +1101,12 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	left: 10px;
 	width: 42px;
 	height: 42px;
-	font-size: 18px;
+	font-size: 24px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: #ffffff;
-	background-color: rgba(255,255,255,.2);
+	background-color: rgba(255,255,255,0);
 	top: 50%;
 	text-align: center;
 	-webkit-border-radius: 4px;
@@ -3180,23 +3194,19 @@ body.IE .register-page-wrap .container{
 }
 
 .widget-style1{
-	padding: 20px 10px;
-}
-.widget-style1 .circle-icon{
-	width: 50px;
-}
-.widget-style1 .circle-icon .icon{
-	width: 50px;
-	height: 50px;
-	background: #ecf0f4;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	padding: 10px;
 }
 .widget-style1 .widget-data{
-	width: calc(100% - 110px);
-	padding: 0 15px;
+	width: calc(100% - 80px);
+	padding: 0 5px 0 15px;
 }
 .widget-style1 .progress-data{
-	width: 60px;
+	width: 80px;
+}
+.widget-style1 .progress-data .apexcharts-canvas{
+	margin: 0 auto;
+}
+
+.widget-style2 .widget-data{
+	padding: 20px;
 }

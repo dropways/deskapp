@@ -9,7 +9,7 @@
 				<ul id="accordion-menu">
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-home"></span><span class="mtext">Home</span>
+							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="index.php">Dashboard style 1</a></li>
@@ -18,7 +18,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-pencil"></span><span class="mtext">Forms</span>
+							<span class="micon dw dw-edit2"></span><span class="mtext">Forms</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="form-basic.php">Form Basic</a></li>
@@ -32,7 +32,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-table"></span><span class="mtext">Tables</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Tables</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="basic-table.php">Basic Tables</a></li>
@@ -41,12 +41,12 @@
 					</li>
 					<li>
 						<a href="calendar.php" class="dropdown-toggle no-arrow">
-							<span class="micon fa fa-calendar-o"></span><span class="mtext">Calendar</span>
+							<span class="micon dw dw-calendar1"></span><span class="mtext">Calendar</span>
 						</a>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-desktop"></span><span class="mtext"> UI Elements </span>
+							<span class="micon dw dw-apartment"></span><span class="mtext"> UI Elements </span>
 						</a>
 						<ul class="submenu">
 							<li><a href="ui-buttons.php">Buttons</a></li>
@@ -67,7 +67,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-paint-brush"></span><span class="mtext">Icons</span>
+							<span class="micon dw dw-paint-brush"></span><span class="mtext">Icons</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="font-awesome.php">FontAwesome Icons</a></li>
@@ -78,7 +78,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-plug"></span><span class="mtext">Additional Pages</span>
+							<span class="micon dw dw-right-arrow1"></span><span class="mtext">Additional Pages</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="video-player.php">Video Player</a></li>
@@ -92,7 +92,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-pie-chart"></span><span class="mtext">Charts</span>
+							<span class="micon dw dw-analytics-21"></span><span class="mtext">Charts</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="highchart.php">Highchart</a></li>
@@ -102,7 +102,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-clone"></span><span class="mtext">Extra Pages</span>
+							<span class="micon dw dw-copy"></span><span class="mtext">Extra Pages</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="blank.php">Blank</a></li>
@@ -119,7 +119,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon fa fa-list"></span><span class="mtext">Multi Level Menu</span>
+							<span class="micon dw dw-list3"></span><span class="mtext">Multi Level Menu</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="javascript:;">Level 1</a></li>
@@ -141,17 +141,17 @@
 					</li>
 					<li>
 						<a href="sitemap.php" class="dropdown-toggle no-arrow">
-							<span class="micon fa fa-sitemap"></span><span class="mtext">Sitemap</span>
+							<span class="micon dw dw-diagram"></span><span class="mtext">Sitemap</span>
 						</a>
 					</li>
 					<li>
 						<a href="chat.php" class="dropdown-toggle no-arrow">
-							<span class="micon fa fa-comments-o"></span><span class="mtext">Chat <span class="fi-burst-new text-danger new"></span></span>
+							<span class="micon dw dw-chat3"></span><span class="mtext">Chat <span class="fi-burst-new text-danger new"></span></span>
 						</a>
 					</li>
 					<li>
 						<a href="invoice.php" class="dropdown-toggle no-arrow">
-							<span class="micon fa fa-map-o"></span><span class="mtext">Invoice</span>
+							<span class="micon dw dw-invoice"></span><span class="mtext">Invoice</span>
 						</a>
 					</li>
 				</ul>

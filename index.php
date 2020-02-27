@@ -25,56 +25,52 @@
 				<div class="col-xl-3 mb-30">
 					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
 						<div class="d-flex flex-wrap align-items-center">
-							<div class="circle-icon">
-								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-user" aria-hidden="true"></i></div>
+							<div class="progress-data">
+								<div id="chart"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-18">2020</div>
-								<div class="weight-500">Contact</div>
+								<div class="weight-800 font-24">2020</div>
+								<div class="weight-600 font-14">Contact</div>
 							</div>
-							<div class="progress-data"></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 mb-30">
 					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
 						<div class="d-flex flex-wrap align-items-center">
-							<div class="circle-icon">
-								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+							<div class="progress-data">
+								<div id="chart2"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-18">400</div>
-								<div class="weight-500">Deals</div>
+								<div class="weight-800 font-24">400</div>
+								<div class="weight-600 font-14">Deals</div>
 							</div>
-							<div class="progress-data"></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 mb-30">
 					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
 						<div class="d-flex flex-wrap align-items-center">
-							<div class="circle-icon">
-								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+							<div class="progress-data">
+								<div id="chart3"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-18">350</div>
-								<div class="weight-500">Campaign</div>
+								<div class="weight-800 font-24">350</div>
+								<div class="weight-600 font-14">Campaign</div>
 							</div>
-							<div class="progress-data"></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 mb-30">
 					<div class="bg-white box-shadow border-radius-10 height-100-p widget-style1">
 						<div class="d-flex flex-wrap align-items-center">
-							<div class="circle-icon">
-								<div class="icon border-radius-100 font-24 text-blue"><i class="fa fa-dollar" aria-hidden="true"></i></div>
+							<div class="progress-data">
+								<div id="chart4"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-18">$6060</div>
-								<div class="weight-500">Worth</div>
+								<div class="weight-800 font-24">$6060</div>
+								<div class="weight-600 font-14">Worth</div>
 							</div>
-							<div class="progress-data"></div>
 						</div>
 					</div>
 				</div>
@@ -522,6 +518,8 @@
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>
+	<script src="src/plugins/apexcharts/apexcharts.min.js"></script>
+	<script src="vendors/scripts/dashboard-chart.js"></script>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
 	<script type="text/javascript">
