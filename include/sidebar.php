@@ -74,6 +74,7 @@
 							<li><a href="foundation.php">Foundation Icons</a></li>
 							<li><a href="ionicons.php">Ionicons Icons</a></li>
 							<li><a href="themify.php">Themify Icons</a></li>
+							<li><a href="custom-icon.php">Custom Icons</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

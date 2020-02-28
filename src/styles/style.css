@@ -278,6 +278,16 @@ p {
 	background-repeat: no-repeat;
 }
 
+.card-box{
+	background-color: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 28px rgba(0, 0, 0, .08);
+}
+
 .bootstrap-select .dropdown-toggle{
 	height: 45px;
 }
@@ -323,7 +333,7 @@ p {
 	font-size: 16px;
 	font-weight: 500;
 	padding: 0.657rem 1rem;
-	color: #666666;
+	color: #444444;
 	font-family: 'Muli', sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -794,39 +804,51 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 .user-info-dropdown{
 	float: right;
-	padding: 10px 20px 10px 0;
+	padding: 5px 20px 5px 0;
 }
 .user-info-dropdown .dropdown-toggle{
 	display: block;
-	padding: 10px 0;
+	padding: 5px 0;
 	font-size: 16px;
 }
 .user-info-dropdown .dropdown-toggle .user-icon{
-	width: 32px;
-	height: 32px;
-	border: 1px solid #1b00ff;
+	width: 52px;
+	height: 52px;
+	font-size: 24px;
+	background: #ebeff3;
 	color: #1b00ff;
-	line-height: 30px;
+	line-height: 52px;
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .18);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .18);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .18);
+}
+.user-info-dropdown .dropdown-toggle .user-icon img{
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
 }
 .user-info-dropdown .dropdown-toggle .user-name{
-	font-weight: 400;
+	font-weight: 600;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 5px;
 	color: #131e22;
 	font-family: 'Muli', sans-serif;
 }
+.user-info-dropdown .dropdown-menu{
+	min-width: 185px;
+}
 .user-info-dropdown .dropdown-item{
 	position: relative;
 	padding-left: 45px;
 }
-.user-info-dropdown .dropdown-item .fa{
+.user-info-dropdown .dropdown-item i{
 	position: absolute;
 	left: 16px;
 	top: 50%;
@@ -840,9 +862,9 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 
 .user-notification{
 	float: right;
-	margin-right: 30px;
+	margin-right: 10px;
 	/*padding-top: 12px;*/
-	padding: 22px 20px 10px 0;
+	padding: 22px 5px 10px 0;
 }
 .user-notification .dropdown-toggle{
 	font-size: 20px;
@@ -867,16 +889,14 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .notification-list{}
 .notification-list ul li{
 }
-.notification-list ul li:nth-child(2n) a{
-	background: #ecf0f4;
-}
 .notification-list ul li a{
 	display: block;
 	position: relative;
 	padding: 10px 15px 10px 75px;
 	min-height: 75px;
 	color: #666666;
-	font-size: 15px;
+	font-size: 14px;
+	font-weight: 500;
 	font-family: 'Muli', sans-serif;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -888,19 +908,20 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	position: absolute;
 	left: 10px;
 	top: 13px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 2px 13px rgba(0,0,0,.2);
+	-moz-box-shadow: 1px 2px 13px rgba(0,0,0,.2);
+	box-shadow: 1px 2px 13px rgba(0,0,0,.2);
 }
 .notification-list ul li a h3{
-	font-size: 18px;
-	color: #222222;
-	font-weight: 600;
+	font-size: 16px;
+	color: #202342;
+	font-weight: 700;
+	text-transform: capitalize;
 	font-family: 'Muli', sans-serif;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 .notification-list ul li a h3 span{
 	float: right;
@@ -1495,21 +1516,27 @@ body.IE .register-page-wrap .container{
 .fontawesome-icon-list{
 	padding-top: 20px;
 }
+.fontawesome-icon-list.custom-icon-list{
+	padding-top: 0;
+}
 .fontawesome-icon-list .fa-hover{
-	padding-top: 8px;
-	padding-bottom: 8px;
-	margin-bottom: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-bottom: 10px;
 	cursor: pointer;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 .fontawesome-icon-list .fa-hover:hover{
-	background: #ecf0f4;
+	background: rgba(68, 66, 87, 0.13);
+	-webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 18px rgba(0, 0, 0, .08);
 }
 .fontawesome-icon-list .fa-hover:hover a{
 	color: #1b00ff;
@@ -1531,6 +1558,15 @@ body.IE .register-page-wrap .container{
 	left: 10px;
 	top: 4px;
 	font-size: 18px;
+}
+.fontawesome-icon-list.custom-icon-list a{
+	font-size: 16px;
+	line-height: 24px;
+}
+.fontawesome-icon-list.custom-icon-list a .icon-copy{
+	font-size: 24px;
+	line-height: 1;
+	top: 0;
 }
 .foundation-icon.fontawesome-icon-list a .icon-copy{
 	top: 0;

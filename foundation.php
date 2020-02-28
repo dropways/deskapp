@@ -37,8 +37,8 @@
 					</div>
 				</div>
 				<div class="search-icon-box bg-white box-shadow border-radius-10 mb-30">
-					<input type="text" class="border-radius-10" id="filter_input" onkeyup="myFunction()" placeholder="Search Icons..." title="Type in a name">
-					<i class="search_icon ion-ios-search-strong"></i>
+					<input type="text" class="border-radius-10" id="filter_input" placeholder="Search Icons..." title="Type in a name">
+					<i class="search_icon dw dw-search"></i>
 				</div>
 				<div id="filter_list">
 					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
