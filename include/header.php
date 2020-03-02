@@ -52,8 +52,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="header-right">
-			
+		<div class="header-right">			
 			<div class="dashboard-setting user-notification">
 				<div class="dropdown">
 					<a class="dropdown-toggle no-arrow" href="javascript:;" data-toggle="right-sidebar">

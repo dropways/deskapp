@@ -771,6 +771,10 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .docs-cropped .modal-body > img, .docs-cropped .modal-body > canvas{
 	max-width: 100%;
 }
+
+.apexcharts-svg *{
+	font-family: 'Muli', sans-serif !important;
+}
 /*==============================================================
 	Global Styles End
 ==============================================================*/
@@ -781,7 +785,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .header{
 	position: fixed;
 	height: 70px;
-	width: calc(100% - 250px);
+	width: calc(100% - 280px);
 	background: #ffffff;
 	right: 0;
 	top: 0;

@@ -4,6 +4,7 @@
 @media (max-width: 1400px){
 }
 @media (min-width: 1201px) and (max-width: 1400px){
+	.header{width: calc(100% - 250px);}
 	.brand-logo{width: 250px;}
 	.left-side-bar{width: 250px;}
 	.main-container{padding-left: 270px;}
