@@ -1149,6 +1149,21 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	right: 15px;
 	font-size: 18px;
 }
+.sidebar-menu.icon-style-2 .dropdown-toggle:after{
+	content: "\f217";
+	font-family: Ionicons;
+}
+.sidebar-menu.icon-style-2 .dropdown.show .dropdown-toggle:after{
+	content: "\f208";
+}
+
+.sidebar-menu.icon-style-3 .dropdown-toggle:after{
+	content: "\f101"
+}
+.sidebar-menu.icon-style-3 .dropdown.show .dropdown-toggle:after{
+	content: "\f103"
+}
+
 .sidebar-menu .dropdown-toggle:hover, .sidebar-menu .show > .dropdown-toggle{
 	background: rgba(0, 0, 0, .4);
 	color: #ffffff;
@@ -1227,6 +1242,27 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.sidebar-menu.icon-list-style-2 .submenu li > a:before{
+	content: "\f10c";
+	font-family: FontAwesome;
+}
+.sidebar-menu.icon-list-style-3 .submenu li > a:before{
+	content: "\eb1d";
+	font-family: dropways;
+}
+.sidebar-menu.icon-list-style-4 .submenu li > a:before{
+	content: "\edd2";
+	font-family: dropways;
+}
+.sidebar-menu.icon-list-style-5 .submenu li > a:before{
+	content: "\ee07";
+	font-family: dropways;
+}
+.sidebar-menu.icon-list-style-6 .submenu li > a:before{
+	content: "\ee36";
+	font-family: dropways;
+}
+
 .sidebar-menu .submenu li.dropdown:before{
 	display: none;
 }
@@ -1309,9 +1345,6 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 .sidebar-light .mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail{
 	background-color: #0e132b;
-}
-.sidebar-light .left-side-bar .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-
 }
 /*==============================================================
 	Side Bar End
@@ -3354,6 +3387,11 @@ body.IE .register-page-wrap .container{
 .right-sidebar .right-sidebar-body{
 	height: calc(100% - 70px);
 	overflow: auto;
+}
+.right-sidebar .right-sidebar-body .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background: #c1c1c1;
+}
+.right-sidebar .right-sidebar-body .right-sidebar-body-content{
 	padding: 20px;
 }
 .sidebar-btn-group{
@@ -3363,5 +3401,8 @@ body.IE .register-page-wrap .container{
 .sidebar-btn-group .btn{
 	width: 48%;
 }
-.sidebar-radio-group{
+.sidebar-radio-group .custom-control-inline{
+	margin-right: 0;
+	width: 25%;
+	margin-bottom: 10px;
 }
