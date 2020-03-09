@@ -3,7 +3,7 @@
 ==============================================================*/
 @media (max-width: 1400px){
 }
-@media (min-width: 1201px) and (max-width: 1400px){
+@media (min-width: 1301px) and (max-width: 1400px){
 	.header{width: calc(100% - 250px);}
 	.brand-logo{width: 250px;}
 	.left-side-bar{width: 250px;}
@@ -12,19 +12,32 @@
 @media (min-width: 1200px) and (max-width: 1400px){
 	.device-usage-chart .width-50-p{width: 100%;}
 }
-@media (max-width: 1200px){
+@media (max-width: 1300px){
 	.main-container{padding-left: 0; padding-right: 0;}
-	.header-right{width: 100%;}
+	.header-left .menu-icon{display: flex;}
+	.header{width: 100%;}
 	.left-side-bar{left: -281px;}
+	.left-side-bar .close-sidebar{display: block;}
 	.left-side-bar:before{display: block; opacity: 0; visibility: hidden;}
 	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
+	.left-side-bar .brand-logo a{text-align: left; padding: 5px 15px;}
+	.left-side-bar .brand-logo a img, .left-side-bar .brand-logo a .svg{margin: 0;}
 	.header-right .brand-logo{display: table;}
 	.header-right .menu-icon{display: block; padding-left: 15px; padding-top: 7px;}
 	.footer-wrap{width: 100%;}
 	.mobile-menu-overlay{display: block; opacity: 0; visibility: hidden;}
 	.mobile-menu-overlay.show{opacity: 0.6; visibility: visible;}
 }
+@media (min-width: 1025px){
+	.header-left .header-search{display: block !important;}
+}
 @media (max-width: 1024px){
+	.header{position: relative;}
+	.header-left{width: 25%;}
+	.header-right{width: 75%;}
+	.main-container{padding-top: 10px;}
+	.header-left .search-toggle-icon{display: flex;}
+	.header-left .header-search{padding: 15px 20px; position: absolute; left: 0; top: 100%; background: #ffffff; display: none;}
 	.register-page-wrap .wizard-content .wizard{padding-left: 300px;}
 	.register-page-wrap .wizard-content .wizard .steps{width: 300px;}
 }
@@ -43,7 +56,7 @@
 	h4, .h4 {font-size: 1.4rem;}
 	.main-container{padding-bottom: 0;}
 	.footer-wrap{position: relative; height: auto;}
-	.user-notification{margin-right: 15px;}
+	.user-notification{margin-right: 5px;}
 	.user-notification .dropdown-menu{width: 100%; min-width: 300px;}
 	.user-info-dropdown .dropdown-toggle .user-name{display: none;}
 	.page-header{margin-bottom: 30px;}

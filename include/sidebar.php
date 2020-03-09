@@ -3,6 +3,9 @@
 			<a href="index.php">
 				<img src="vendors/images/deskapp-logo.svg" alt="">
 			</a>
+			<div class="close-sidebar" data-toggle="left-sidebar-close">
+				<i class="ion-close-round"></i>
+			</div>
 		</div>
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">

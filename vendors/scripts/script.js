@@ -127,10 +127,13 @@ jQuery(document).ready(function(){
 	// });
 
 	// sidebar menu icon
-	$('.menu-icon').on('click', function(){
-		$(this).toggleClass('open');
+	$('.menu-icon, [data-toggle="left-sidebar-close"]').on('click', function(){
+		//$(this).toggleClass('open');
 		$('.left-side-bar').toggleClass('open');
 		$('.mobile-menu-overlay').toggleClass('show');
+	});
+	$('[data-toggle="header_search"]').on('click', function() {
+		jQuery('.header-search').slideToggle();
 	});
 
 	var w = $(window).width();

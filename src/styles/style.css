@@ -810,6 +810,9 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .header-left .menu-icon{
 	display: none;
 }
+.header-left .search-toggle-icon{
+	display: none;
+}
 .header-left .header-search{
 	width: 100%;
 	padding-left: 20px;
@@ -947,7 +950,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .user-notification .dropdown-toggle{
 	font-size: 20px;
 	padding: 10px;
-	color: #91a8b0;
+	color: #555555;
 	position: relative;
 }
 .user-notification .dropdown-toggle .badge{
@@ -1046,11 +1049,13 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 /*==============================================================
 	Side Bar Start
 ==============================================================*/
-.menu-icon{
+.menu-icon,
+.search-toggle-icon{
 	width: 47px;
 	height: 47px;
-	font-size: 28px;
+	font-size: 22px;
 	line-height: 1;
+	color: #555555;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1126,6 +1131,15 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 }
 .left-side-bar .menu-block{
 	height: calc(100vh - 70px);
+}
+.left-side-bar .close-sidebar{
+	font-size: 18px;
+	color: #888888;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	display: none;
 }
 .sidebar-menu{
 	padding: 20px 0px 20px;
@@ -1304,7 +1318,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../images/cancel.svg) no-repeat #121421;
+	background: #121421;
 	opacity: 0.6;
 	z-index: 123;
 	background-size: 20px;
@@ -1343,7 +1357,7 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
 .sidebar-light .sidebar-menu .show>.dropdown-toggle .micon{
 	color: #ffffff;
 }
-.sidebar-light .mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail{
+.sidebar-light .menu-block .mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail{
 	background-color: #0e132b;
 }
 /*==============================================================
@@ -3387,9 +3401,6 @@ body.IE .register-page-wrap .container{
 .right-sidebar .right-sidebar-body{
 	height: calc(100% - 70px);
 	overflow: auto;
-}
-.right-sidebar .right-sidebar-body .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	background: #c1c1c1;
 }
 .right-sidebar .right-sidebar-body .right-sidebar-body-content{
 	padding: 20px;
