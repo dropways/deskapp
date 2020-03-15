@@ -79,14 +79,14 @@
 								<li>
 									<a href="#">
 										<img src="vendors/images/photo1.jpg" alt="">
-										<h3>John Doe</h3>
+										<h3>Lea R. Frith</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<img src="vendors/images/photo2.jpg" alt="">
-										<h3>John Doe</h3>
+										<h3>Erik L. Richards</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
@@ -100,14 +100,14 @@
 								<li>
 									<a href="#">
 										<img src="vendors/images/photo4.jpg" alt="">
-										<h3>John Doe</h3>
+										<h3>Renee I. Hansen</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<img src="vendors/images/img.jpg" alt="">
-										<h3>John Doe</h3>
+										<h3>Vicki M. Coleman</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
@@ -122,9 +122,9 @@
 						<span class="user-icon">
 							<img src="vendors/images/photo4.jpg" alt="">
 						</span>
-						<span class="user-name">Johnny Brown</span>
+						<span class="user-name">Ross C. Lopez</span>
 					</a>
-					<div class="dropdown-menu dropdown-menu-right">
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
 						<a class="dropdown-item" href="profile.php"><i class="dw dw-user1"></i> Profile</a>
 						<a class="dropdown-item" href="profile.php"><i class="dw dw-settings2"></i> Setting</a>
 						<a class="dropdown-item" href="faq.php"><i class="dw dw-help"></i> Help</a>

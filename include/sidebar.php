@@ -1,7 +1,8 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="index.php">
-				<img src="vendors/images/deskapp-logo.svg" alt="">
+				<img src="vendors/images/deskapp-logo.svg" alt="" class="dark-logo">
+				<img src="vendors/images/deskapp-logo-white.svg" alt="" class="light-logo">
 			</a>
 			<div class="close-sidebar" data-toggle="left-sidebar-close">
 				<i class="ion-close-round"></i>
@@ -82,20 +83,6 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-right-arrow1"></span><span class="mtext">Additional Pages</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="video-player.php">Video Player</a></li>
-							<li><a href="login.php">Login</a></li>
-							<li><a href="forgot-password.php">Forgot Password</a></li>
-							<li><a href="reset-password.php">Reset Password</a></li>
-							<li><a href="403.php">403</a></li>
-							<li><a href="404.php">404</a></li>
-							<li><a href="500.php">500</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-analytics-21"></span><span class="mtext">Charts</span>
 						</a>
 						<ul class="submenu">
@@ -104,6 +91,30 @@
 							<li><a href="jvectormap.php">jvectormap</a></li>
 						</ul>
 					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-right-arrow1"></span><span class="mtext">Additional Pages</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="video-player.php">Video Player</a></li>
+							<li><a href="login.php">Login</a></li>
+							<li><a href="forgot-password.php">Forgot Password</a></li>
+							<li><a href="reset-password.php">Reset Password</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-browser2"></span><span class="mtext">Error Pages</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="400.php">400</a></li>
+							<li><a href="403.php">403</a></li>
+							<li><a href="404.php">404</a></li>
+							<li><a href="500.php">500</a></li>
+							<li><a href="503.php">503</a></li>
+						</ul>
+					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-copy"></span><span class="mtext">Extra Pages</span>
