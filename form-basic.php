@@ -37,11 +37,11 @@
 					</div>
 				</div>
 				<!-- Default Basic Forms Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">Default Basic Forms</h4>
-							<p class="mb-30 font-14">All bootstrap element classies</p>
+							<h4 class="text-blue h4">Default Basic Forms</h4>
+							<p class="mb-30">All bootstrap element classies</p>
 						</div>
 						<div class="pull-right">
 							<a href="#basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -243,11 +243,11 @@
 				<!-- Default Basic Forms End -->
 
 				<!-- horizontal Basic Forms Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">horizontal Basic Forms</h4>
-							<p class="mb-30 font-14">All bootstrap element classies</p>
+							<h4 class="text-blue h4">horizontal Basic Forms</h4>
+							<p class="mb-30">All bootstrap element classies</p>
 						</div>
 						<div class="pull-right">
 							<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -468,11 +468,11 @@
 				<!-- horizontal Basic Forms End -->
 
 				<!-- Form grid Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">Form grid</h4>
-							<p class="mb-30 font-14">All bootstrap element classies</p>
+							<h4 class="text-blue h4">Form grid</h4>
+							<p class="mb-30">All bootstrap element classies</p>
 						</div>
 						<div class="pull-right">
 							<a href="#form-grid-form" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -748,11 +748,11 @@
 				<!-- Form grid End -->
 
 				<!-- Input Validation Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">Input Validation</h4>
-							<p class="mb-30 font-14">Validation styles for error, warning, and success</p>
+							<h4 class="text-blue h4">Input Validation</h4>
+							<p class="mb-30">Validation styles for error, warning, and success</p>
 						</div>
 						<div class="pull-right">
 							<a href="#input-validation-form" class="btn btn-primary btn-sm scroll-click" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>

@@ -41,8 +41,8 @@
 				<!-- Simple Datatable start -->
 				<div class="card-box mb-30">
 					<div class="pd-20">
-						<h5 class="text-blue">Data Table Simple</h5>
-						<p class="font-14 mb-0">you can find more options <a class="text-primary" href="https://datatables.net/" target="_blank">Click Here</a></p>
+						<h4 class="text-blue h4">Data Table Simple</h4>
+						<p class="mb-0">you can find more options <a class="text-primary" href="https://datatables.net/" target="_blank">Click Here</a></p>
 					</div>
 					<div class="pb-20">
 						<table class="data-table table stripe hover nowrap">
@@ -293,7 +293,7 @@
 				<!-- multiple select row Datatable start -->
 				<div class="card-box mb-30">
 					<div class="pd-20">
-						<h5 class="text-blue">Data Table with multiple select row</h5>
+						<h4 class="text-blue h4">Data Table with multiple select row</h4>
 					</div>
 					<div class="pb-20">
 						<table class="data-table table hover multiple-select-row nowrap">
@@ -412,7 +412,7 @@
 				<!-- Checkbox select Datatable start -->
 				<div class="card-box mb-30">
 					<div class="pd-20">
-						<h5 class="text-blue">Data Table with Checckbox select</h5>
+						<h4 class="text-blue h4">Data Table with Checckbox select</h4>
 					</div>
 					<div class="pb-20">
 						<table class="checkbox-datatable table nowrap">
@@ -551,7 +551,7 @@
 				<!-- Export Datatable start -->
 				<div class="card-box mb-30">
 					<div class="pd-20">
-						<h5 class="text-blue">Data Table with Export Buttons</h5>
+						<h4 class="text-blue h4">Data Table with Export Buttons</h4>
 					</div>
 					<div class="pb-20">
 						<table class="table hover multiple-select-row data-table-export nowrap">

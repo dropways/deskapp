@@ -26,10 +26,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Plyr HTML5 Video</h4>
+							<h4 class="text-blue h4">Plyr HTML5 Video</h4>
 							<p class="font-14 ml-0">A simple, accessible HTML5 media player <a href="https://github.com/sampotts/plyr" target="_blank" class="weight-700 text-blue">Click Here</a></p>
 						</div>
 					</div>
@@ -41,10 +41,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Plyr HTML5 Audio</h4>
+							<h4 class="text-blue h4">Plyr HTML5 Audio</h4>
 							<p class="font-14 ml-0">A simple, accessible HTML5 media player <a href="https://github.com/sampotts/plyr" target="_blank" class="weight-700 text-blue">Click Here</a></p>
 						</div>
 					</div>
@@ -57,10 +57,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Plyr YouTube Video</h4>
+							<h4 class="text-blue h4">Plyr YouTube Video</h4>
 							<p class="font-14 ml-0">A simple, accessible HTML5 media player <a href="https://github.com/sampotts/plyr" target="_blank" class="weight-700 text-blue">Click Here</a></p>
 						</div>
 					</div>
@@ -69,10 +69,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Plyr Vimeo Video</h4>
+							<h4 class="text-blue h4">Plyr Vimeo Video</h4>
 							<p class="font-14 ml-0">A simple, accessible HTML5 media player <a href="https://github.com/sampotts/plyr" target="_blank" class="weight-700 text-blue">Click Here</a></p>
 						</div>
 					</div>

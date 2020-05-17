@@ -1,4 +1,4 @@
-var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plumber, rename, sass, streamqueue, uglify,changed,reload;
+var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plumber, rename, sass, streamqueue, uglify,changed,reload, cleanCSS;
 
 gulp = require('gulp');
 sass = require('gulp-sass');
@@ -14,6 +14,7 @@ streamqueue = require('streamqueue');
 browserSync = require('browser-sync').create();
 changed = require('gulp-changed');
 reload = browserSync.reload;
+cleanCSS = require('gulp-clean-css');
 
 config = {
 	nodeDir: './node_modules/'
@@ -25,10 +26,10 @@ var path = {
 		'src/styles/style.css',
 		'src/styles/media.css'
 	],
-	corestyle: [		
+	corestyle: [
 		'src/plugins/bootstrap/bootstrap.min.css',
 		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css',
-		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.css',
+		'src/plugins/bootstrap-wysihtml5-master/bootstrap-wysihtml5.css',
 		'src/plugins/air-datepicker/dist/css/datepicker.css',
 		'src/plugins/timedropper/timedropper.css',
 		'src/plugins/highlight.js/src/styles/solarized-dark.css',
@@ -52,7 +53,7 @@ var path = {
 		'src/scripts/moment.js',
 		'src/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js',
 		'src/plugins/wysihtml5-master/dist/wysihtml5-0.3.0.js',
-		'src/plugins/bootstrap-wysihtml5-master/src/bootstrap-wysihtml5.js',
+		'src/plugins/bootstrap-wysihtml5-master/bootstrap-wysihtml5.js',
 		'src/plugins/air-datepicker/dist/js/datepicker.js',
 		'src/plugins/air-datepicker/dist/js/i18n/datepicker.en.js',
 		'src/plugins/timedropper/timedropper.js',
@@ -82,6 +83,7 @@ gulp.task('styles', function() {
 	return stream.done()
 					.pipe(plumber())
 					.pipe(csso())
+					.pipe(cleanCSS())
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('style.css'))
 					.pipe(gulp.dest('vendors/styles/'))
@@ -101,6 +103,7 @@ gulp.task('corestyle', function() {
 	return stream.done()
 					.pipe(plumber())
 					.pipe(sass())
+					.pipe(cleanCSS())
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('core.css'))
 					.pipe(gulp.dest('vendors/styles/'))
@@ -217,7 +220,7 @@ gulp.task('connect-sync', function (done) {
 
 gulp.task('watch', function(){
 	gulp.watch("src/styles/**/*.*", gulp.series('styles'));
-	gulp.watch("src/styles/**/*.*", gulp.series('corestyle'));	
+	gulp.watch("src/styles/**/*.*", gulp.series('corestyle'));
 	gulp.watch("src/fonts/**/*", gulp.series('fonts'));
 	gulp.watch("src/scripts/**/*.js", gulp.series('scripts'));
 	gulp.watch("src/core/**/*.js", gulp.series('core'));

@@ -26,9 +26,9 @@
 				</div>
 				<div class="row clearfix">
 					<!-- Large modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Large modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Large modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#bd-example-modal-lg" type="button">
 								<img src="vendors/images/modal-img1.jpg" alt="modal">
 							</a>
@@ -63,9 +63,9 @@
 						</div>
 					</div>
 					<!-- Medium modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Medium modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Medium modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#Medium-modal" type="button">
 								<img src="vendors/images/modal-img2.jpg" alt="modal">
 							</a>
@@ -94,9 +94,9 @@
 						</div>
 					</div>
 					<!-- Small modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Small modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Small modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#small-modal" type="button">
 								<img src="vendors/images/modal-img3.jpg" alt="modal">
 							</a>
@@ -120,35 +120,62 @@
 						</div>
 					</div>
 					<!-- Login modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Login modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Login modal</h5>
 							<a href="#" class="btn-block" data-backdrop="static" data-toggle="modal" data-target="#login-modal" type="button">
 								<img src="vendors/images/modal-img2.jpg" alt="modal">
 							</a>
 							<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered">
 									<div class="modal-content">
-										<div class="login-box bg-white box-shadow pd-ltr-20 border-radius-5">
-											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-											<img src="vendors/images/login-img.png" alt="login" class="login-img">
-											<h2 class="text-center mb-30">Login</h2>
+										<div class="login-box bg-white box-shadow border-radius-10">
+											<div class="login-title">
+												<h2 class="text-center text-primary">Login To DeskApp</h2>
+											</div>
 											<form>
-												<div class="input-group custom input-group-lg">
-													<input type="text" class="form-control" placeholder="Username">
-													<div class="input-group-append custom">
-														<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+												<div class="select-role">
+													<div class="btn-group btn-group-toggle" data-toggle="buttons">
+														<label class="btn active">
+															<input type="radio" name="options" id="admin">
+															<div class="icon"><img src="vendors/images/briefcase.svg" class="svg" alt=""></div>
+															<span>I'm</span>
+															Manager
+														</label>
+														<label class="btn">
+															<input type="radio" name="options" id="user">
+															<div class="icon"><img src="vendors/images/person.svg" class="svg" alt=""></div>
+															<span>I'm</span>
+															Employee
+														</label>
 													</div>
 												</div>
-												<div class="input-group custom input-group-lg">
-													<input type="password" class="form-control" placeholder="**********">
+												<div class="input-group custom">
+													<input type="text" class="form-control form-control-lg" placeholder="Username">
 													<div class="input-group-append custom">
-														<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
+														<span class="input-group-text"><i class="icon-copy dw dw-user1"></i></span>
+													</div>
+												</div>
+												<div class="input-group custom">
+													<input type="password" class="form-control form-control-lg" placeholder="**********">
+													<div class="input-group-append custom">
+														<span class="input-group-text"><i class="dw dw-padlock1"></i></span>
+													</div>
+												</div>
+												<div class="row pb-30">
+													<div class="col-6">
+														<div class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" id="customCheck1">
+															<label class="custom-control-label" for="customCheck1">Remember</label>
+														</div>
+													</div>
+													<div class="col-6">
+														<div class="forgot-password"><a href="forgot-password.php">Forgot Password</a></div>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-sm-12">
-														<div class="input-group">
+														<div class="input-group mb-0">
 															<!--
 																use code for form submit
 																<input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign In">
@@ -165,9 +192,9 @@
 						</div>
 					</div>
 					<!-- Alert modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Alert modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Alert modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#alert-modal" type="button">
 								<img src="vendors/images/modal-img3.jpg" alt="modal">
 							</a>
@@ -186,9 +213,9 @@
 						</div>
 					</div>
 					<!-- Warning modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Warning modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Warning modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#warning-modal" type="button">
 								<img src="vendors/images/modal-img3.jpg" alt="modal">
 							</a>
@@ -207,9 +234,9 @@
 						</div>
 					</div>
 					<!-- Success modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Success modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Success modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#success-modal" type="button">
 								<img src="vendors/images/modal-img3.jpg" alt="modal">
 							</a>
@@ -230,9 +257,9 @@
 						</div>
 					</div>
 					<!-- Confirmation modal -->
-					<div class="col-md-4 col-sm-12">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h5 class="mb-20">Confirmation modal <small>Click on image</small></h5>
+					<div class="col-md-4 col-sm-12 mb-30">
+						<div class="pd-20 card-box height-100-p">
+							<h5 class="h4">Confirmation modal</h5>
 							<a href="#" class="btn-block" data-toggle="modal" data-target="#confirmation-modal" type="button">
 								<img src="vendors/images/modal-img3.jpg" alt="modal">
 							</a>

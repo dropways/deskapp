@@ -3,7 +3,7 @@
 
 <head>
 	<?php include('include/head.php'); ?>
-	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/build/jquery.steps.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/jquery.steps.css">
 </head>
 
 <body class="login-page">
@@ -30,7 +30,7 @@
 				<div class="col-md-6 col-lg-5">
 					<div class="register-box bg-white box-shadow border-radius-10">
 						<div class="wizard-content">
-							<form class="tab-wizard wizard-circle wizard">
+							<form class="tab-wizard2 wizard-circle wizard">
 								<h5>Basic Account Credentials</h5>
 								<section>
 									<div class="form-wrap max-width-600 mx-auto">
@@ -208,7 +208,7 @@
 								</section>
 							</form>
 						</div>
-					</div>				
+					</div>
 				</div>
 			</div>
 		</div>
@@ -231,26 +231,8 @@
 	</div>
 	<!-- success Popup html End -->
 	<?php include('include/script.php'); ?>
-	<script src="src/plugins/jquery-steps/build/jquery.steps.js"></script>
-	<script>
-		$(".tab-wizard").steps({
-			headerTag: "h5",
-			bodyTag: "section",
-			transitionEffect: "fade",
-			titleTemplate: '<span class="step">#index#</span> <span class="info">#title#</span>',
-			labels: {
-				finish: "Submit",
-				next: "Next",
-				previous: "Previous",
-			},
-			onStepChanged: function(event, currentIndex, priorIndex) {
-				$('.steps .current').prevAll().addClass('disabled');
-			},
-			onFinished: function(event, currentIndex) {
-				$('#success-modal-btn').trigger('click');
-			}
-		});
-	</script>
+	<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
+	<script src="vendors/scripts/steps-setting.js"></script>
 </body>
 
 </html>

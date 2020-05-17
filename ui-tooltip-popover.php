@@ -24,26 +24,26 @@
 						</div>
 					</div>
 				</div>
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-					<h4>Tooltips</h4>
+				<div class="pd-20 card-box mb-30">
+					<h4 class="h4 text-blue">Tooltips</h4>
 					<p class="pb-20">you can use <code>data-toggle="tooltip" title="Tooltip on top"</code></p>
 					<div class="pb-20">
-						<button type="button" class="btn btn-outline-secondary margin-5" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+						<button type="button" class="btn btn-primary margin-5" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 							Tooltip on top
 						</button>
-						<button type="button" class="btn btn-outline-secondary margin-5" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+						<button type="button" class="btn btn-primary margin-5" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 							Tooltip on right
 						</button>
-						<button type="button" class="btn btn-outline-secondary margin-5" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+						<button type="button" class="btn btn-primary margin-5" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
 							Tooltip on bottom
 						</button>
-						<button type="button" class="btn btn-outline-secondary margin-5" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+						<button type="button" class="btn btn-primary margin-5" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
 							Tooltip on left
 						</button>
 					</div>
 				</div>
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-					<h4>Popovers</h4>
+				<div class="pd-20 card-box mb-30">
+					<h4 class="h4 text-blue">Popovers</h4>
 					<p class="pb-20">you can use <code>data-container="body" data-toggle="popover" data-content=""</code></p>
 					<div class="pb-20">
 						<button type="button" class="btn btn-outline-primary margin-5" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="popover">

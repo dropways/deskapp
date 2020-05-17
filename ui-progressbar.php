@@ -26,8 +26,8 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Basic Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Basic Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
@@ -46,8 +46,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Backgrounds Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Backgrounds Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
@@ -66,8 +66,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Multiple Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Multiple Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 								<div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
@@ -92,8 +92,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Labels Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Labels Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
 							</div>
@@ -106,8 +106,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Height Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Height Progress</h5>
 							<div class="progress mb-20" style="height: 5px;">
 								<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
@@ -120,8 +120,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Animated  Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Animated  Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
@@ -134,8 +134,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="mb-20">Striped Progress</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h5 mb-20">Striped Progress</h5>
 							<div class="progress mb-20">
 								<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>

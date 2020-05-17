@@ -38,10 +38,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Dropzone</h4>
+							<h4 class="text-blue h4">Dropzone</h4>
 						</div>
 					</div>
 					<form class="dropzone" action="#" id="my-awesome-dropzone">

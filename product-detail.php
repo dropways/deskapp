@@ -5,10 +5,12 @@
 	<!-- Slick Slider css -->
 	<link rel="stylesheet" type="text/css" href="src/plugins/slick/slick.css">
 	<!-- bootstrap-touchspin css -->
-	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css">
 </head>
 <body>
-	<div class="container">
+	<?php include('include/header.php'); ?>
+	<?php include('include/sidebar.php'); ?>
+	<div class="main-container">
 		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
@@ -60,7 +62,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-12 col-sm-12">
-								<div class="product-detail-desc pd-20 bg-white border-radius-4 box-shadow height-100-p">
+								<div class="product-detail-desc pd-20 card-box height-100-p">
 									<h4 class="mb-20 pt-20">Gufram Bounce Black</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -128,13 +130,14 @@
 					</div>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>
 	<!-- Slick Slider js -->
 	<script src="src/plugins/slick/slick.min.js"></script>
 	<!-- bootstrap-touchspin js -->
-	<script src="src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
+	<script src="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
 	<script>
 		jQuery(document).ready(function() {
 			jQuery('.product-slider').slick({

@@ -25,7 +25,7 @@
 						<div class="col-md-6 col-sm-12 text-right">
 							<div class="dropdown">
 								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-									January 2018
+									January 2020
 								</a>
 								<div class="dropdown-menu dropdown-menu-right">
 									<a class="dropdown-item" href="#">Export List</a>
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 
-				<div class="search-icon-box bg-white box-shadow border-radius-10 mb-30">
+				<div class="search-icon-box card-box mb-30">
 					<input type="text" class="border-radius-10" id="filter_input" placeholder="Search Icons..." title="Type in a name">
 					<i class="search_icon dw dw-search"></i>
 				</div>

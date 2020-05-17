@@ -18,9 +18,9 @@
 					</div>
 					<div class="col-md-8">
 						<h4 class="font-20 weight-500 mb-10 text-capitalize">
-							Welcome back <div class="weight-800 font-30 text-blue">Johnny Brown!</div>
+							Welcome back <div class="weight-600 font-30 text-blue">Johnny Brown!</div>
 						</h4>
-						<p class="font-18 weight-500 max-width-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic non repellendus debitis iure, doloremque assumenda. Autem modi, corrupti, nobis ea iure fugiat, veniam non quaerat mollitia animi error corporis.</p>
+						<p class="font-18 max-width-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic non repellendus debitis iure, doloremque assumenda. Autem modi, corrupti, nobis ea iure fugiat, veniam non quaerat mollitia animi error corporis.</p>
 					</div>
 				</div>
 			</div>
@@ -81,19 +81,19 @@
 			<div class="row">
 				<div class="col-xl-8 mb-30">
 					<div class="card-box height-100-p pd-20">
-						<h2 class="font-weight-700 font-24 mb-20">Activity</h2>
+						<h2 class="h4 mb-20">Activity</h2>
 						<div id="chart5"></div>
 					</div>
 				</div>
 				<div class="col-xl-4 mb-30">
 					<div class="card-box height-100-p pd-20">
-						<h2 class="font-weight-700 font-24 mb-20">Lead Target</h2>
+						<h2 class="h4 mb-20">Lead Target</h2>
 						<div id="chart6"></div>
 					</div>
 				</div>
 			</div>
 			<div class="card-box mb-30">
-				<h2 class="font-weight-700 font-24 pd-20">Best Selling Products</h2>
+				<h2 class="h4 pd-20">Best Selling Products</h2>
 				<table class="data-table table nowrap">
 					<thead>
 						<tr>

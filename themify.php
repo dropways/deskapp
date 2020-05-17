@@ -25,7 +25,7 @@
 						<div class="col-md-6 col-sm-12 text-right">
 							<div class="dropdown">
 								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-									January 2018
+									January 2020
 								</a>
 								<div class="dropdown-menu dropdown-menu-right">
 									<a class="dropdown-item" href="#">Export List</a>
@@ -37,13 +37,13 @@
 					</div>
 				</div>
 
-				<div class="search-icon-box bg-white box-shadow border-radius-10 mb-30">
+				<div class="search-icon-box card-box mb-30">
 					<input type="text" class="border-radius-10" id="filter_input" placeholder="Search Icons..." title="Type in a name">
 					<i class="search_icon dw dw-search"></i>
 				</div>
 				<div id="filter_list">
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Arrows &amp; Direction Icons </h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Arrows &amp; Direction Icons </h5>
 						<div class="row fontawesome-icon-list filter_list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-arrow-up"></span>ti-arrow-up</a>
@@ -147,8 +147,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Web App Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Web App Icons</h5>
 						<div class="row fontawesome-icon-list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-wand"></span>ti-wand</a>
@@ -723,8 +723,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Control Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Control Icons</h5>
 						<div class="row fontawesome-icon-list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-control-stop"></span>ti-control-stop</a>
@@ -762,8 +762,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Text Editor</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Text Editor</h5>
 						<div class="row fontawesome-icon-list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-paragraph"></span>ti-paragraph</a>
@@ -810,8 +810,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Layout Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Layout Icons</h5>
 						<div class="row fontawesome-icon-list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-layout-width-full"></span>ti-layout-width-full</a>
@@ -1002,8 +1002,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Brand Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Brand Icons</h5>
 						<div class="row fontawesome-icon-list">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code">
 								<a href="javascript:;"><span class="icon-copy ti-flickr"></span>ti-flickr</a>

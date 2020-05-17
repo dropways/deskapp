@@ -26,8 +26,8 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Basic List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Basic List</h4>
 							<ul class="list-group">
 								<li class="list-group-item">Cras justo odio</li>
 								<li class="list-group-item">Dapibus ac facilisis in</li>
@@ -38,8 +38,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Links items List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Links items List</h4>
 							<div class="list-group">
 								<a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
 								<a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
@@ -50,8 +50,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">buttons items List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">buttons items List</h4>
 							<div class="list-group">
 								<button type="button" class="list-group-item list-group-item-action ">Cras justo odio</button>
 								<button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
@@ -62,8 +62,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Flush List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Flush List</h4>
 							<ul class="list-group list-group-flush">
 								<li class="list-group-item">Cras justo odio</li>
 								<li class="list-group-item">Dapibus ac facilisis in</li>
@@ -74,8 +74,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Disabled items List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Disabled items List</h4>
 							<ul class="list-group">
 								<li class="list-group-item disabled">Cras justo odio</li>
 								<li class="list-group-item">Dapibus ac facilisis in</li>
@@ -86,8 +86,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">With badges List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">With badges List</h4>
 							<ul class="list-group">
 								<li class="list-group-item d-flex justify-content-between align-items-center">
 									Cras justo odio
@@ -113,8 +113,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Contextual List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Contextual List</h4>
 							<ul class="list-group">
 								<li class="list-group-item">Dapibus ac facilisis in</li>
 								<li class="list-group-item list-group-item-primary">This is a primary list group item</li>
@@ -128,31 +128,31 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-20">Custom content List</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-20 h4">Custom content List</h4>
 							<div class="list-group">
 								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-									<div class="d-flex w-100 justify-content-between">
-										<h5 class="mb-1 color-white">List group item heading</h5>
-										<small>3 days ago</small>
+									<h5 class="mb-1 h5 color-white">List group item heading</h5>
+									<div class="pb-1">
+										<small class="weight-600">3 days ago</small>
 									</div>
-									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<p class="mb-1 font-14">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
 									<small>Donec id elit non mi porta.</small>
 								</a>
 								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-									<div class="d-flex w-100 justify-content-between">
-										<h5 class="mb-1">List group item heading</h5>
-										<small class="text-muted">3 days ago</small>
+									<h5 class="mb-1 h5">List group item heading</h5>
+									<div class="pb-1">
+										<small class="text-muted weight-600">3 days ago</small>
 									</div>
-									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<p class="mb-1 font-14">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
 									<small class="text-muted">Donec id elit non mi porta.</small>
 								</a>
 								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-									<div class="d-flex w-100 justify-content-between">
-										<h5 class="mb-1">List group item heading</h5>
-										<small class="text-muted">3 days ago</small>
+									<h5 class="mb-1 h5">List group item heading</h5>
+									<div class="pb-1">
+										<small class="text-muted weight-600">3 days ago</small>
 									</div>
-									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<p class="mb-1 font-14">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
 									<small class="text-muted">Donec id elit non mi porta.</small>
 								</a>
 							</div>

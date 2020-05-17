@@ -4,7 +4,9 @@
 	<?php include('include/head.php'); ?>
 </head>
 <body>
-	<div class="container">
+	<?php include('include/header.php'); ?>
+	<?php include('include/sidebar.php'); ?>
+	<div class="main-container">
 		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
@@ -23,7 +25,7 @@
 					</div>
 				</div>
 				<div class="faq-wrap">
-					<h4 class="mb-20">Accordion example</h4>
+					<h4 class="mb-20 h4 text-blue">Accordion example</h4>
 					<div id="accordion">
 						<div class="card">
 							<div class="card-header">
@@ -100,7 +102,7 @@
 							</div>
 						</div>
 					</div>
-					<h4 class="mb-30 padding-top-30">Collapse example</h4>
+					<h4 class="mb-30 h4 text-blue padding-top-30">Collapse example</h4>
 					<div class="padding-bottom-30">
 						<div class="card">
 							<div class="card-header">
@@ -179,6 +181,7 @@
 					</div>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>

@@ -26,9 +26,9 @@
 				</div>
 				<div class="row clearfix">
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Examples</h4>
-							<p class="font-14">Bootstrap includes several predefined button styles, each serving its own semantic purpose.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Examples</h4>
+							<p>Bootstrap includes several predefined button styles, each serving its own semantic purpose.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-primary">Primary</button>
 								<button type="button" class="btn btn-secondary">Secondary</button>
@@ -43,9 +43,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Outline buttons</h4>
-							<p class="font-14">In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code>.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Outline buttons</h4>
+							<p>In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code>.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-outline-primary">Primary</button>
 								<button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -59,9 +59,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Button tags</h4>
-							<p class="font-14">The <code>.btn</code> classes are designed to be used with the <code>&lt;button&gt;</code> element. However, you can also use these classes on <code>&lt;a&gt;</code> or <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Button tags</h4>
+							<p>The <code>.btn</code> classes are designed to be used with the <code>&lt;button&gt;</code> element. However, you can also use these classes on <code>&lt;a&gt;</code> or <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).</p>
 							<div class="btn-list">
 								<a class="btn btn-primary" href="#" role="button">Link</a>
 								<button class="btn btn-secondary" type="submit">Button</button>
@@ -72,9 +72,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Sizes</h4>
-							<p class="font-14">Fancy larger or smaller buttons? Add <code>.btn-lg</code> or <code>.btn-sm</code> for additional sizes.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Sizes</h4>
+							<p>Fancy larger or smaller buttons? Add <code>.btn-lg</code> or <code>.btn-sm</code> for additional sizes.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-primary btn-lg">Large button</button>
 								<button type="button" class="btn btn-secondary btn-lg">Large button</button>
@@ -84,9 +84,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Disabled Buttons</h4>
-							<p class="font-14">Make buttons look inactive by adding the disabled boolean attribute to any <code>&lt;button&gt;</code> element.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Disabled Buttons</h4>
+							<p>Make buttons look inactive by adding the disabled boolean attribute to any <code>&lt;button&gt;</code> element.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
 								<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
@@ -94,9 +94,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Disabled Links</h4>
-							<p class="font-14"><code>&lt;a&gt;</code>s don’t support the disabled attribute, so you must add the <code>.disabled</code> class to make it visually appear disabled.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Disabled Links</h4>
+							<p><code>&lt;a&gt;</code>s don’t support the disabled attribute, so you must add the <code>.disabled</code> class to make it visually appear disabled.</p>
 							<div class="btn-list">
 								<a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>
 								<a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link</a>
@@ -104,9 +104,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Block Buttons</h4>
-							<p class="font-14">Create block level buttons—those that span the full width of a parent—by adding <code>.btn-block</code>.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Block Buttons</h4>
+							<p>Create block level buttons—those that span the full width of a parent—by adding <code>.btn-block</code>.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-success btn-lg btn-block">Block level button</button>
 								<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
@@ -114,18 +114,18 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Toggle states</h4>
-							<p class="font-14">Add <code>data-toggle="button"</code> to toggle a button’s <code>active</code> state. If you’re pre-toggling a button, you must manually add the <code>.active</code> class and <code>aria-pressed="true"</code> to the <code>&lt;button&gt;</code>.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Toggle states</h4>
+							<p>Add <code>data-toggle="button"</code> to toggle a button’s <code>active</code> state. If you’re pre-toggling a button, you must manually add the <code>.active</code> class and <code>aria-pressed="true"</code> to the <code>&lt;button&gt;</code>.</p>
 							<div class="btn-list">
 								<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Single toggle</button>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Checkbox buttons</h4>
-							<p class="font-14">Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Checkbox buttons</h4>
+							<p>Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
 							<div class="btn-group-toggle btn-group" data-toggle="buttons">
 								<label class="btn btn btn-outline-primary active">
 									<input type="checkbox" checked autocomplete="off"> Checked
@@ -140,9 +140,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">radio buttons</h4>
-							<p class="font-14">Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">radio buttons</h4>
+							<p>Bootstrap’s <code>.button</code> styles can be applied to other elements, such as <code>&lt;label&gt;</code>s, to provide checkbox or radio style button toggling. Add <code>data-toggle="buttons"</code> to a <code>.btn-group</code> containing those modified buttons to enable toggling in their respective styles.</p>
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
 								<label class="btn btn-outline-secondary active">
 									<input type="radio" name="options" id="option1" autocomplete="off" checked> Active
@@ -157,9 +157,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Input With Button Groups</h4>
-							<p class="font-14">Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some utilities though to space things properly..</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Input With Button Groups</h4>
+							<p>Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some utilities though to space things properly..</p>
 							<div class="btn-toolbar mb-15" role="toolbar" aria-label="Toolbar with button groups">
 								<div class="btn-group mr-2" role="group" aria-label="First group">
 									<button type="button" class="btn btn-outline-primary">1</button>
@@ -177,9 +177,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Button Groups</h4>
-							<p class="font-14">Place a <code>.btn-group</code> within another <code>.btn-group</code> when you want dropdown menus mixed with a series of buttons.Make a set of buttons appear vertically stacked rather than horizontally.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Button Groups</h4>
+							<p>Place a <code>.btn-group</code> within another <code>.btn-group</code> when you want dropdown menus mixed with a series of buttons.Make a set of buttons appear vertically stacked rather than horizontally.</p>
 							<div class="row">
 								<div class="col-lg-3 col-md-6 col-sm-12 mb-15">
 									<div class="btn-group-vertical">
@@ -231,9 +231,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Icon With Label Buttons</h4>
-							<p class="font-14">button using icon with label. </p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Icon With Label Buttons</h4>
+							<p>button using icon with label. </p>
 							<div class="btn-list">
 								<button type="button" class="btn" data-bgcolor="#3b5998" data-color="#ffffff"><i class="fa fa-facebook"></i> facebook</button>
 								<button type="button" class="btn" data-bgcolor="#1da1f2" data-color="#ffffff"><i class="fa fa-twitter"></i> twitter</button>
@@ -249,9 +249,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4 class="mb-15 text-blue">Icon Buttons</h4>
-							<p class="font-14">button using icon.</p>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="mb-15 text-blue h4">Icon Buttons</h4>
+							<p>button using icon.</p>
 							<div class="btn-list">
 								<button type="button" class="btn" data-bgcolor="#3b5998" data-color="#ffffff"><i class="fa fa-facebook"></i></button>
 								<button type="button" class="btn" data-bgcolor="#1da1f2" data-color="#ffffff"><i class="fa fa-twitter"></i></button>

@@ -36,8 +36,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="html-editor pd-20 bg-white border-radius-4 box-shadow mb-30">
-					<h3 class="weight-500">bootstrap wysihtml5</h3>
+
+				<div class="html-editor pd-20 card-box mb-30">
+					<h4 class="h4 text-blue">bootstrap wysihtml5</h4>
 					<p>Simple, beautiful wysiwyg editors</p>
 					<textarea class="textarea_editor form-control border-radius-0" placeholder="Enter text ..."></textarea>
 				</div>

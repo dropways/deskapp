@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php include('include/head.php'); ?>
-	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/build/jquery.steps.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/jquery.steps.css">
 </head>
 <body>
 	<?php include('include/header.php'); ?>
@@ -38,10 +38,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
-						<h4 class="text-blue">Step wizard</h4>
-						<p class="mb-30 font-14">jQuery Step wizard</p>
+						<h4 class="text-blue h4">Step wizard</h4>
+						<p class="mb-30">jQuery Step wizard</p>
 					</div>
 					<div class="wizard-content">
 						<form class="tab-wizard wizard-circle wizard">
@@ -183,10 +183,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
-						<h4 class="text-blue">Step wizard vertical</h4>
-						<p class="mb-30 font-14">jQuery Step wizard</p>
+						<h4 class="text-blue h4">Step wizard vertical</h4>
+						<p class="mb-30">jQuery Step wizard</p>
 					</div>
 					<div class="wizard-content">
 						<form class="tab-wizard wizard-circle wizard vertical">
@@ -349,23 +349,7 @@
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>
-	<script src="src/plugins/jquery-steps/build/jquery.steps.js"></script>
-	<script>
-		$(".tab-wizard").steps({
-			headerTag: "h5",
-			bodyTag: "section",
-			transitionEffect: "fade",
-			titleTemplate: '<span class="step">#index#</span> #title#',
-			labels: {
-				finish: "Submit"
-			},
-			onStepChanged: function (event, currentIndex, priorIndex) {
-				$('.steps .current').prevAll().addClass('disabled');
-			},
-			onFinished: function (event, currentIndex) {
-				$('#success-modal').modal('show');
-			}
-		});
-	</script>
+	<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
+	<script src="vendors/scripts/steps-setting.js"></script>
 </body>
 </html>

@@ -27,8 +27,8 @@
 
 				<div class="row clearfix">
 					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4>Examples</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="h4">Examples</h4>
 							<p class="pb-20">Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight <strong>required</strong> contextual classes <code>(e.g., .alert-success)</code>. For inline dismissal, use the alerts jQuery plugin.</p>
 
 							<div class="alert alert-primary" role="alert">
@@ -58,8 +58,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4>Link color</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="h4">Link color</h4>
 							<p class="pb-20">Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
 
 							<div class="alert alert-primary" role="alert">
@@ -89,8 +89,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
-							<h4>Dismissing</h4>
+						<div class="pd-20 card-box height-100-p">
+							<h4 class="h4">Dismissing</h4>
 							<p class="pb-20">You can see this in action with a live demo:</p>
 							<div class="alert alert-success alert-dismissible fade show" role="alert">
 								<strong>Holy guacamole!</strong> You should check in on some of those fields below.
@@ -131,21 +131,21 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
+						<div class="pd-20 card-box height-100-p">
 							<div class="alert alert-success" role="alert">
-								<h4 class="alert-heading">Well done!</h4>
+								<h4 class="alert-heading h4">Well done!</h4>
 								<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
 								<hr>
 								<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 							</div>
 							<div class="alert alert-primary" role="alert">
-								<h4 class="alert-heading">Well done!</h4>
+								<h4 class="alert-heading h4">Well done!</h4>
 								<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
 								<hr>
 								<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 							</div>
 							<div class="alert alert-secondary" role="alert">
-								<h4 class="alert-heading">Well done!</h4>
+								<h4 class="alert-heading h4">Well done!</h4>
 								<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
 								<hr>
 								<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>

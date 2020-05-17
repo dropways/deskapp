@@ -38,10 +38,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Image Cropper</h4>
+							<h4 class="text-blue h4">Image Cropper</h4>
 						</div>
 					</div>
 					<!-- Content -->
@@ -350,7 +350,7 @@
 
 						<div class="col-sm-12 col-md-12 col-lg-3 docs-toggles">
 							<!-- <h3>Toggles:</h3> -->
-							<div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
+							<div class="btn-group d-flex flex-wrap" data-toggle="buttons">
 								<label class="btn btn-primary active">
 									<input type="radio" class="sr-only" id="aspectRatio1" name="aspectRatio" value="1.7777777777777777">
 									<span class="docs-tooltip" data-toggle="tooltip" title="aspectRatio: 16 / 9">
@@ -383,7 +383,7 @@
 								</label>
 							</div>
 
-							<div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
+							<div class="btn-group d-flex flex-wrap" data-toggle="buttons">
 								<label class="btn btn-primary active">
 									<input type="radio" class="sr-only" id="viewMode0" name="viewMode" value="0" checked>
 									<span class="docs-tooltip" data-toggle="tooltip" title="View Mode 0">

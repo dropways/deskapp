@@ -25,7 +25,7 @@
 						<div class="col-md-6 col-sm-12 text-right">
 							<div class="dropdown">
 								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-									January 2018
+									January 2020
 								</a>
 								<div class="dropdown-menu dropdown-menu-right">
 									<a class="dropdown-item" href="#">Export List</a>
@@ -41,8 +41,8 @@
 					<i class="search_icon dw dw-search"></i>
 				</div>
 				<div id="filter_list">
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">General Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">General Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-heart"></i>heart </a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-star"></i>star</a></div>
@@ -139,8 +139,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Page Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Page Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-page"></i>page</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-page-csv"></i>page-csv</a></div>
@@ -164,8 +164,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Arrow Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Arrow Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-arrow-up"></i>arrow-up</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-arrow-right"></i>arrow-right</a></div>
@@ -179,8 +179,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">People Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">People Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-torso"></i>torso</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-torso-female"></i>torso-female</a></div>
@@ -194,8 +194,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Device Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Device Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-monitor"></i>monitor</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-laptop"></i>laptop</a></div>
@@ -208,8 +208,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Text Editor Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Text Editor Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-bold"></i>bold</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-italic"></i>italic</a></div>
@@ -243,8 +243,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Media Control Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Media Control Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-play"></i>play</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-stop"></i>stop</a></div>
@@ -268,8 +268,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Ecommerce Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Ecommerce Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-dollar"></i>dollar</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-euro"></i>euro</a></div>
@@ -293,8 +293,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Accessibility Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Accessibility Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-wheelchair"></i>wheelchair</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-braille"></i>braille</a></div>
@@ -317,8 +317,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Social &amp; Brand Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Social &amp; Brand Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-social-500px"></i>social-500px</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-social-adobe"></i>social-adobe</a></div>
@@ -394,8 +394,8 @@
 						</div>
 					</div>
 
-					<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-						<h5 class="weight-500">Miscellaneous Icons</h5>
+					<div class="icon-list pd-20 card-box mb-30">
+						<h5 class="h5 text-blue">Miscellaneous Icons</h5>
 						<div class="row fontawesome-icon-list foundation-icon">
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-compass"></i>compass</a></div>
 							<div class="fa-hover col-md-3 col-sm-6 col-12" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy fi-music"></i>music</a></div>

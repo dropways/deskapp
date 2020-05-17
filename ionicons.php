@@ -25,7 +25,7 @@
 						<div class="col-md-6 col-sm-12 text-right">
 							<div class="dropdown">
 								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-									January 2018
+									January 2020
 								</a>
 								<div class="dropdown-menu dropdown-menu-right">
 									<a class="dropdown-item" href="#">Export List</a>
@@ -36,8 +36,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="icon-list pd-20 bg-white border-radius-4 box-shadow mb-30">
-					<h5 class="weight-500">General Icons</h5>
+				<div class="icon-list pd-20 card-box mb-30">
+					<h5 class="h5 text-blue">General Icons</h5>
 					<ul class="fontawesome-icon-list ionicons-list d-flex flex-wrap">
 						<li class="fa-hover" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy ion-ionic"></i></a></li>
 						<li class="fa-hover" data-toggle="tooltip" data-placement="bottom" title="Click To Copy Code"><a href="javascript:;"><i class="icon-copy ion-arrow-up-a"></i></a></li>

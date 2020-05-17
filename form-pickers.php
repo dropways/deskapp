@@ -38,10 +38,10 @@
 					</div>
 				</div>
 
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Date Picker</h4>
+							<h4 class="text-blue h4">Date Picker</h4>
 						</div>
 					</div>
 					<div class="row">
@@ -77,10 +77,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Clock Picker</h4>
+							<h4 class="text-blue h4">Clock Picker</h4>
 						</div>
 					</div>
 					<div class="row">
@@ -110,10 +110,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p mb-30">
+				<div class="pd-20 card-box height-100-p mb-30">
 					<div class="clearfix mb-30">
 						<div class="pull-left">
-							<h4 class="text-blue">Color Picker</h4>
+							<h4 class="text-blue h4">Color Picker</h4>
 						</div>
 					</div>
 					<div class="row">
@@ -154,15 +154,7 @@
 	<?php include('include/script.php'); ?>
 	<script src="src/plugins/jquery-asColor/dist/jquery-asColor.js"></script>
 	<script src="src/plugins/jquery-asGradient/dist/jquery-asGradient.js"></script>
-	<script src="src/plugins/jquery-asColorPicker/dist/jquery-asColorPicker.js"></script>
-	<script>
-		$(".colorpicker").asColorPicker();
-		$(".complex-colorpicker").asColorPicker({
-			mode: 'complex'
-		});
-		$(".gradient-colorpicker").asColorPicker({
-			mode: 'gradient'
-		});
-	</script>
+	<script src="src/plugins/jquery-asColorPicker/jquery-asColorPicker.js"></script>
+	<script src="vendors/scripts/colorpicker.js"></script>
 </body>
 </html>

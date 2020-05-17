@@ -26,8 +26,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">Headings</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">Headings</h4>
 							<h1>h1. Bootstrap heading</h1>
 							<h2 class="mb-10">h2. Bootstrap heading</h2>
 							<h3 class="mb-10">h3. Bootstrap heading</h3>
@@ -37,8 +37,8 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">Inline text elements</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">Inline text elements</h4>
 							<p>You can use the mark tag to <mark>highlight</mark> text.</p>
 							<p><del>This line of text is meant to be treated as deleted text.</del></p>
 							<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
@@ -50,8 +50,8 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">Display headings</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">Display headings</h4>
 							<h1 class="display-1">Display 1</h1>
 							<h1 class="display-2">Display 2</h1>
 							<h1 class="display-3">Display 3</h1>
@@ -59,8 +59,8 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-							<h4 class="mb-20">Blockquotes</h4>
+						<div class="pd-20 card-box mb-30">
+							<h4 class="mb-20 h4">Blockquotes</h4>
 							<blockquote class="blockquote">
 								<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
 								<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -70,8 +70,8 @@
 								<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
 							</blockquote>
 						</div>
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">List Inline</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">List Inline</h4>
 							<ul class="list-inline">
 								<li class="list-inline-item">Lorem ipsum</li>
 								<li class="list-inline-item">Phasellus iaculis</li>
@@ -80,8 +80,8 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">List Unstyled</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">List Unstyled</h4>
 							<ul class="list-unstyled">
 								<li>Lorem ipsum dolor sit amet</li>
 								<li>Consectetur adipiscing elit</li>
@@ -102,8 +102,8 @@
 						</div>
 					</div>
 					<div class="col-md-8 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h4 class="mb-30">Description list alignment</h4>
+						<div class="pd-20 card-box">
+							<h4 class="mb-30 h4">Description list alignment</h4>
 							<dl class="row">
 								<dt class="col-sm-3">Description lists</dt>
 								<dd class="col-sm-9">A description list is perfect for defining terms.</dd>

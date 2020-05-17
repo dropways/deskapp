@@ -27,8 +27,8 @@
 
 				<div class="row clearfix">
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Default Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Default Tab</h5>
 							<div class="tab">
 								<ul class="nav nav-tabs" role="tablist">
 									<li class="nav-item">
@@ -62,8 +62,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Customtab Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Customtab Tab</h5>
 							<div class="tab">
 								<ul class="nav nav-tabs customtab" role="tablist">
 									<li class="nav-item">
@@ -97,8 +97,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">vertical Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">vertical Tab</h5>
 							<div class="tab">
 								<div class="row clearfix">
 									<div class="col-md-3 col-sm-12">
@@ -138,8 +138,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Custom vertical Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Custom vertical Tab</h5>
 							<div class="tab">
 								<div class="row clearfix">
 									<div class="col-md-3 col-sm-12">
@@ -179,8 +179,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Nav Pills Tabs</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Nav Pills Tabs</h5>
 							<div class="tab">
 								<ul class="nav nav-pills" role="tablist">
 									<li class="nav-item">
@@ -214,8 +214,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Nav Pills Tabs Right</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Nav Pills Tabs Right</h5>
 							<div class="tab">
 								<ul class="nav nav-pills justify-content-end" role="tablist">
 									<li class="nav-item">
@@ -249,8 +249,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Icons vertical Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Icons vertical Nav Pills Tab</h5>
 							<div class="tab">
 								<div class="row clearfix">
 									<div class="col-md-3 col-sm-12">
@@ -290,8 +290,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow">
-							<h5 class="weight-500 mb-20">Icons vertical Tab</h5>
+						<div class="pd-20 card-box">
+							<h5 class="h4 text-blue mb-20">Icons vertical Tab</h5>
 							<div class="tab">
 								<div class="row clearfix">
 									<div class="col-md-3 col-sm-12">

@@ -4,7 +4,9 @@
 	<?php include('include/head.php'); ?>
 </head>
 <body>
-	<div class="container">
+	<?php include('include/header.php'); ?>
+	<?php include('include/sidebar.php'); ?>
+	<div class="main-container">
 		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
 				<div class="page-header">
@@ -26,7 +28,7 @@
 					<div class="container pd-0">
 						<div class="row">
 							<div class="col-md-8 col-sm-12">
-								<div class="blog-detail mb-30">
+								<div class="blog-detail card-box overflow-hidden mb-30">
 									<div class="blog-img">
 										<img src="vendors/images/img2.jpg" alt="">
 									</div>
@@ -72,8 +74,8 @@
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
-								<div class="bg-white border-radius-4 box-shadow mb-30">
-									<h5 class="pd-20">Categories</h5>
+								<div class="card-box mb-30">
+									<h5 class="pd-20 h5 mb-0">Categories</h5>
 									<div class="list-group">
 										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">HTML <span class="badge badge-primary badge-pill">7</span></a>
 										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">Css <span class="badge badge-primary badge-pill">10</span></a>
@@ -82,8 +84,8 @@
 										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">Design <span class="badge badge-primary badge-pill">5</span></a>
 									</div>
 								</div>
-								<div class="bg-white border-radius-4 box-shadow mb-30">
-									<h5 class="pd-20">Latest Post</h5>
+								<div class="card-box mb-30">
+									<h5 class="pd-20 h5 mb-0">Latest Post</h5>
 									<div class="latest-post">
 										<ul>
 											<li>
@@ -109,14 +111,14 @@
 										</ul>
 									</div>
 								</div>
-								<div class="bg-white border-radius-4 box-shadow">
-									<h5 class="pd-20">Archives</h5>
+								<div class="card-box overflow-hidden">
+									<h5 class="pd-20 h5 mb-0">Archives</h5>
 									<div class="list-group">
-										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">January 2018</a>
-										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">February 2018</a>
-										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">March 2018</a>
-										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">April 2018</a>
-										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">May 2018</a>
+										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">January 2020</a>
+										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">February 2020</a>
+										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">March 2020</a>
+										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">April 2020</a>
+										<a href="#" class="list-group-item d-flex align-items-center justify-content-between">May 2020</a>
 									</div>
 								</div>
 							</div>
@@ -124,6 +126,7 @@
 					</div>
 				</div>
 			</div>
+			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
 	<?php include('include/script.php'); ?>

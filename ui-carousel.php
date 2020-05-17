@@ -27,10 +27,10 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
 						<!-- Slides only -->
-						<div class="bg-white border-radius-4 box-shadow mb-30">
+						<div class="card-box mb-30">
 							<div class="clearfix pd-20">
 								<div class="pull-left">
-									<h4>Slides only</h4>
+									<h4 class="h4">Slides only</h4>
 								</div>
 								<div class="pull-right">
 									<a href="#carousel1" class="btn btn-primary btn-sm scroll-click" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -76,10 +76,10 @@
 					</div>
 					<!-- With controls -->
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="bg-white border-radius-4 box-shadow mb-30">
+						<div class="card-box mb-30">
 							<div class="clearfix pd-20">
 								<div class="pull-left">
-									<h4>With controls</h4>
+									<h4 class="h4">With controls</h4>
 								</div>
 								<div class="pull-right">
 									<a href="#carousel2" class="btn btn-primary btn-sm scroll-click" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -141,10 +141,10 @@
 					</div>
 					<!-- With indicators -->
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="bg-white border-radius-4 box-shadow mb-30">
+						<div class="card-box mb-30">
 							<div class="clearfix pd-20">
 								<div class="pull-left">
-									<h4>With indicators</h4>
+									<h4 class="h4">With indicators</h4>
 								</div>
 								<div class="pull-right">
 									<a href="#carousel3" class="btn btn-primary btn-sm scroll-click" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>
@@ -216,10 +216,10 @@
 					</div>
 					<!-- With captions -->
 					<div class="col-lg-6 col-md-12 col-sm-12 mb-30">
-						<div class="bg-white border-radius-4 box-shadow mb-30">
+						<div class="card-box mb-30">
 							<div class="clearfix pd-20">
 								<div class="pull-left">
-									<h4>With captions</h4>
+									<h4 class="h4">With captions</h4>
 								</div>
 								<div class="pull-right">
 									<a href="#carousel4" class="btn btn-primary btn-sm scroll-click" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-code"></i> Source Code</a>

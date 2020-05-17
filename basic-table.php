@@ -37,10 +37,10 @@
 					</div>
 				</div>
 				<!-- basic table  Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Basic Table</h4>
+							<h4 class="text-blue h4">Basic Table</h4>
 							<p>Add class <code>.table</code></p>
 						</div>
 						<div class="pull-right">
@@ -106,10 +106,10 @@
 				</div>
 				<!-- basic table  End -->
 				<!-- Bordered table  start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Bordered table</h4>
+							<h4 class="text-blue h4">Bordered table</h4>
 							<p>Add <code>.table  .table-bordered</code> for borders on all sides of the table and cells.</p>
 						</div>
 						<div class="pull-right">
@@ -175,10 +175,10 @@
 				</div>
 				<!-- Bordered table End -->
 				<!-- Striped table start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Striped table</h4>
+							<h4 class="text-blue h4">Striped table</h4>
 							<p>Add <code>.table  .table-striped</code> to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
 						</div>
 						<div class="pull-right">
@@ -258,10 +258,10 @@
 				</div>
 				<!-- Striped table End -->
 				<!-- Responsive tables Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Responsive table</h4>
+							<h4 class="text-blue h4">Responsive table</h4>
 							<p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table  .table-responsive</code> Or, pick a maximum breakpoint with which to have a responsive table up to by using<code>.table-responsive{-sm|-md|-lg|-xl}</code>.</p>
 						</div>
 						<div class="pull-right">
@@ -345,10 +345,10 @@
 				</div>
 				<!-- Responsive tables End -->
 				<!-- Contextual classes Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Contextual classes</h4>
+							<h4 class="text-blue h4">Contextual classes</h4>
 							<p>Use classes <code>( .table-active, .table-success, .table-info, .table-warning, .table-danger )</code> to color table rows or individual cells</p>
 						</div>
 						<div class="pull-right">

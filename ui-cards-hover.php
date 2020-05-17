@@ -25,11 +25,11 @@
 					</div>
 				</div>
 				<!-- Fade-in effect -->
-				<h5 class="weight-500 mb-10">Fade-in effect</h5>
+				<h5 class="h4 text-blue mb-10">Fade-in effect</h5>
 				<p class="mb-30">You can use by default <code>.da-overlay</code></p>
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo1.jpg" alt="">
 								<div class="da-overlay">
@@ -43,13 +43,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 								<div class="da-overlay">
@@ -63,13 +63,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo3.jpg" alt="">
 								<div class="da-overlay">
@@ -83,13 +83,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo4.jpg" alt="">
 								<div class="da-overlay">
@@ -103,7 +103,7 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
@@ -111,11 +111,11 @@
 				</div>
 
 				<!-- Slide Left effect -->
-				<h5 class="weight-500 mb-10">Slide Left effect</h5>
+				<h5 class="h4 text-blue mb-10">Slide Left effect</h5>
 				<p class="mb-30">You can use by default <code>.da-overlay .da-slide-left</code></p>
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo1.jpg" alt="">
 								<div class="da-overlay da-slide-left">
@@ -129,13 +129,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 								<div class="da-overlay da-slide-left">
@@ -149,13 +149,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo3.jpg" alt="">
 								<div class="da-overlay da-slide-left">
@@ -169,13 +169,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo4.jpg" alt="">
 								<div class="da-overlay da-slide-left">
@@ -189,7 +189,7 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
@@ -197,11 +197,11 @@
 				</div>
 
 				<!-- Slide Right effect -->
-				<h5 class="weight-500 mb-10">Slide Right effect</h5>
+				<h5 class="h4 text-blue mb-10">Slide Right effect</h5>
 				<p class="mb-30">You can use by default <code>.da-overlay .da-slide-right</code></p>
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo1.jpg" alt="">
 								<div class="da-overlay da-slide-right">
@@ -215,13 +215,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 								<div class="da-overlay da-slide-right">
@@ -235,13 +235,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo3.jpg" alt="">
 								<div class="da-overlay da-slide-right">
@@ -255,13 +255,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo4.jpg" alt="">
 								<div class="da-overlay da-slide-right">
@@ -275,7 +275,7 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
@@ -283,11 +283,11 @@
 				</div>
 
 				<!-- Slide Top effect -->
-				<h5 class="weight-500 mb-10">Slide Top effect</h5>
+				<h5 class="h4 text-blue mb-10">Slide Top effect</h5>
 				<p class="mb-30">You can use by default <code>.da-overlay .da-slide-top</code></p>
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo1.jpg" alt="">
 								<div class="da-overlay da-slide-top">
@@ -301,13 +301,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 								<div class="da-overlay da-slide-top">
@@ -321,13 +321,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo3.jpg" alt="">
 								<div class="da-overlay da-slide-top">
@@ -341,13 +341,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo4.jpg" alt="">
 								<div class="da-overlay da-slide-top">
@@ -361,7 +361,7 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
@@ -369,11 +369,11 @@
 				</div>
 
 				<!-- Slide Bottom effect -->
-				<h5 class="weight-500 mb-10">Slide Bottom effect</h5>
+				<h5 class="h4 text-blue mb-10">Slide Bottom effect</h5>
 				<p class="mb-30">You can use by default <code>.da-overlay .da-slide-bottom</code></p>
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo1.jpg" alt="">
 								<div class="da-overlay da-slide-bottom">
@@ -387,13 +387,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo2.jpg" alt="">
 								<div class="da-overlay da-slide-bottom">
@@ -407,13 +407,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo3.jpg" alt="">
 								<div class="da-overlay da-slide-bottom">
@@ -427,13 +427,13 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="da-card box-shadow">
+						<div class="da-card">
 							<div class="da-card-photo">
 								<img src="vendors/images/photo4.jpg" alt="">
 								<div class="da-overlay da-slide-bottom">
@@ -447,7 +447,7 @@
 								</div>
 							</div>
 							<div class="da-card-content">
-								<h5 class="weight-500 mb-10">Don H. Rabon</h5>
+								<h5 class="h5 mb-10">Don H. Rabon</h5>
 								<p class="mb-0">Lorem ipsum dolor sit amet</p>
 							</div>
 						</div>

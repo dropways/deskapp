@@ -3,11 +3,11 @@
 <head>
 	<?php include('include/head.php'); ?>
 	<!-- switchery css -->
-	<link rel="stylesheet" type="text/css" href="src/plugins/switchery/dist/switchery.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/switchery/switchery.min.css">
 	<!-- bootstrap-tagsinput css -->
-	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
 	<!-- bootstrap-touchspin css -->
-	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css">
 </head>
 <body>
 	<?php include('include/header.php'); ?>
@@ -44,75 +44,81 @@
 				</div>
 
 				<!-- Select-2 Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">Select 2</h4>
-							<p class="mb-30 font-14">Select2 for custom search and select</p>
+							<h4 class="text-blue h4">Select 2</h4>
+							<p class="mb-30">Select2 for custom search and select</p>
 						</div>
 					</div>
 					<form>
-						<div class="form-group">
-							<label>Single Select</label>
-							<select class="custom-select2 form-control" name="state" style="width: 100%; height: 38px;">
-								<optgroup label="Alaskan/Hawaiian Time Zone">
-									<option value="AK">Alaska</option>
-									<option value="HI">Hawaii</option>
-								</optgroup>
-								<optgroup label="Pacific Time Zone">
-									<option value="CA">California</option>
-									<option value="NV">Nevada</option>
-									<option value="OR">Oregon</option>
-									<option value="WA">Washington</option>
-								</optgroup>
-								<optgroup label="Mountain Time Zone">
-									<option value="AZ">Arizona</option>
-									<option value="CO">Colorado</option>
-									<option value="ID">Idaho</option>
-									<option value="MT">Montana</option>
-									<option value="NE">Nebraska</option>
-									<option value="NM">New Mexico</option>
-									<option value="ND">North Dakota</option>
-									<option value="UT">Utah</option>
-									<option value="WY">Wyoming</option>
-								</optgroup>
-							</select>
-						</div>
-						<div class="form-group">
-							<label>Multiple Select</label>
-							<select class="custom-select2 form-control" multiple="multiple" style="width: 100%;">
-								<optgroup label="Alaskan/Hawaiian Time Zone">
-									<option value="AK">Alaska</option>
-									<option value="HI">Hawaii</option>
-								</optgroup>
-								<optgroup label="Pacific Time Zone">
-									<option value="CA">California</option>
-									<option value="NV">Nevada</option>
-									<option value="OR">Oregon</option>
-									<option value="WA">Washington</option>
-								</optgroup>
-								<optgroup label="Mountain Time Zone">
-									<option value="AZ">Arizona</option>
-									<option value="CO">Colorado</option>
-									<option value="ID">Idaho</option>
-									<option value="MT">Montana</option>
-									<option value="NE">Nebraska</option>
-									<option value="NM">New Mexico</option>
-									<option value="ND">North Dakota</option>
-									<option value="UT">Utah</option>
-									<option value="WY">Wyoming</option>
-								</optgroup>
-							</select>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Single Select</label>
+									<select class="custom-select2 form-control" name="state" style="width: 100%; height: 38px;">
+										<optgroup label="Alaskan/Hawaiian Time Zone">
+											<option value="AK">Alaska</option>
+											<option value="HI">Hawaii</option>
+										</optgroup>
+										<optgroup label="Pacific Time Zone">
+											<option value="CA">California</option>
+											<option value="NV">Nevada</option>
+											<option value="OR">Oregon</option>
+											<option value="WA">Washington</option>
+										</optgroup>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="MT">Montana</option>
+											<option value="NE">Nebraska</option>
+											<option value="NM">New Mexico</option>
+											<option value="ND">North Dakota</option>
+											<option value="UT">Utah</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Multiple Select</label>
+									<select class="custom-select2 form-control" multiple="multiple" style="width: 100%;">
+										<optgroup label="Alaskan/Hawaiian Time Zone">
+											<option value="AK">Alaska</option>
+											<option value="HI">Hawaii</option>
+										</optgroup>
+										<optgroup label="Pacific Time Zone">
+											<option value="CA">California</option>
+											<option value="NV">Nevada</option>
+											<option value="OR">Oregon</option>
+											<option value="WA">Washington</option>
+										</optgroup>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="MT">Montana</option>
+											<option value="NE">Nebraska</option>
+											<option value="NM">New Mexico</option>
+											<option value="ND">North Dakota</option>
+											<option value="UT">Utah</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
 						</div>
 					</form>
 				</div>
 				<!-- Select-2 end -->
 				<!-- Bootstrap Select Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue">Bootstrap Select</h4>
-							<p class="mb-30 font-14">Just add class <code>.selectpicker</code> to select</p>
+							<h4 class="text-blue h4">Bootstrap Select</h4>
+							<p class="mb-30">Just add class <code>.selectpicker</code> to select</p>
 						</div>
 					</div>
 					<form>
@@ -137,7 +143,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>multiple Select</label>
-									<select class="selectpicker form-control" data-style="btn-outline-secondary" multiple data-max-options="3">
+									<select class="selectpicker form-control" data-size="5" data-style="btn-outline-secondary" multiple data-max-options="3">
 										<optgroup label="Condiments">
 											<option>Mustard</option>
 											<option>Ketchup</option>
@@ -154,7 +160,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>Selected text format</label>
-									<select class="selectpicker form-control" data-style="btn-outline-success" data-selected-text-format="count" multiple>
+									<select class="selectpicker form-control" data-size="5" data-style="btn-outline-success" data-selected-text-format="count" multiple>
 										<option>Mustard</option>
 										<option>Ketchup</option>
 										<option>Relish</option>
@@ -167,7 +173,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>Subtext</label>
-									<select class="selectpicker form-control" data-style="btn-outline-danger">
+									<select class="selectpicker form-control" data-size="5" data-style="btn-outline-danger">
 										<option data-subtext="French's">Mustard</option>
 										<option data-subtext="Heinz">Ketchup</option>
 										<option data-subtext="Sweet">Relish</option>
@@ -183,7 +189,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>Select/deselect all</label>
-									<select class="selectpicker form-control" data-style="btn-outline-warning" multiple data-actions-box="true" data-selected-text-format="count">
+									<select class="selectpicker form-control" data-size="5" data-style="btn-outline-warning" multiple data-actions-box="true" data-selected-text-format="count">
 										<optgroup label="Condiments">
 											<option>Mustard</option>
 											<option>Ketchup</option>
@@ -200,7 +206,7 @@
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label>Disabled options</label>
-									<select class="selectpicker form-control" data-style="btn-outline-info">
+									<select class="selectpicker form-control" data-size="5" data-style="btn-outline-info">
 										<option>Mustard</option>
 										<option disabled>Ketchup</option>
 										<option>Relish</option>
@@ -217,16 +223,16 @@
 				<div class="row">
 					<!-- Bootstrap Switchery Start -->
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
+						<div class="pd-20 card-box height-100-p">
 							<div class="clearfix mb-30">
 								<div class="pull-left">
-									<h4 class="text-blue">Switchery js</h4>
+									<h4 class="text-blue h4">Switchery js</h4>
 								</div>
 							</div>
 							<form>
 								<div class="mb-30">
-									<h5>Basic</h5>
-									<p class="font-14">add <code> class="switch-btn" data-color="#0099ff"</code> to your input element.</p>
+									<h5 class="h5">Basic</h5>
+									<p>add <code> class="switch-btn" data-color="#0099ff"</code> to your input element.</p>
 									<input type="checkbox" checked class="switch-btn" data-color="#0099ff">
 									<input type="checkbox" checked class="switch-btn" data-color="#41ccba">
 									<input type="checkbox" checked class="switch-btn" data-color="#f56767">
@@ -235,8 +241,8 @@
 									<input type="checkbox" checked class="switch-btn" data-color="#0059b2">
 								</div>
 								<div class="mb-30">
-									<h5>Sizes</h5>
-									<p class="font-14">add <code>data-size="small",data-size="large"</code> to your input element for diffrent sizes.</p>
+									<h5 class="h5">Sizes</h5>
+									<p>add <code>data-size="small",data-size="large"</code> to your input element for diffrent sizes.</p>
 									<input type="checkbox" checked class="switch-btn" data-size="small" data-color="#0099ff">
 									<input type="checkbox" checked class="switch-btn" data-size="small" data-color="#f56767">
 									<input type="checkbox" checked class="switch-btn" data-color="#41ccba">
@@ -245,8 +251,8 @@
 									<input type="checkbox" checked class="switch-btn" data-size="large" data-color="#0059b2">
 								</div>
 								<div class="mb-30">
-									<h5>Secondary Color</h5>
-									<p class="font-14">add <code>data-color="#0099ff" data-secondary-color="#28a745"</code> to your input</p>
+									<h5 class="h5">Secondary Color</h5>
+									<p>add <code>data-color="#0099ff" data-secondary-color="#28a745"</code> to your input</p>
 									<input type="checkbox" checked class="switch-btn" data-size="small" data-color="#0099ff" data-secondary-color="#28a745">
 									<input type="checkbox" class="switch-btn" data-size="small" data-color="#f56767" data-secondary-color="#28a745">
 									<input type="checkbox" checked class="switch-btn" data-color="#41ccba" data-secondary-color="#28a745">
@@ -260,21 +266,21 @@
 					<!-- Bootstrap Switchery End -->
 					<!-- Bootstrap Tags Input Start -->
 					<div class="col-md-6 col-sm-12 mb-30">
-						<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p">
+						<div class="pd-20 card-box height-100-p">
 							<div class="clearfix mb-30">
 								<div class="pull-left">
-									<h4 class="text-blue">Bootstrap Tags Input</h4>
+									<h4 class="text-blue h4">Bootstrap Tags Input</h4>
 								</div>
 							</div>
 							<form>
 								<div class="mb-30">
-									<h5>Input Value</h5>
-									<p class="font-14">add <code>data-role="tagsinput"</code> to your input element.</p>
+									<h5 class="h5">Input Value</h5>
+									<p>add <code>data-role="tagsinput"</code> to your input element.</p>
 									<input type="text" value="Amsterdam,Washington,Sydney,Beijing,Cairo" data-role="tagsinput">
 								</div>
 								<div class="mb-30">
-									<h5>Select Value</h5>
-									<p class="font-14">add <code>data-role="tagsinput"</code> to your select element & use select multiple</p>
+									<h5 class="h5">Select Value</h5>
+									<p>add <code>data-role="tagsinput"</code> to your select element & use select multiple</p>
 									<select multiple data-role="tagsinput">
 										<option value="Amsterdam">Amsterdam</option>
 										<option value="Washington">Washington</option>
@@ -284,8 +290,8 @@
 									</select>
 								</div>
 								<div class="mb-30">
-									<h5>Input placeholder</h5>
-									<p class="font-14">add <code>data-role="tagsinput" placeholder="add tags"</code> to your input element.</p>
+									<h5 class="h5">Input placeholder</h5>
+									<p>add <code>data-role="tagsinput" placeholder="add tags"</code> to your input element.</p>
 									<input type="text" value="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags">
 								</div>
 							</form>
@@ -294,10 +300,10 @@
 					<!-- Bootstrap Tags Input End -->
 				</div>
 				<!-- Bootstrap TouchSpin Start -->
-				<div class="pd-20 bg-white border-radius-4 box-shadow height-100-p mb-30">
+				<div class="pd-20 card-box height-100-p mb-30">
 					<div class="clearfix mb-30">
 						<div class="pull-left">
-							<h4 class="text-blue">Bootstrap TouchSpin</h4>
+							<h4 class="text-blue h4">Bootstrap TouchSpin</h4>
 						</div>
 					</div>
 					<form>
@@ -316,7 +322,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Vertical buttons with custom icons</label>
+									<label>Vertical buttons</label>
 									<input id="demo_vertical2" type="text" value="" name="demo_vertical2">
 								</div>
 							</div>
@@ -349,48 +355,11 @@
 	</div>
 	<?php include('include/script.php'); ?>
 	<!-- switchery js -->
-	<script src="src/plugins/switchery/dist/switchery.js"></script>
+	<script src="src/plugins/switchery/switchery.min.js"></script>
 	<!-- bootstrap-tagsinput js -->
-	<script src="src/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"></script>
+	<script src="src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
 	<!-- bootstrap-touchspin js -->
-	<script src="src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
-	<script>
-		// Switchery
-		var elems = Array.prototype.slice.call(document.querySelectorAll('.switch-btn'));
-		$('.switch-btn').each(function() {
-			new Switchery($(this)[0], $(this).data());
-		});
-
-		// Bootstrap Touchspin
-		$("input[name='demo_vertical2']").TouchSpin({
-			verticalbuttons: true,
-			verticalupclass: 'fa fa-plus',
-			verticaldownclass: 'fa fa-minus'
-		});
-		$("input[name='demo3']").TouchSpin();
-		$("input[name='demo1']").TouchSpin({
-			min: 0,
-			max: 100,
-			step: 0.1,
-			decimals: 2,
-			boostat: 5,
-			maxboostedstep: 10,
-			postfix: '%'
-		});
-		$("input[name='demo2']").TouchSpin({
-			min: -1000000000,
-			max: 1000000000,
-			stepinterval: 50,
-			maxboostedstep: 10000000,
-			prefix: '$'
-		});
-		$("input[name='demo3_22']").TouchSpin({
-			initval: 40
-		});
-		$("input[name='demo5']").TouchSpin({
-			prefix: "pre",
-			postfix: "post"
-		});
-	</script>
+	<script src="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+	<script src="vendors/scripts/advanced-components.js"></script>
 </body>
 </html>

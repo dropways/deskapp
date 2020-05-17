@@ -29,22 +29,22 @@
 						<ul>
 							<li>
 								<div class="timeline-date">
-									15 Jan 2018
+									15 Jan 2020
 								</div>
-								<div class="timeline-desc bg-white border-radius-4 box-shadow">
+								<div class="timeline-desc card-box">
 									<div class="pd-20">
-										<h4 class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+										<h4 class="mb-10 h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									</div>
 								</div>
 							</li>
 							<li>
 								<div class="timeline-date">
-									14 Jan 2018
+									14 Jan 2020
 								</div>
-								<div class="timeline-desc bg-white border-radius-4 box-shadow">
+								<div class="timeline-desc card-box">
 									<div class="pd-20">
-										<h4 class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+										<h4 class="mb-10 h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									</div>
@@ -52,10 +52,10 @@
 							</li>
 							<li>
 								<div class="timeline-date">
-									13 Jan 2018
+									13 Jan 2020
 								</div>
-								<div class="timeline-desc bg-white border-radius-4 box-shadow">
-									<div class="card">
+								<div class="timeline-desc card-box">
+									<div class="card card-box">
 										<img class="card-img-top" src="vendors/images/img2.jpg" alt="Card image cap">
 										<div class="card-body">
 											<h5 class="card-title weight-500">Card title</h5>
@@ -67,9 +67,9 @@
 							</li>
 							<li>
 								<div class="timeline-date">
-									12 Jan 2018
+									12 Jan 2020
 								</div>
-								<div class="timeline-desc bg-white border-radius-4 box-shadow">
+								<div class="timeline-desc card-box">
 									<div class="pd-20">
 										<blockquote class="blockquote mb-0">
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

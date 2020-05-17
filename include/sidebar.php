@@ -89,6 +89,7 @@
 							<li><a href="highchart.php">Highchart</a></li>
 							<li><a href="knob-chart.php">jQuery Knob</a></li>
 							<li><a href="jvectormap.php">jvectormap</a></li>
+							<li><a href="apexcharts.php">Apexcharts</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -114,7 +115,7 @@
 							<li><a href="503.php">503</a></li>
 						</ul>
 					</li>
-					
+
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-copy"></span><span class="mtext">Extra Pages</span>
