@@ -1,7 +1,7 @@
 {
 	"name": "deskapp",
 	"version": "1.0.0",
-	"description": "deskapp",
+	"description": "deskapp free bootstrap 4 admin template",
 	"main": "gulpfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
 	"repository": {
 		"type": "git"
 	},
-	"author": "",
+	"keywords": ["admin", "bootstrap 4", "admin dashboard", "free dashboard", "admin template", "admin panel", "ui kit", "bootstrap template"],
+	"author": "Ankit Hingarajiya",
 	"license": "ISC",
 	"devDependencies": {
 		"browser-sync": "^2.26.7",

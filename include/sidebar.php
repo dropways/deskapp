@@ -162,12 +162,35 @@
 					</li>
 					<li>
 						<a href="chat.php" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-chat3"></span><span class="mtext">Chat <span class="fi-burst-new text-danger new"></span></span>
+							<span class="micon dw dw-chat3"></span><span class="mtext">Chat</span>
 						</a>
 					</li>
 					<li>
 						<a href="invoice.php" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-invoice"></span><span class="mtext">Invoice</span>
+						</a>
+					</li>
+					<li>
+						<div class="dropdown-divider"></div>
+					</li>
+					<li>
+						<div class="sidebar-small-cap">Extra</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-edit-2"></span><span class="mtext">Documentation</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="introduction.php">Introduction</a></li>
+							<li><a href="getting-started.php">Getting Started</a></li>
+							<li><a href="color-settings.php">Color Settings</a></li>
+							<li><a href="third-party-plugins.php">Third Party Plugins</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-paper-plane1"></span>
+							<span class="mtext">Landing Page <img src="vendors/images/coming-soon.png" alt="" width="25"></span>
 						</a>
 					</li>
 				</ul>

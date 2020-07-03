@@ -29,14 +29,14 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="weight-500">Home</h5>
+									<h5 class="h5">Home</h5>
 									<ul>
 										<li><a href="index.php">Dashboard style 1</a></li>
 										<li><a href="index2.php">Dashboard style 2</a></li>
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Forms</h5>
+									<h5 class="h5">Forms</h5>
 									<ul>
 										<li><a href="form-basic.php">Form Basic</a></li>
 										<li><a href="advanced-components.php">Advanced Components</a></li>
@@ -48,13 +48,13 @@
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Invoice</h5>
+									<h5 class="h5">Invoice</h5>
 									<ul>
 										<li><a href="invoice.php">Invoice</a></li>
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Chat Module</h5>
+									<h5 class="h5">Chat Module</h5>
 									<ul>
 										<li><a href="chat.php">Chat</a></li>
 									</ul>
@@ -62,20 +62,20 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="weight-500">Tables</h5>
+									<h5 class="h5">Tables</h5>
 									<ul>
 										<li><a href="basic-table.php">Basic Tables</a></li>
 										<li><a href="datatable.php">DataTables</a></li>
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Calendar</h5>
+									<h5 class="h5">Calendar</h5>
 									<ul>
 										<li><a href="calendar.php">Calendar</a></li>
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Icons</h5>
+									<h5 class="h5">Icons</h5>
 									<ul>
 										<li><a href="font-awesome.php">FontAwesome Icons</a></li>
 										<li><a href="foundation.php">Foundation Icons</a></li>
@@ -84,7 +84,7 @@
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Charts</h5>
+									<h5 class="h5">Charts</h5>
 									<ul>
 										<li><a href="highchart.php">Highchart</a></li>
 										<li><a href="knob-chart.php">jQuery Knob</a></li>
@@ -94,7 +94,7 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="weight-500">UI Elements</h5>
+									<h5 class="h5">UI Elements</h5>
 									<ul>
 										<li><a href="ui-buttons.php">Buttons</a></li>
 										<li><a href="ui-cards.php">Cards</a></li>
@@ -115,7 +115,7 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="weight-500">Additional Pages</h5>
+									<h5 class="h5">Additional Pages</h5>
 									<ul>
 										<li><a href="video-player.php">Video Player</a></li>
 										<li><a href="login.php">Login</a></li>
@@ -127,7 +127,7 @@
 									</ul>
 								</div>
 								<div class="sitemap">
-									<h5 class="weight-500">Extra Pages</h5>
+									<h5 class="h5">Extra Pages</h5>
 									<ul>
 										<li><a href="blank.php">Blank</a></li>
 										<li><a href="contact-directory.php">Contact Directory</a></li>
@@ -146,17 +146,17 @@
 						<div class="row">
 							<div class="col-lg-12 col-md-12 col-sm-12">
 								<div class="sitemap">
-									<h5 class="weight-500">Multi Level Sitemap</h5>
+									<h5 class="h5">Multi Level Sitemap</h5>
 									<ul>
 										<li><a href="#">Level 1</a></li>
 										<li><a href="#">Level 1</a></li>
 										<li class="child">
-											<h5 class="weight-500">Level 2</h5>
+											<h5 class="h5">Level 2</h5>
 											<ul>
 												<li><a href="#">Level 2</a></li>
 												<li><a href="#">Level 2</a></li>
 												<li class="child">
-													<h5 class="weight-500">Level 3</h5>
+													<h5 class="h5">Level 3</h5>
 													<ul>
 														<li><a href="#">Level 3</a></li>
 														<li><a href="#">Level 3</a></li>

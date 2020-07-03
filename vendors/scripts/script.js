@@ -9,7 +9,7 @@ jQuery(window).on("load resize", function () {
 	// custom scrollbar
 	$(".customscroll").mCustomScrollbar({
 		theme:"dark-2",
-		scrollInertia: 200,
+		scrollInertia: 300,
 		autoExpandScrollbar: true,
 		advanced: { autoExpandHorizontalScroll: true }
 	});
@@ -50,7 +50,7 @@ jQuery(document).ready(function(){
 	});
 	/*==============================================================*/
 	// Image to svg convert end
-	/*==============================================================*/	
+	/*==============================================================*/
 
 	// click to scroll
 	// $('.collapse-box').on('shown.bs.collapse', function () {
@@ -117,14 +117,6 @@ jQuery(document).ready(function(){
 	$(".form-control").on('focusout',function(){
 		$(this).parent().removeClass("focus");
 	})
-
-	// Dropdown Slide Animation
-	// $('.dropdown').on('show.bs.dropdown', function(e){
-	// 	$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
-	// });
-	// $('.dropdown').on('hide.bs.dropdown', function(e){
-	// 	$(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
-	// });
 
 	// sidebar menu icon
 	$('.menu-icon, [data-toggle="left-sidebar-close"]').on('click', function(){
@@ -292,6 +284,7 @@ jQuery(document).ready(function(){
 	}
 })(window.jQuery || window.Zepto);
 
+// copy to clipboard function
 function CopyToClipboard(value, showNotification, notificationText) {
 	var $temp = $("<input>");
 	if(value != ''){
@@ -322,6 +315,7 @@ function CopyToClipboard(value, showNotification, notificationText) {
 	}
 }
 
+// detectIE Browser
 (function detectIE() {
     var ua = window.navigator.userAgent;
 

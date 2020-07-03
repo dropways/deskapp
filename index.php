@@ -32,7 +32,7 @@
 								<div id="chart"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-24">2020</div>
+								<div class="h4 mb-0">2020</div>
 								<div class="weight-600 font-14">Contact</div>
 							</div>
 						</div>
@@ -45,7 +45,7 @@
 								<div id="chart2"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-24">400</div>
+								<div class="h4 mb-0">400</div>
 								<div class="weight-600 font-14">Deals</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 								<div id="chart3"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-24">350</div>
+								<div class="h4 mb-0">350</div>
 								<div class="weight-600 font-14">Campaign</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 								<div id="chart4"></div>
 							</div>
 							<div class="widget-data">
-								<div class="weight-800 font-24">$6060</div>
+								<div class="h4 mb-0">$6060</div>
 								<div class="weight-600 font-14">Worth</div>
 							</div>
 						</div>
