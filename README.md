@@ -36,9 +36,7 @@ We would love to see how you use this awesome admin template. You can notify us 
 * Timedropper
 
 ## Sample Screens
-<img src="https://user-images.githubusercontent.com/38377336/41842629-f98082c2-7888-11e8-8972-37c59baf1c3f.jpg" alt="Template 1">
-<img src="https://user-images.githubusercontent.com/38377336/41842631-f9b61414-7888-11e8-918b-fff5fc3492d4.jpg" alt="Template 2">
-<img src="https://user-images.githubusercontent.com/38377336/41842633-fa198b20-7888-11e8-847c-5ec464debef0.jpg" alt="Template 3">
+<img src="https://user-images.githubusercontent.com/38377336/86491687-03ca9a00-bd89-11ea-8a3a-11dcfcddd254.png" alt="Template 1">
 
 ## Demo link
 A fully functional demo is available at https://deskapp-dashboard.herokuapp.com/
