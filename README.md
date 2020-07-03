@@ -6,6 +6,12 @@ Theme uses several libraries for charts, calendar, text forms, date range, uploa
 
 We would love to see how you use this awesome admin template. You can notify us about your site. Once the list will grown long enough we will write a post similar to this to showcase the best examples.
 
+# Quick start
+Several quick start options are available:
+* Clone the repo: git clone https://github.com/dropways/deskapp.git
+* Install with npm: 
+  `npm install deskapp`
+
 ## Built With
 * Bootstrap 4
 * Bootstrap Select
