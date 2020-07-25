@@ -1,4 +1,4 @@
-var autoprefixer, browserSync, concat, config, gulp, imagemin, minify, path, plumber, rename, sass, streamqueue, uglify,changed,reload, cleanCSS;
+var autoprefixer, browserSync, concat, config, gulp, imagemin, path, plumber, rename, sass, streamqueue, uglify,changed,reload, cleanCSS;
 
 gulp = require('gulp');
 sass = require('gulp-sass');
@@ -9,7 +9,6 @@ autoprefixer = require('gulp-autoprefixer');
 concat = require('gulp-concat');
 uglify = require('gulp-uglify');
 imagemin = require('gulp-imagemin');
-minify = require('gulp-clean-css');
 streamqueue = require('streamqueue');
 browserSync = require('browser-sync').create();
 changed = require('gulp-changed');
@@ -83,11 +82,10 @@ gulp.task('styles', function() {
 	return stream.done()
 					.pipe(plumber())
 					.pipe(csso())
-					.pipe(cleanCSS())
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('style.css'))
 					.pipe(gulp.dest('vendors/styles/'))
-					.pipe(minify({keepSpecialComments: 0}))
+					.pipe(cleanCSS())
 					.pipe(rename({suffix: '.min'}))
 					.pipe(plumber.stop())
 					.pipe(gulp.dest('vendors/styles/'))
@@ -103,11 +101,10 @@ gulp.task('corestyle', function() {
 	return stream.done()
 					.pipe(plumber())
 					.pipe(sass())
-					.pipe(cleanCSS())
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('core.css'))
 					.pipe(gulp.dest('vendors/styles/'))
-					.pipe(minify({keepSpecialComments: 0}))
+					.pipe(cleanCSS())
 					.pipe(rename({suffix: '.min'}))
 					.pipe(plumber.stop())
 					.pipe(gulp.dest('vendors/styles/'))
@@ -126,7 +123,7 @@ gulp.task('icon_styles', function() {
 					.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 					.pipe(concat('icon-font.css'))
 					.pipe(gulp.dest('vendors/styles/'))
-					.pipe(minify({keepSpecialComments: 0}))
+					.pipe(cleanCSS())
 					.pipe(rename({suffix: '.min'}))
 					.pipe(plumber.stop())
 					.pipe(gulp.dest('vendors/styles/'))

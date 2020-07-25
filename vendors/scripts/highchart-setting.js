@@ -11,10 +11,8 @@ Highcharts.chart('chart1', {
 			text: 'Number of Employees'
 		}
 	},
-	legend: {
-		layout: 'vertical',
-		align: 'right',
-		verticalAlign: 'middle'
+	chart: {
+		type: 'spline',
 	},
 	plotOptions: {
 		series: {
@@ -22,6 +20,11 @@ Highcharts.chart('chart1', {
 				connectorAllowed: false
 			},
 			pointStart: 2010
+		},
+		spline: {
+			marker: {
+				enabled: false
+			}
 		}
 	},
 	series: [{
@@ -44,13 +47,6 @@ Highcharts.chart('chart1', {
 		rules: [{
 			condition: {
 				maxWidth: 500
-			},
-			chartOptions: {
-				legend: {
-					layout: 'horizontal',
-					align: 'center',
-					verticalAlign: 'bottom'
-				}
 			}
 		}]
 	}

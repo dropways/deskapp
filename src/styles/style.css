@@ -369,6 +369,10 @@ p {
 	box-shadow: none;
 }
 
+.highcharts-root{
+	font-family: 'Inter', sans-serif !important;
+}
+
 .bootstrap-select .dropdown-toggle{
 	height: 45px;
 }
@@ -685,9 +689,7 @@ textarea.form-control{
 	border: 2px solid rgba(0, 123, 255, 0);
 }
 
-.highcharts-legend-item .highcharts-graph {
-	display: none;
-}
+
 
 .select2-container .select2-selection--single{
 	height: 45px;
