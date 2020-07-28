@@ -70,7 +70,7 @@ var path = {
 		'src/fonts/**/*.*',
 	],
 	images: 'src/images/**/*.*',
-	php: ['*.php'],
+	php: ['*.html'],
 };
 
 gulp.task('styles', function() {
@@ -210,7 +210,7 @@ gulp.task('connect-sync', function (done) {
 	      domain: 'localhost:3000'
 	    }
 	});
-	gulp.watch("*.php").on("change", reload);
+	gulp.watch("*.html").on("change", reload);
 	gulp.watch("src/styles/**/*.css").on("change", reload);
 	gulp.watch("src/plugins/**/*.css").on("change", reload);
 });

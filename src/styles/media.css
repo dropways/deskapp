@@ -45,6 +45,8 @@
 	.device-usage-chart .width-50-p{width: 100%;}
 }
 @media (max-width: 767px){
+	.header{position: fixed; left: 0; top: 0; -webkit-box-shadow: 0px 5px 25px rgba(0, 0, 0, .1); -moz-box-shadow: 0px 5px 25px rgba(0, 0, 0, .1); box-shadow: 0px 5px 25px rgba(0, 0, 0, .1);}
+	.main-container{padding-top: 80px;}
 	.login-box{padding: 40px 15px;}
 	.login-header .brand-logo a img{max-width: 150px;}
 	/*.main-container{height: auto;}*/

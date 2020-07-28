@@ -874,6 +874,12 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, 
 table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:after{
 	color: #1b00ff;
 }
+table.dataTable>tbody>tr.child ul.dtr-details{
+	white-space: normal;
+}
+table.dataTable>tbody>tr.child ul.dtr-details .dtr-title{
+	display: block;
+}
 div.dataTables_wrapper div.dataTables_info,
 div.dataTables_wrapper div.dataTables_paginate,
 .dataTables_length,
@@ -1008,9 +1014,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .06);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .06);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, .06);
+	-webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, .1);
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, .1);
 }
 .header-left{
 	display: flex;
@@ -1543,6 +1549,16 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 .sidebar-menu .submenu li a:hover, .sidebar-menu .submenu li a.active{
 	color: #ffffff;
 	background-color: rgba(0, 0, 0, .4);
+}
+.sidebar-menu > ul > li > .dropdown-toggle.active{
+	background-color: rgba(0, 0, 0, .4);
+}
+.sidebar-light .sidebar-menu > ul > li > .dropdown-toggle.active{
+	background-color: #0b132b;
+	color: #ffffff;
+}
+.sidebar-light .sidebar-menu > ul > li > .dropdown-toggle.active .micon{
+	color: #ffffff;
 }
 .sidebar-menu .dropdown-toggle.active, .sidebar-menu .dropdown-toggle.active .micon{
 	color: #ffffff;
