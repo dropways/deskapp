@@ -45,7 +45,10 @@ Several quick start options are available:
 <img src="https://user-images.githubusercontent.com/38377336/86491687-03ca9a00-bd89-11ea-8a3a-11dcfcddd254.png" alt="Template 1">
 
 ## Demo link
-A fully functional demo is available at https://deskapp-dashboard.herokuapp.com/
+A fully functional demo is available at
+
+- demo 1 https://dropways.github.io/deskapp/
+- demo 2 https://deskapp-dashboard.herokuapp.com/
 
 ## Bugs Reports
 Have a bug or a feature request? Please open a new issue.
