@@ -1,6 +1,6 @@
 {
   "name": "deskapp",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "deskapp free bootstrap 4 admin template",
   "main": "gulpfile.js",
   "scripts": {
