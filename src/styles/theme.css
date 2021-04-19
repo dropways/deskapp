@@ -2,3 +2,82 @@
 Version: 3.0.0
 Author: Ankit Hingarajiya - DeskApp
 */
+.input-with-button-form {
+    margin-bottom: 5px;
+    overflow: hidden;
+    clear: both;
+}
+
+.input-with-button-form .input-field-container {
+    margin-right: 40px;
+}
+
+.input-with-button-form .input-field-container .form-control {
+    border: 1px solid #ddd;
+    width: 100% !important;
+    margin-top: 0;
+    background-color: #fff !important;
+}
+
+.input-with-button-form .input-field-container .form-control:focus {
+    border: 1px solid #ed5565!important;
+}
+
+.input-with-button-form .btn-field-container {
+    margin-top: -49px;
+    position: relative;
+    float: right;
+    width: 44px;
+}
+
+.input-with-button-form .btn-field-container .arrow {
+    position: absolute;
+    top: 12px;
+    right: 43px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #ed5565;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.input-with-button-form .btn-field-container:hover .arrow {
+    border-right-color: #dc3545;
+    transition: all 0.3s;
+}
+
+
+.input-with-button-form .btn-field-container .btn {
+    margin-top: 3px;
+    height: 46px;
+    background-color: #ed5565;
+    border-color: #ed5565;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;}
+
+.input-with-button-form .btn-field-container:hover .btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: all 0.3s;
+}
+
+.note-categories-container button.active span{
+    background-color: #dc3545!important;
+}
+.note-categories-container button{
+    font-size: 12px;
+}
+
+.note-categories-container .list-group-item {
+    padding: .35rem 1rem;
+}
+
+#notesContainerSubList .widget-style3 .widget-data {
+    padding: 10px 5px;
+}
+#notesContainerSubList .btn {
+    font-weight: 500;
+    padding: .2rem;
+    font-size: 0.5rem;
+}
