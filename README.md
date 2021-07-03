@@ -49,6 +49,7 @@ A fully functional demo is available at
 
 - demo 1 https://dropways.github.io/deskapp/
 - demo 2 https://deskapp-dashboard.herokuapp.com/
+- demo 3 https://deskapp.netlify.app/
 
 ## Bugs Reports
 Have a bug or a feature request? Please open a new issue.
