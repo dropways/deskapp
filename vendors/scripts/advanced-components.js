@@ -34,3 +34,9 @@
 			prefix: "pre",
 			postfix: "post"
 		});
+		$("input[name='note_order']").TouchSpin({
+			min: 0,
+			max: 1000000000,
+			stepinterval: 1,
+			maxboostedstep: 10000000
+		});
