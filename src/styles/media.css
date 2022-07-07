@@ -18,7 +18,7 @@
 	.sidebar-shrink .main-container{padding-left: 20px;}
 }
 @media (max-width: 1300px){
-	.main-container{padding-left: 0; padding-right: 0;}
+	.main-container{padding-left: 5px; padding-right: 5px;}
 	.header-left .menu-icon{display: flex;}
 	.header{width: 100%;}
 	.left-side-bar{left: -281px;}

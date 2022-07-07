@@ -1047,9 +1047,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 	height: 100%;
 	width: 50%;
 }
-.header-left .menu-icon{
-	/* display: none; */
-}
 .header-left .search-toggle-icon{
 	display: none;
 }
@@ -1208,9 +1205,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 	width: 400px;
 	padding: 20px 10px;
 }
-.notification-list{}
-.notification-list ul li{
-}
 .notification-list ul li a{
 	display: block;
 	position: relative;
@@ -1349,7 +1343,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 }
 .brand-logo a span{
 	display: block;
-	vertical-align: middle;
 	margin-left: 0px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -1698,7 +1691,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 /*==============================================================
 	Login Start
 ==============================================================*/
-.login-page{}
 .login-header{
 	position: relative;
 	padding: 0 15px;
@@ -2145,7 +2137,6 @@ body.IE .register-page-wrap .container{
 	margin-bottom: 0;
 }
 
-.device-manage-progress-chart {}
 .device-manage-progress-chart ul li {
 	margin-bottom: 30px;
 }
@@ -2182,9 +2173,6 @@ body.IE .register-page-wrap .container{
 .device-manage-progress-chart .device-progress .progress .progress-bar.android{background: #0059b2;}
 .device-manage-progress-chart .device-progress .progress .progress-bar.linux{background: #8ab1b7;}
 
-.device-usage-chart{
-	/*color: #667f87;*/
-}
 .to-do-list ul li{
 	padding: 15px 15px;
 	background: #ecf0f4;
@@ -2205,7 +2193,6 @@ body.IE .register-page-wrap .container{
 	background: #667f87;
 }
 
-.browser-visits{}
 .browser-visits ul li{
 	margin-bottom: 40px;
 }
@@ -2444,7 +2431,6 @@ body.IE .register-page-wrap .container{
 	border-bottom: 2px solid #1b00ff;
 }
 
-.vtabs{}
 .nav.vtabs{
 	border-bottom: 0;
 	border-right: 1px solid #dee2e6;
@@ -2470,7 +2456,6 @@ body.IE .register-page-wrap .container{
 /*==============================================================
 	Timeline Start
 ==============================================================*/
-.timeline{}
 .timeline ul{
 	position: relative;
 }
@@ -2603,7 +2588,6 @@ body.IE .register-page-wrap .container{
 /*==============================================================
 	Calendar Start
 ==============================================================*/
-.calendar-wrap{}
 .calendar-wrap .fc-event.ui-draggable-handle{
 	padding: 5px;
 	margin-bottom: 5px;
@@ -2631,7 +2615,6 @@ body.IE .register-page-wrap .container{
 .blog-wrap{
 	padding-bottom: 50px;
 }
-.blog-list{}
 .blog-list ul li{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -2681,7 +2664,6 @@ body.IE .register-page-wrap .container{
 .blog-list ul li:hover .blog-caption h4 a{
 	color: #1b00ff;
 }
-.latest-post{}
 .latest-post ul li{
 	padding: 0.75rem 1.25rem;
 	font-size: 14px;
@@ -2768,7 +2750,6 @@ body.IE .register-page-wrap .container{
 /*==============================================================
 	Product Page Start
 ==============================================================*/
-.product-list{}
 .product-list ul li{
 	margin-bottom: 30px;
 }
@@ -2905,7 +2886,6 @@ body.IE .register-page-wrap .container{
 /*==============================================================
 	Faq Page Start
 ==============================================================*/
-.faq-wrap{}
 .faq-wrap .card{
 	margin-bottom: 20px;
 	border: 0;
@@ -2959,14 +2939,12 @@ body.IE .register-page-wrap .container{
 	Faq Page End
 ==============================================================*/
 
-.gallery-wrap{}
 .gallery-wrap > ul > li{
 	margin-bottom: 30px;
 }
 /*==============================================================
 	pricing-table Start
 ==============================================================*/
-.pricing-table-wrap{}
 .pricing-table-wrap .card{
 	border: 0;
 	-webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.20);
@@ -3217,8 +3195,6 @@ body.IE .register-page-wrap .container{
 }
 .profile-task-wrap .container{
 	max-width: 800px;
-}
-.profile-task-list{
 }
 .profile-task-list ul li{
 	position: relative;
